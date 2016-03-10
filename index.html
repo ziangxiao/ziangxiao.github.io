@@ -1,10 +1,10 @@
+<!--This template is obtained from http://foundation.zurb.com/downloads/templates-sites/blog-simple.html-->
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <title>Ziang Xiao | Welcome</title>
 
     <!-- Angular Scripts -->
     <!-- NOTE: removing the ".min." can help debugging in the console-->
@@ -19,20 +19,22 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 
 
 </head>
 <body ng-app="webPortfolio" class="text-center">
+<!--Nav Bar-->
 <div ng-controller="projectsController">
 <div class="top-bar">
     <div class="top-bar-left">
         <ul class="menu">
             <li class="menu-text">Web Portfolio</li>
-            <li><a href="#">Test</a></li>
+            <li><a href="qunit.html">Test</a></li>
         </ul>
     </div>
 </div>
-
+<!--Title of the page-->
 <div class="callout large primary text-center">
     <div class="text-center">
         <h1>Ziang Xiao</h1>
@@ -41,62 +43,92 @@
 </div>
 
 
-
+<!--Title of the section-->
     <div>
         <h2>Projects</h2>
     </div>
+<!--Main content-->
+    <!--Adjust the position-->
+    <div class="row">
+        <div class="columns small-12 medium-2 large-2"><p class="myP"></p> </div>
+        <div class="columns small-12 medium-8 large-8">
 
-    <div ng-repeat="(key,value) in projects">
-        <div class="panel-group">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-target="#{{$index}}">{{value.name}}</a>
-                    </h4>
-                </div>
-                <div id="{{$index}}" class="panel-collapse collapse">
-                    <div class="panel-1" align="justify">
-                        |   Author: {{value.author}}</br>
-                        |   Recent Modified Date: {{value.date}}</br>
-                        |   Version: {{value.version}}</br>
-                        |   Summary: {{value.comments}}</br>
-                    </div>
-
-                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#files{{$index}}" >Files in this project</button>
-                        <div id="files{{$index}}" class="collapse">
-                            <div ng-repeat="file in value.files">
-                                <div class="panel-2" align="justify">
-                                    <h5 class="panel-title">
-                                        <a data-toggle="collapse" data-target="#{{file.Size}}{{$index}}">{{file.fileName}}</a>
-                                    </h5>
-                                    <div id="{{file.Size}}{{$index}}" class="panel-collapse collapse">
-                                        |   Size: {{file.Size}} B</br>
-                                        |   Type: {{file.Type}}</br>
-                                        |   Path: {{file.Path}}</br>
-
-                                        <!--<div class="iframe">-->
-                                            <!--<a onclick="load_contents($(this))" {{file.Path}}>Load file contents</a>-->
-                                            <!--<iframe class="well code"></iframe>-->
-                                        <!--</div>-->
-
-                                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#versions{{file.Size}}{{$index}}" >Previous Versions Summary</button>
-                                        <div id="versions{{file.Size}}{{$index}}" class="collapse">
-                                            <div ng-repeat="version in file.PreviousVersion">
-                                                |   Author: {{version.Author}}</br>
-                                                |   Revision Number: {{version.Version}}</br>
-                                                |   Date: {{version.Date}}</br>
-                                                |   Message: {{version.msg}}</br>
+            <!--Assignment name and basic info-->
+            <div ng-repeat="(key,value) in projects">
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-target="#{{$index}}">{{value.name}}</a>
+                            </h4>
+                        </div>
+                        <!--Project's intro-->
+                        <div id="{{$index}}" class="panel-collapse collapse">
+                            <div class="panel-1" align="justify">
+                                |   Author: {{value.author}}</br>
+                                |   Recent Modified Date: {{value.date}}</br>
+                                |   Version: {{value.version}}</br>
+                                |   Summary: {{value.comments}}</br>
+                            </div>
+                            <!--Files in that project-->
+                            <button type="button" class="btn btn-info" data-toggle="collapse" style="margin-bottom: 10px" data-target="#files{{$index}}" >Files in this project</button>
+                            <div id="files{{$index}}" class="collapse">
+                                <div ng-repeat="file in value.files">
+                                    <div class="panel-2" align="justify">
+                                        <!--File's intro-->
+                                        <h5 class="panel-title">
+                                            <a data-toggle="collapse" data-target="#{{file.Size}}{{$index}}" >{{file.fileName}}</a>
+                                        </h5>
+                                        <div id="{{file.Size}}{{$index}}" class="panel-collapse collapse">
+                                            |   Size: {{file.Size}} B</br>
+                                            |   Type: {{file.Type}}</br>
+                                            |Path:{{file.Path}}</br>
+                                            <!--iframe-->
+                                            <button type="button" ng-click="setURL(file.Path,file.fileName)" data-toggle="modal" data-target="#modal" style="margin-bottom: 5px" class="btn btn-warning">View the file</button>
+                                            </br>
+                                            <!--Previous version-->
+                                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#versions{{file.Size}}{{$index}}" style="margin-bottom: 20px" >Previous Versions Summary</button>
+                                            <div id="versions{{file.Size}}{{$index}}" class="collapse">
+                                                <div ng-repeat="version in file.PreviousVersion">
+                                                    |   Author: {{version.Author}}</br>
+                                                    |   Revision Number: {{version.Version}}</br>
+                                                    |   Date: {{version.Date}}</br>
+                                                    |   Message: {{version.msg}}</br>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="columns small-12 medium-2 large-2"><p class="myP"></p> </div>
+    </div>
+
+    <!--Pop up window for iframe -->
+    <div id="modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">{{title}}</h4>
+                </div>
+
+                <div class="modal-body">
+                    <iframe ng-src="{{customUrl}}"></iframe>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
 
 
