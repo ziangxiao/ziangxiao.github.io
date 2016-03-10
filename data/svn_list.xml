@@ -1,0 +1,3282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/sp16-cs242/zxiao5">
+<entry
+   kind="dir">
+<name>Assgnment0</name>
+<commit
+   revision="2004">
+<author>zxiao5</author>
+<date>2016-01-28T21:46:23.627127Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assgnment0/HW0</name>
+<commit
+   revision="2004">
+<author>zxiao5</author>
+<date>2016-01-28T21:46:23.627127Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/.classpath</name>
+<size>392</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/.project</name>
+<size>362</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assgnment0/HW0/.settings</name>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assgnment0/HW0/doc</name>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assgnment0/HW0/src</name>
+<commit
+   revision="1979">
+<author>zxiao5</author>
+<date>2016-01-28T21:17:49.439670Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assgnment0/HW0/src/lanSimulation</name>
+<commit
+   revision="1979">
+<author>zxiao5</author>
+<date>2016-01-28T21:17:49.439670Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/src/lanSimulation/LANSimulation.java</name>
+<size>6054</size>
+<commit
+   revision="1979">
+<author>zxiao5</author>
+<date>2016-01-28T21:17:49.439670Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/src/lanSimulation/Network.java</name>
+<size>9575</size>
+<commit
+   revision="1979">
+<author>zxiao5</author>
+<date>2016-01-28T21:17:49.439670Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assgnment0/HW0/src/lanSimulation/internals</name>
+<commit
+   revision="1979">
+<author>zxiao5</author>
+<date>2016-01-28T21:17:49.439670Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/src/lanSimulation/internals/Node.java</name>
+<size>6491</size>
+<commit
+   revision="1979">
+<author>zxiao5</author>
+<date>2016-01-28T21:17:49.439670Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assgnment0/HW0/src/lanSimulation/tests</name>
+<commit
+   revision="1979">
+<author>zxiao5</author>
+<date>2016-01-28T21:17:49.439670Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10540</size>
+<commit
+   revision="1979">
+<author>zxiao5</author>
+<date>2016-01-28T21:17:49.439670Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1964">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:02.608592Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/main.m</name>
+<size>33147</size>
+<commit
+   revision="1453">
+<author>zxiao5</author>
+<date>2016-01-28T05:54:08.647385Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assgnment0/shopping</name>
+<commit
+   revision="1965">
+<author>zxiao5</author>
+<date>2016-01-28T20:53:25.596325Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/shopping/list1.txt</name>
+<size>55</size>
+<commit
+   revision="1935">
+<author>zxiao5</author>
+<date>2016-01-28T20:25:15.145866Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assgnment0/shopping/list2.txt</name>
+<size>74</size>
+<commit
+   revision="1955">
+<author>zxiao5</author>
+<date>2016-01-28T20:38:58.762464Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="3584">
+<author>zxiao5</author>
+<date>2016-02-05T00:57:55.875680Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Chess</name>
+<commit
+   revision="3584">
+<author>zxiao5</author>
+<date>2016-02-05T00:57:55.875680Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.classpath</name>
+<size>418</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Chess/.idea</name>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Chess/.idea/copyright</name>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.idea/copyright/profiles_settings.xml</name>
+<size>74</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.idea/encodings.xml</name>
+<size>159</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.idea/misc.xml</name>
+<size>1233</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.idea/modules.xml</name>
+<size>250</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.idea/vcs.xml</name>
+<size>167</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.idea/workspace.xml</name>
+<size>34622</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.project</name>
+<size>364</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Chess/.settings</name>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/.settings/org.eclipse.jdt.core.prefs</name>
+<size>587</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Chess/src</name>
+<commit
+   revision="3584">
+<author>zxiao5</author>
+<date>2016-02-05T00:57:55.875680Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/Bishop.java</name>
+<size>2369</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/ChessBoard.java</name>
+<size>2369</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/ChessGame.java</name>
+<size>12471</size>
+<commit
+   revision="3584">
+<author>zxiao5</author>
+<date>2016-02-05T00:57:55.875680Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/Empty.java</name>
+<size>269</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/King.java</name>
+<size>677</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/Knight.java</name>
+<size>650</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/Pawn.java</name>
+<size>1212</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/Piece.java</name>
+<size>1601</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/Position.java</name>
+<size>1891</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/Queen.java</name>
+<size>634</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/src/Rook.java</name>
+<size>2213</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/Chess/testcase</name>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/testcase/CheckmateConditionTests.java</name>
+<size>1563</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/testcase/ChessBoardTests.java</name>
+<size>1608</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/testcase/EndConditionTests.java</name>
+<size>2386</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess/testcase/PieceTests.java</name>
+<size>13801</size>
+<commit
+   revision="3571">
+<author>zxiao5</author>
+<date>2016-02-05T00:45:44.392286Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea/copyright</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/copyright/profiles_settings.xml</name>
+<size>74</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/encodings.xml</name>
+<size>159</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/misc.xml</name>
+<size>1229</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/modules.xml</name>
+<size>250</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/vcs.xml</name>
+<size>167</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/workspace.xml</name>
+<size>46949</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/Chess</name>
+<commit
+   revision="4941">
+<author>zxiao5</author>
+<date>2016-02-12T00:46:21.372091Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/Chess/branches</name>
+<commit
+   revision="4940">
+<author>zxiao5</author>
+<date>2016-02-12T00:46:20.964817Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/Chess/tags</name>
+<commit
+   revision="4941">
+<author>zxiao5</author>
+<date>2016-02-12T00:46:21.372091Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/Chess/trunk</name>
+<commit
+   revision="4939">
+<author>zxiao5</author>
+<date>2016-02-12T00:46:20.510105Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Chess.iml</name>
+<size>950</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>105111</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/For human testers</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/For human testers/EmptyChessBoardGUI.png</name>
+<size>128996</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/For human testers/README.txt</name>
+<size>332</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/For human testers/StandardChessBoardGUI.png</name>
+<size>202702</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/bin</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Bishop.class</name>
+<size>3083</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/CheckmateConditionTests.class</name>
+<size>1510</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/ChessBoard.class</name>
+<size>2685</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/ChessBoardTests.class</name>
+<size>1617</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/ChessGame.class</name>
+<size>7803</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Empty.class</name>
+<size>1271</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/EndConditionTests.class</name>
+<size>2322</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/King.class</name>
+<size>1893</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Knight.class</name>
+<size>1895</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Pawn.class</name>
+<size>2210</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Piece.class</name>
+<size>1694</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/PieceTests.class</name>
+<size>5931</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Position.class</name>
+<size>1616</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Queen.class</name>
+<size>1644</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/bin/Rook.class</name>
+<size>2964</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/images</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Bishop+B.png</name>
+<size>1260</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Bishop+W.png</name>
+<size>1944</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.King+B.png</name>
+<size>2485</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.King+W.png</name>
+<size>2279</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Knight+B.png</name>
+<size>1516</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Knight+W.png</name>
+<size>1878</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Pawn+B.png</name>
+<size>797</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Pawn+W.png</name>
+<size>1294</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Queen+B.png</name>
+<size>2267</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Queen+W.png</name>
+<size>2637</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Rook+B.png</name>
+<size>725</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/images/class Pieces.Rook+W.png</name>
+<size>933</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/ChessBoard</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/ChessBoard/ChessBoard.java</name>
+<size>4072</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Controllor</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Controllor/CheckControl.java</name>
+<size>3068</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Controllor/ChessGame.java</name>
+<size>2739</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Controllor/EndStateControl.java</name>
+<size>3197</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Controllor/PieceMoveControl.java</name>
+<size>5997</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Main</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Main/MainGameLoop.java</name>
+<size>1034</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Pieces</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Bishop.java</name>
+<size>1042</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Cannon.java</name>
+<size>1124</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/CheckMovement.java</name>
+<size>13119</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/EmptySpace.java</name>
+<size>754</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Joker.java</name>
+<size>1115</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/King.java</name>
+<size>1026</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Knight.java</name>
+<size>1056</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Pawn.java</name>
+<size>945</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Piece.java</name>
+<size>1163</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Position.java</name>
+<size>1780</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Queen.java</name>
+<size>1241</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Pieces/Rook.java</name>
+<size>1021</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/View</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/View/UserInterface.java</name>
+<size>5335</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/testcase</name>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/testcase/CheckmateConditionTests.java</name>
+<size>1842</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/testcase/ChessBoardTests.java</name>
+<size>1803</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/testcase/EndConditionTests.java</name>
+<size>2568</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/testcase/PieceTests.java</name>
+<size>23538</size>
+<commit
+   revision="4952">
+<author>zxiao5</author>
+<date>2016-02-12T01:01:55.197294Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="7129">
+<author>zxiao5</author>
+<date>2016-02-26T00:41:48.560821Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.DS_Store</name>
+<size>10244</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea/copyright</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/copyright/profiles_settings.xml</name>
+<size>74</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/encodings.xml</name>
+<size>159</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/misc.xml</name>
+<size>1229</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/modules.xml</name>
+<size>250</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/vcs.xml</name>
+<size>167</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/workspace.xml</name>
+<size>48683</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Chess.iml</name>
+<size>920</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Doxyfile</name>
+<size>105111</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/For human testers</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/.DS_Store</name>
+<size>6148</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/1.png</name>
+<size>152393</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/10.png</name>
+<size>266092</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/11.png</name>
+<size>248375</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/2.png</name>
+<size>197377</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/3.png</name>
+<size>250725</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/4.png</name>
+<size>252516</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/5.png</name>
+<size>258932</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/6.png</name>
+<size>258566</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/7.png</name>
+<size>257567</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/8.png</name>
+<size>319885</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/9.png</name>
+<size>247594</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/For human testers/README.txt</name>
+<size>913</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/ChessBoard</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/ChessBoard/ChessBoard.class</name>
+<size>3125</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/ChessBoard/CustomChessBoards.class</name>
+<size>2138</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/Controllor</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Controllor/CheckControl.class</name>
+<size>2601</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Controllor/EndStateControl.class</name>
+<size>2996</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Controllor/PieceMoveControl.class</name>
+<size>3420</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Controllor/PlayerControl.class</name>
+<size>697</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/Main</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Main/ChessGameMain$1.class</name>
+<size>1097</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Main/ChessGameMain.class</name>
+<size>1398</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/Pieces</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Bishop.class</name>
+<size>1000</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Cannon.class</name>
+<size>998</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/CheckMovement.class</name>
+<size>5684</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/EmptySpace.class</name>
+<size>886</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Joker.class</name>
+<size>1045</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/King.class</name>
+<size>1034</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Knight.class</name>
+<size>1044</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Pawn.class</name>
+<size>965</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Piece.class</name>
+<size>1076</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Position.class</name>
+<size>1498</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Queen.class</name>
+<size>1143</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Pieces/Rook.class</name>
+<size>976</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/Players</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Players/Players$1.class</name>
+<size>492</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Players/Players$2.class</name>
+<size>523</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Players/Players.class</name>
+<size>1366</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/View</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/View/UserInterface$1.class</name>
+<size>2346</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/View/UserInterface$2.class</name>
+<size>3396</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/View/UserInterface.class</name>
+<size>10633</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Bishop+B.png</name>
+<size>1260</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Bishop+W.png</name>
+<size>1944</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Cannon+B.png</name>
+<size>960</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Cannon+W.png</name>
+<size>1163</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Joker+B.png</name>
+<size>1282</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Joker+W.png</name>
+<size>1367</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.King+B.png</name>
+<size>2485</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.King+W.png</name>
+<size>2279</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Knight+B.png</name>
+<size>1516</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Knight+W.png</name>
+<size>1878</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Pawn+B.png</name>
+<size>797</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Pawn+W.png</name>
+<size>1294</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Queen+B.png</name>
+<size>2267</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Queen+W.png</name>
+<size>2637</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Rook+B.png</name>
+<size>725</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/class Pieces.Rook+W.png</name>
+<size>933</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/images</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Bishop+B.png</name>
+<size>1260</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Bishop+W.png</name>
+<size>1944</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Cannon+B.png</name>
+<size>960</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Cannon+W.png</name>
+<size>1163</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Joker+B.png</name>
+<size>1282</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Joker+W.png</name>
+<size>1367</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.King+B.png</name>
+<size>2485</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.King+W.png</name>
+<size>2279</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Knight+B.png</name>
+<size>1516</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Knight+W.png</name>
+<size>1878</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Pawn+B.png</name>
+<size>797</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Pawn+W.png</name>
+<size>1294</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Queen+B.png</name>
+<size>2267</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Queen+W.png</name>
+<size>2637</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Rook+B.png</name>
+<size>725</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/images/class Pieces.Rook+W.png</name>
+<size>933</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/test</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/test/Chess</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/test/Chess/CheckmateConditionTests.class</name>
+<size>1904</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/test/Chess/ChessBoardTests.class</name>
+<size>1876</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/test/Chess/EndConditionTests.class</name>
+<size>2886</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/test/Chess/PieceTests.class</name>
+<size>11715</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/test/Chess/PlayerTests.class</name>
+<size>1829</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/.DS_Store</name>
+<size>8196</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/ChessBoard</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/ChessBoard/.DS_Store</name>
+<size>6148</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/ChessBoard/ChessBoard.java</name>
+<size>3852</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/ChessBoard/CustomChessBoards.java</name>
+<size>3353</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/Controllor</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Controllor/.DS_Store</name>
+<size>6148</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Controllor/CheckControl.java</name>
+<size>3306</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Controllor/EndStateControl.java</name>
+<size>3683</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Controllor/PieceMoveControl.java</name>
+<size>6290</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Controllor/PlayerControl.java</name>
+<size>303</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/Main</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Main/ChessGameMain.java</name>
+<size>1494</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/Pieces</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/.DS_Store</name>
+<size>6148</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Bishop.java</name>
+<size>1042</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Cannon.java</name>
+<size>1124</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/CheckMovement.java</name>
+<size>13105</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/EmptySpace.java</name>
+<size>773</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Joker.java</name>
+<size>1115</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/King.java</name>
+<size>1026</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Knight.java</name>
+<size>1056</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Pawn.java</name>
+<size>945</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Piece.java</name>
+<size>1163</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Position.java</name>
+<size>1780</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Queen.java</name>
+<size>1241</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Pieces/Rook.java</name>
+<size>1021</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/Players</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Players/.DS_Store</name>
+<size>6148</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Players/Players.java</name>
+<size>418</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/View</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/View/.DS_Store</name>
+<size>6148</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/View/UserInterface.java</name>
+<size>16917</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/images</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/.DS_Store</name>
+<size>10244</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Bishop+B.png</name>
+<size>1260</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Bishop+W.png</name>
+<size>1944</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Cannon+B.png</name>
+<size>960</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Cannon+W.png</name>
+<size>1163</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Joker+B.png</name>
+<size>1282</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Joker+W.png</name>
+<size>1367</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.King+B.png</name>
+<size>2485</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.King+W.png</name>
+<size>2279</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Knight+B.png</name>
+<size>1516</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Knight+W.png</name>
+<size>1878</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Pawn+B.png</name>
+<size>797</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Pawn+W.png</name>
+<size>1294</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Queen+B.png</name>
+<size>2267</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Queen+W.png</name>
+<size>2637</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Rook+B.png</name>
+<size>725</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/images/class Pieces.Rook+W.png</name>
+<size>933</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/testcase</name>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/testcase/.DS_Store</name>
+<size>6148</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/testcase/CheckmateConditionTests.java</name>
+<size>1850</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/testcase/ChessBoardTests.java</name>
+<size>1803</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/testcase/EndConditionTests.java</name>
+<size>3370</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/testcase/PieceTests.java</name>
+<size>23538</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/testcase/PlayerTests.java</name>
+<size>2288</size>
+<commit
+   revision="6196">
+<author>zxiao5</author>
+<date>2016-02-19T00:50:13.831196Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.DS_Store</name>
+<size>8196</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/.idea</name>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/.name</name>
+<size>13</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/Assignment2.0.iml</name>
+<size>567</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/encodings.xml</name>
+<size>159</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/misc.xml</name>
+<size>853</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/modules.xml</name>
+<size>278</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/webResources.xml</name>
+<size>450</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/workspace.xml</name>
+<size>41743</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/CSAir</name>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/.DS_Store</name>
+<size>6148</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/CSAir/Graph</name>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/Airline.py</name>
+<size>284</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/City.py</name>
+<size>1369</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/Graph.py</name>
+<size>1076</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/CSAir/Graph/JSON</name>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/JSON/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/Query.py</name>
+<size>5309</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/Test.py</name>
+<size>3510</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/TextInterface.py</name>
+<size>6283</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/CSAir/Graph/__pycache__</name>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/__pycache__/Airline.cpython-35.pyc</name>
+<size>617</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/__pycache__/City.cpython-35.pyc</name>
+<size>1652</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/__pycache__/Graph.cpython-35.pyc</name>
+<size>1259</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/__pycache__/Query.cpython-35.pyc</name>
+<size>6028</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/Graph/__pycache__/__init__.cpython-35.pyc</name>
+<size>150</size>
+<commit
+   revision="7140">
+<author>zxiao5</author>
+<date>2016-02-26T00:53:01.083054Z</date>
+</commit>
+</entry>
+</list>
+</lists>
