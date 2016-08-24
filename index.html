@@ -1,149 +1,184 @@
-<!--This template is obtained from http://foundation.zurb.com/downloads/templates-sites/blog-simple.html-->
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ziang Xiao | Welcome</title>
 
-    <!-- Angular Scripts -->
-    <!-- NOTE: removing the ".min." can help debugging in the console-->
-    <script src="./lib/angular/angular.min.js"></script>
-    <script src="./lib/angular-route/angular-route.min.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/controllers.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <title>Ziang Xiao</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
 
 </head>
-<body ng-app="webPortfolio" class="text-center">
-<!--Nav Bar-->
-<div ng-controller="projectsController">
-<div class="top-bar">
-    <div class="top-bar-left">
-        <ul class="menu">
-            <li class="menu-text">Web Portfolio</li>
-            <li><a href="qunit.html">Test</a></li>
-        </ul>
-    </div>
-</div>
-<!--Title of the page-->
-<div class="callout large primary text-center">
-    <div class="text-center">
-        <h1>Ziang Xiao</h1>
-        <h2 class="subheader">CS242 Web Portfolio</h2>
-    </div>
-</div>
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!--Title of the section-->
-    <div>
-        <h2>Projects</h2>
-    </div>
-<!--Main content-->
-    <!--Adjust the position-->
-    <div class="row">
-        <div class="columns small-12 medium-2 large-2"><p class="myP"></p> </div>
-        <div class="columns small-12 medium-8 large-8">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                      <span class="light">Ziang Xiao</span>
+                </a>
+            </div>
 
-            <!--Assignment name and basic info-->
-            <div ng-repeat="(key,value) in projects">
-                <div class="panel-group">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-target="#{{$index}}">{{value.name}}</a>
-                            </h4>
-                        </div>
-                        <!--Project's intro-->
-                        <div id="{{$index}}" class="panel-collapse collapse">
-                            <div class="panel-1" align="justify">
-                                |   Author: {{value.author}}</br>
-                                |   Recent Modified Date: {{value.date}}</br>
-                                |   Version: {{value.version}}</br>
-                                |   Summary: {{value.comments}}</br>
-                            </div>
-                            <!--Files in that project-->
-                            <button type="button" class="btn btn-info" data-toggle="collapse" style="margin-bottom: 10px" data-target="#files{{$index}}" >Files in this project</button>
-                            <div id="files{{$index}}" class="collapse">
-                                <div ng-repeat="file in value.files">
-                                    <div class="panel-2" align="justify">
-                                        <!--File's intro-->
-                                        <h5 class="panel-title">
-                                            <a data-toggle="collapse" data-target="#{{file.Size}}{{$index}}" >{{file.fileName}}</a>
-                                        </h5>
-                                        <div id="{{file.Size}}{{$index}}" class="panel-collapse collapse">
-                                            |   Size: {{file.Size}} B</br>
-                                            |   Type: {{file.Type}}</br>
-                                            |Path:{{file.Path}}</br>
-                                            <!--iframe-->
-                                            <button type="button" ng-click="setURL(file.Path,file.fileName)" data-toggle="modal" data-target="#modal" style="margin-bottom: 5px" class="btn btn-warning">View the file</button>
-                                            </br>
-                                            <!--Previous version-->
-                                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#versions{{file.Size}}{{$index}}" style="margin-bottom: 20px" >Previous Versions Summary</button>
-                                            <div id="versions{{file.Size}}{{$index}}" class="collapse">
-                                                <div ng-repeat="version in file.PreviousVersion">
-                                                    |   Author: {{version.Author}}</br>
-                                                    |   Revision Number: {{version.Version}}</br>
-                                                    |   Date: {{version.Date}}</br>
-                                                    |   Message: {{version.msg}}</br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">CV</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 id="to_cluster">Ziang Xiao</h1>
+                        <script type="text/javascript" src="js/cluster.js"></script> 
+                        </p>
+                        <p class="intro-text"> Statistic & Computer Science and Psychology <br> University of Illinois at Urbana-Champaign</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                     </div>
                 </div>
             </div>
-
-
         </div>
-        <div class="columns small-12 medium-2 large-2"><p class="myP"></p> </div>
-    </div>
+    </header>
 
-    <!--Pop up window for iframe -->
-    <div id="modal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">{{title}}</h4>
-                </div>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Ziang Xiao</h2>
+                <p>Ziang is an undergrad student at <a href="https://illinois.edu">University of Illinois - Urbana Champaign</a>, studying Statistic & Computer Science and Psychology.
+            </div>
+        </div>
+    </section>
 
-                <div class="modal-body">
-                    <iframe ng-src="{{customUrl}}"></iframe>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download CV</h2>
+                    
+                    <a href="www.google.com" class="btn btn-default btn-lg">Visit Download Page</a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
+    <!-- About Section -->
+    <section id="projects" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Projects</h2>
+                <p>Under Construction.<p>
+            </div>
+        </div>
+    </section>
 
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script src="./lib/jquery-2.1.3.min/index.js"></script>
-<script src="./foundation6_lib/js/foundation.min.js"></script>
-<script src="./js/script.js"></script>
-<script>
-    $(document).foundation();
-</script>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Ziang Xiao</h2>
+                <p>Please free contact me at</p>
+                <p><a href="mailto:ziangxiao5135@gmail.com">ziangxiao5135-at-gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://google.com" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://google.com" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                    <li>
+                        <a href="https://google.com" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://google.com" class="btn btn-default btn-lg"><i class="fa fa-wechat fa-fw"></i> <span class="network-name">Wechat</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Ziang Xiao 2015</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+        <div id="particles-js"></div>
+        <script src="scripts/common.js"></script>
+        <script src="bower_components/requirejs/require.js" data-main="home"></script>
+
 </body>
+
 </html>
-
-
-
-
-
