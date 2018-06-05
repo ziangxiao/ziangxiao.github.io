@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my site. I am a third year Ph.D student in Computer Science with focus in [Human-Computer Interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction) at [University of Illinois at Urbana-Champaign](http://illinois.edu/). I am co-advised my Prof. [Wai-Tat Fu](http://cascade.cs.illinois.edu/people/wfu/) and Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
+Welcome to my site. I am a third year Ph.D student in Computer Science with focus in [Human-Computer Interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction) at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Wai-Tat Fu](http://cascade.cs.illinois.edu/people/wfu/) and Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
 
 My research interest in Human-Computer Interaction lies at the intersection of human decision-making, learning, and social computing. The direction of my current research is focused on using technology to persuade people with beneficial behaviors, such as active learning and healthy lifestyle, that benefit themselves and the larger group as a whole.
 
-Before joining the Computer Science Department, I finished my B.S. in Psychology and Computer Science & Statistics at UIUC. I did my undergraduate thesis with Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) about the effect of grammatically gendered language on investors' financial decision. 
+Prior my Ph.D journey, I completed my B.S. in [Psychology](http://www.psychology.illinois.edu/) and [Statistics](https://stat.illinois.edu/) [& Computer Science](https://cs.illinois.edu/) from [University of Illinois at Urbana-Champaign](http://illinois.edu/). I did my undergraduate thesis with Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) about the effect of grammatically gendered language on investors' financial decision.
 
 A data-driven personal website
 ======
