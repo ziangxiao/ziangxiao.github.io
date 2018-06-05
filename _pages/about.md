@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my site. This is Ziang Xiao. I am a third year Ph.D student in Computer Science with focus in Human-Computer Interaction at University of Illinois at Urbana-Champaign. My research interest in Human-Computer Interaction lies at the intersection of human decision-making, learning, and social computing. The direction of my current research is focused on using technology to persuade people with beneficial behaviors, such as active learning and healthy lifestyle, that benefit themselves and the larger group as a whole.
+Welcome to my site. I am a third year Ph.D student in Computer Science with focus in Human-Computer Interaction <https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction> at University of Illinois at Urbana-Champaign <http://illinois.edu/>. I am co-advised my Prof. Wai-Tat Fu <http://cascade.cs.illinois.edu/people/wfu/> and Prof. Hari Sundaram <http://sundaram.cs.illinois.edu/>.
+
+My research interest in Human-Computer Interaction lies at the intersection of human decision-making, learning, and social computing. The direction of my current research is focused on using technology to persuade people with beneficial behaviors, such as active learning and healthy lifestyle, that benefit themselves and the larger group as a whole.
 
 A data-driven personal website
 ======
