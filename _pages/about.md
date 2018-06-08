@@ -19,10 +19,12 @@ My research interest in Human-Computer Interaction lies at the intersection of h
 contact
 ------
 Office Location:
+
 4103 Thomas M. Siebel Center for Computer Science.
 201 N Goodwin Ave, Urbana, IL 61801
 
 Email:
+
 zxiao5 at illinois dot edu
 
 where I am now
