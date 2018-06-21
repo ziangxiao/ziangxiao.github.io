@@ -8,23 +8,36 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my site. I am a third year Ph.D student in Computer Science with focus in [Human-Computer Interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction) at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Wai-Tat Fu](http://cascade.cs.illinois.edu/people/wfu/) and Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
+Welcome! I am a third year Ph.D student in Computer Science with focus in Human-Computer Interaction at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Wai-Tat Fu](http://cascade.cs.illinois.edu/people/wfu/) and Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
 
-Prior my Ph.D journey, I completed my B.S. in [Psychology](http://www.psychology.illinois.edu/) and [Statistics](https://stat.illinois.edu/) [& Computer Science](https://cs.illinois.edu/) at [University of Illinois at Urbana-Champaign](http://illinois.edu/). I did my undergraduate thesis with Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) regarding the effect of grammatically gendered language on investors' financial decision.
+Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois at Urbana-Champaign. I did my undergraduate thesis with Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) regarding the effect of grammatically gendered language on investors' financial decision.
 
 as a Ph.D student in Computer Science
 ------
 My research interest in Human-Computer Interaction lies at the intersection of human decision-making, learning, and social computing. The direction of my current research is focused on using technology to persuade people with beneficial behaviors, such as active learning and healthy lifestyle, that benefit themselves and the larger group as a whole.
 
+as a darkroom technician
+------
+Since 2015, I volunteered at [Urbana Museum of Photography] (https://www.facebook.com/UrbanaMuseumOfPhotography/) as a darkroom technician. I use photography as a means to document the world around me and communicate my feelings. Analog photography allows me to express through diverse media. Updates about my exhibitions, projects, and thoughts are in [Remain in Light] (https://www.ziangxiao.com/portfolio/)
+
 get in touch
 ------
 You can always reach me via zxiao5 at illinois dot edu
 
-If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel Center for Computer Science. 
+If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel Center during weekdays (sometimes weekend). Or you can find me in the dark at Urbana Museum of Photography.
 
-where I am now
+where I am
 ------
-I am spending my summer as a research intern at Juji. Inc. in the bay area.
+I am spending my summer as a research intern at [Juji. Inc.](https://juji.io/) in the bay area.
+
+
+| location                                 | time            |
+| --------                                 | ------          |
+| Tokyo, Japan for [IUI 18](http://iui.acm.org/2018/)       | Mar 7-11, 2018  |
+| Columbus, OH for [ASEE 17](https://www.asee.org/conferences-and-events/conferences/annual-conference/2017)| May 6-11, 2017|
+| Denver, CO for [CHI 17](https://chi2017.acm.org/)       | May 6-11, 2017  |
+| Baltimore, MD for [SRA 16](https://s-r-a.org/)       | Mar 31 - Apr 2, 2016  |
+
 
 <!-- Site-wide configuration
 ------
