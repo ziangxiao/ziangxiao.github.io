@@ -18,7 +18,7 @@ My research interest in Human-Computer Interaction lies at the intersection of h
 
 as a darkroom technician
 ------
-Since 2015, I volunteered at [Urbana Museum of Photography] (https://www.facebook.com/UrbanaMuseumOfPhotography/) as a darkroom technician. I use photography as a means to document the world around me and communicate my feelings. Analog photography allows me to express through diverse media. Updates about my exhibitions, projects, and thoughts are in [Remain in Light] (https://www.ziangxiao.com/portfolio/)
+Since 2015, I volunteered at [Urbana Museum of Photography](https://www.facebook.com/UrbanaMuseumOfPhotography/) as a darkroom technician. I use photography as a means to document the world around me and communicate my feelings. Analog photography allows me to express through diverse media. Updates about my exhibitions, projects, and thoughts are in [Remain in Light](https://www.ziangxiao.com/portfolio/)
 
 get in touch
 ------
