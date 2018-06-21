@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: /portfolio/
 
   - title: "Projects"
-    url: /talks/
+    url: /portfolio/
 
   - title: "CV"
     url: /files/Ziang Xiao_CV_Phd_SU18.pdf
