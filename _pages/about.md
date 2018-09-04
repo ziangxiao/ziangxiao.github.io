@@ -28,11 +28,12 @@ If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel 
 
 where I am
 ------
-I am spending my summer as a research intern at [Juji. Inc.](https://juji.io/) in the bay area.
+Back to school.
 
 
 | location                                 | time            |
 | --------                                 | ------          |
+| New York, for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
 | Tokyo, Japan for [IUI 18](http://iui.acm.org/2018/)       | Mar 7-11, 2018  |
 | Columbus, OH for [ASEE 17](https://www.asee.org/conferences-and-events/conferences/annual-conference/2017)| May 6-11, 2017|
 | Denver, CO for [CHI 17](https://chi2017.acm.org/)       | May 6-11, 2017  |
