@@ -28,7 +28,7 @@ If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel 
 
 where I am
 ------
-Back to school.
+New York for CSCW 2018!
 
 
 | location                                 | time            |
