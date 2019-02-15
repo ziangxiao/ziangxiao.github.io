@@ -28,7 +28,9 @@ If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel 
 
 where I am
 ------
-Back to school
+Back to school!
+
+
 | location                                 | time            |
 | --------                                 | ------          |
 | Los Angeles, CA for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
