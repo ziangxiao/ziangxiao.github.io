@@ -28,11 +28,11 @@ If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel 
 
 where I am
 ------
-
+Back to school
 | location                                 | time            |
 | --------                                 | ------          |
-| Los Angeles, for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
-| New York, for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
+| Los Angeles, CA for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
+| New York for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
 | Tokyo, Japan for [IUI 18](http://iui.acm.org/2018/)       | Mar 7-11, 2018  |
 | Columbus, OH for [ASEE 17](https://www.asee.org/conferences-and-events/conferences/annual-conference/2017)| May 6-11, 2017|
 | Denver, CO for [CHI 17](https://chi2017.acm.org/)       | May 6-11, 2017  |
