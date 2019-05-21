@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a third year Ph.D student in Computer Science with focus in Human-Computer Interaction at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Wai-Tat Fu](http://cascade.cs.illinois.edu/people/wfu/) and Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
+Welcome! I am a Ph.D student in Computer Science with focus in Human-Computer Interaction at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
 
 Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois at Urbana-Champaign. I did my undergraduate thesis with Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) regarding the effect of grammatically gendered language on investors' financial decision.
 
@@ -28,8 +28,7 @@ If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel 
 
 where I am
 ------
-Back to school!
-
+My second summer at Juji as a reserach intern!
 
 | location                                 | time            |
 | --------                                 | ------          |
