@@ -28,7 +28,8 @@ If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel 
 
 where I am
 ------
-My second summer at Juji as a reserach intern!
+My second summer at [Juji](https://juji.io) as a reserach intern in the bay area!
+
 
 | location                                 | time            |
 | --------                                 | ------          |
