@@ -18,7 +18,7 @@ My research interest in Human-Computer Interaction lies at the intersection of h
 
 as a darkroom technician
 ------
-Since 2015, I volunteered at [Urbana Museum of Photography](https://www.facebook.com/UrbanaMuseumOfPhotography/) as a darkroom technician. I use photography as a means to document the world around me and communicate my feelings. Analog photography allows me to express through diverse media. Updates about my exhibitions, projects, and thoughts are in [Remain in Light](https://www.ziangxiao.com/portfolio/)
+I am a darkroom technician at [Urbana Museum of Photography](https://www.facebook.com/UrbanaMuseumOfPhotography/). I use photography as a means to document the world around me and communicate my feelings. Analog photography allows me to express through diverse media. Updates about my projects, and thoughts are in [Remain in Light](https://www.ziangxiao.com/portfolio/)
 
 get in touch
 ------
@@ -28,10 +28,7 @@ If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel 
 
 where I am
 ------
-My second summer at [Juji](https://juji.io) as a reserach intern in the bay area!
-
-
-| location                                 | time            |
+| Location                                 | Time            |
 | --------                                 | ------          |
 | Los Angeles, CA for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
 | New York for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
