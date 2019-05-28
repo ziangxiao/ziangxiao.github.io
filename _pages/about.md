@@ -26,9 +26,10 @@ You can always reach me via zxiao5 at illinois dot edu
 
 traveling
 ------
+I am now in the bay area. 
 
 
-| Location                                 | Time            |
+| location                                 | time            |
 | --------                                 | ------          |
 | Los Angeles, CA for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
 | New York for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
