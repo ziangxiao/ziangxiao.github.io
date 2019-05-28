@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D student in Computer Science with focus in Human-Computer Interaction at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
+I am a Ph.D student in Computer Science with focus in Human-Computer Interaction and Artificial Intelligence at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
 
-Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois at Urbana-Champaign. I did my undergraduate thesis with Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) regarding the effect of grammatically gendered language on investors' financial decision.
+Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois at Urbana-Champaign. Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) advised my undergraduate thesis regarding the effect of grammatically gendered language on investors' financial decision.
 
 as a Ph.D student in Computer Science
 ------
@@ -23,8 +23,6 @@ I am a darkroom technician at [Urbana Museum of Photography](https://www.faceboo
 get in touch
 ------
 You can always reach me via zxiao5 at illinois dot edu
-
-If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel Center during weekdays (sometimes weekend). Or you can find me in the dark at Urbana Museum of Photography.
 
 traveling
 ------
