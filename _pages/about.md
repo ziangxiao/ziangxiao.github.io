@@ -24,9 +24,17 @@ get in touch
 ------
 You can always reach me via zxiao5 at illinois dot edu
 
+<<<<<<< HEAD
 traveling
 ------
 | location                                 | time            |
+=======
+If you want to meet me in the real world, my office is at 4103 Thomas M. Siebel Center during weekdays (sometimes weekend). Or you can find me in the dark at Urbana Museum of Photography.
+
+where I am
+------
+| Location                                 | Time            |
+>>>>>>> parent of 86ff8c1... minor
 | --------                                 | ------          |
 | Los Angeles, CA for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
 | New York for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
