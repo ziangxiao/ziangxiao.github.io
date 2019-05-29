@@ -26,7 +26,6 @@ You can always reach me via zxiao5 at illinois dot edu
 
 traveling
 ------
-I am now in the bay area. 
 
 
 | location                                 | time            |
