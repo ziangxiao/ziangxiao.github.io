@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D student in Computer Science with focus in Human-Computer Interaction and Artificial Intelligence at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
+I am a Ph.D student in Computer Science with focus in Human-Computer Interaction and Artificial Intelligence at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Wai-Tat Fu](http://cascade.cs.illinois.edu/) and Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
 
 Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois at Urbana-Champaign. Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) advised my undergraduate thesis regarding the effect of grammatically gendered language on investors' financial decision.
 
