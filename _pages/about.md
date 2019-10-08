@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D student in Computer Science with focus in Human-Computer Interaction and Artificial Intelligence at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Wai-Tat Fu](http://cascade.cs.illinois.edu/) and Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/).
+I am a Ph.D student in Computer Science with focus in Human-Computer Interaction and Artificial Intelligence at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/).
 
 Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois at Urbana-Champaign. Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) advised my undergraduate thesis regarding the effect of grammatically gendered language on investors' financial decision.
 
@@ -30,6 +30,7 @@ traveling
 
 | location                                 | time            |
 | --------                                 | ------          |
+| Austin, TX for [CSCW 19](https://cscw.acm.org/2019/)       | Nov 9-14, 2019  |
 | Los Angeles, CA for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
 | New York for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
 | Tokyo, Japan for [IUI 18](http://iui.acm.org/2018/)       | Mar 7-11, 2018  |
