@@ -12,7 +12,7 @@ I am a Ph.D candidate in Computer Science with focus in Human-Computer Interacti
 
 Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois at Urbana-Champaign. Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) advised my undergraduate thesis regarding the effect of grammatically gendered language on investors' financial decision.
 
-as a researcher in Computer Science
+as a student in Computer Science
 ------
 My research interest in Human-Computer Interaction lies at the intersection of human decision-making, learning, and social computing. The direction of my current research is focused on using technology to persuade people with beneficial behaviors, such as active learning and healthy lifestyle, that benefit themselves and the larger group as a whole.
 
@@ -26,7 +26,6 @@ traveling
 
 | location                                 | time            |
 | --------                                 | ------          |
-| Austin, TX for [CSCW 19](https://cscw.acm.org/2019/)       | Nov 9-14, 2019  |
 | Los Angeles, CA for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
 | New York for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
 | Tokyo, Japan for [IUI 18](http://iui.acm.org/2018/)       | Mar 7-11, 2018  |
