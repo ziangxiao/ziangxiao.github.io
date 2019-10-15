@@ -8,17 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D student in Computer Science with focus in Human-Computer Interaction and Artificial Intelligence at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/).
+I am a Ph.D candidate in Computer Science with focus in Human-Computer Interaction and Artificial Intelligence at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/).
 
 Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois at Urbana-Champaign. Prof. [Dov Cohen](http://www.psychology.illinois.edu/people/dovcohen) advised my undergraduate thesis regarding the effect of grammatically gendered language on investors' financial decision.
 
-as a Ph.D student in Computer Science
+as a researcher in Computer Science
 ------
 My research interest in Human-Computer Interaction lies at the intersection of human decision-making, learning, and social computing. The direction of my current research is focused on using technology to persuade people with beneficial behaviors, such as active learning and healthy lifestyle, that benefit themselves and the larger group as a whole.
-
-as a darkroom technician
-------
-I am a darkroom technician at [Urbana Museum of Photography](https://www.facebook.com/UrbanaMuseumOfPhotography/). I use photography as a means to document the world around me and communicate my feelings. Analog photography allows me to express through diverse media. Updates about my projects, and thoughts are in [Remain in Light](https://www.ziangxiao.com/portfolio/)
 
 get in touch
 ------
