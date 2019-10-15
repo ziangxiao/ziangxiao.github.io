@@ -26,7 +26,7 @@ traveling
 
 | location                                 | time            |
 | --------                                 | ------          |
-| Austin, TX for [CSCW 19](https://cscw.acm.org/2019/)       | Nov 4-13, 2019  |
+| Austin, TX for [IUI 19](http://iui.acm.org/2019/)       | Nov 4-13, 2019  |
 | Los Angeles, CA for [IUI 19](http://iui.acm.org/2019/)       | Mar 16-21, 2019  |
 | New York for [CSCW 18](https://cscw.acm.org/2018/)       | Nov 3-7, 2018  |
 | Tokyo, Japan for [IUI 18](http://iui.acm.org/2018/)       | Mar 7-11, 2018  |
