@@ -26,13 +26,13 @@ traveling
 
 | location                                 | time            |
 | --------                                 | ------          |
-| Austin, TX for [CSCW 19](https://cscw.acm.org/)        | Nov 4-13, 2019  |
-| Los Angeles, CA for [IUI 19](http://iui.acm.org/)       | Mar 16-21, 2019  |
-| New York for [CSCW 18](https://cscw.acm.org/)       | Nov 3-7, 2018  |
-| Tokyo, Japan for [IUI 18](http://iui.acm.org/)       | Mar 7-11, 2018  |
-| Columbus, OH for [ASEE 17](https://www.asee.org/conferences-and-events/conferences/annual-conference/)| May 6-11, 2017|
-| Denver, CO for [CHI 17](https://chi2017.acm.org/)       | May 6-11, 2017  |
-| Baltimore, MD for [SRA 16](https://s-r-a.org/)       | Mar 31 - Apr 2, 2016  |
+| Austin, TX for CSCW 19       | Nov 4-13, 2019  |
+| Los Angeles, CA for IUI 19      | Mar 16-21, 2019  |
+| New York for CSCW 18     | Nov 3-7, 2018  |
+| Tokyo, Japan for IUI 18      | Mar 7-11, 2018  |
+| Columbus, OH for ASEE 17| May 6-11, 2017|
+| Denver, CO for CHI 17       | May 6-11, 2017  |
+| Baltimore, MD for SRA 16    | Mar 31 - Apr 2, 2016  |
 
 
 <!-- Site-wide configuration
