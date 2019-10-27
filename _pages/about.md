@@ -12,6 +12,10 @@ I am a Ph.D candidate in Computer Science with focus in Artificial Intelligence 
 
 Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois. Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen) advised my undergraduate thesis regarding the effect of grammatically gendered language on investors' financial decision.
 
+Currently, I am looking for summer 2020 internship opportunities. If you have exciting projects/ideas in hand and looking for interns to accomplish them, please send me an email at zxiao5 at illinois dot edu!
+
+Please check [Projects](https://www.ziangxiao.com/portfolio/) for my work and [Publications](https://www.ziangxiao.com/publications/) for selected paper. My full publication list is avaliable at my [Curriculum Vitae](https://www.ziangxiao.com/files/Ziang%20Xiao_CV.pdf). 
+
 as a student in computer science.
 ------
 My research interest lies at the interaction of technology and human behavior. I am particularly interested in how we can use technology to understand human behavior and how technology can persuade people to engage with beneficial behaviors.  
