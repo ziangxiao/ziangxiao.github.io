@@ -16,9 +16,7 @@ as a student in computer science.
 ------
 My research interest lies at the interaction of technology and human behavior. I am particularly interested in how we can use technology to understand human behavior and how technology can persuade people to engage with beneficial behaviors.  
 Coming from social psychology, I deeply curious about how human function and individual differences. What psychology attracts me are not only theories that depicting how human respond to internal and external stimuli but also research methods that can rigorously test those seemly unbelievable hypotheses. By looking back the history of our quest to understand human behavior, I believe it is a collective effort across disciplinaries. As a student in computer science, I want to empower scientists with technologies to understand human behavior at scale.
- 
 Currently, I am building ''Petri'', an AI powered research infrastructure that aimed to facilitate scientists to effectively and efficiently conduct longitudinal field studies. Inspired by the movie, ''Her'', I want to leverage AI-powered conversational agents to elicit value information for scientists to learn more about how we interact with the surrounding environment and create engaging experiences for study participants.
- 
 I am also working on projects in the area of persuasion, social network design, and educational technology. Please see the project page for more details.  
 
 
