@@ -1,16 +1,22 @@
 # main links links
 main:
   - title: "Publications"
-    url: /portfolio/
+    url: /publications/
 
-  - title: "Projects"
-    url: /portfolio/
+  - title: "Talks"
+    url: /talks/    
 
+  - title: "Teaching"
+    url: /teaching/    
+    
+  - title: "Portfolio"
+    url: /portfolio/
+        
+  - title: "Blog Posts"
+    url: /year-archive/
+    
   - title: "CV"
-    url: /files/Ziang Xiao_CV.pdf
-
-  - title: "Remain In Light"
-    url: /portfolio/
-
-  - title: "Retrospective"
-    url: /portfolio/
+    url: /cv/
+    
+  - title: "Guide"
+    url: /markdown/
