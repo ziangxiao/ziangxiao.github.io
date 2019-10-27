@@ -1,6 +1,6 @@
 ---
 title: "Spatial Visulization Platform"
-excerpt: "Learning Tool Set for Training Spatial Visulization Skills<br/><img src='/images/spatialvis.png'>"
+excerpt: "Learning Tool Set for Training Spatial Visulization Skills<br/><img src='/images/spatialvis_300x300.png'>"
 collection: portfolio
 ---
 
