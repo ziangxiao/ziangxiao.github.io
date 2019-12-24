@@ -6,9 +6,9 @@ layout: default
 
 <img class="profile-picture" src="profile.jpg">
 
-I am a Ph.D candidate in Computer Science with focus in Interactive Computing at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/).
+<!-- I am a Ph.D candidate in Computer Science with focus in Interactive Computing at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/).
 
-Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois. Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen) advised my undergraduate thesis regarding language and financial decision-making process.
+Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois. Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen) advised my undergraduate thesis regarding language and financial decision-making process. -->
 
 ## Research Interest
 
