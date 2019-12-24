@@ -18,7 +18,7 @@ sass:
 nav:
  - name: "About"
    link: "/"
- - name: "Curriculum Vitae (updated Dec 19)"
+ - name: "Curriculum Vitae"
    link: "ziangxiaoCV.pdf"
  - name: "Contact"
    link: "contact"
