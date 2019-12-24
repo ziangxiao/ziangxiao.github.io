@@ -3,21 +3,19 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [zxiao5@illinois.edu](mailto:zxiao5@illinois.edu)
 
-* Phone: [+91-123123](tel:+91-123123)
+<!-- --- -->
 
----
-
-## Mailing Address
+<!-- ## Mailing Address
 
 > 221B, Baker Street
 >
 > London
 >
-> United Kingdom
+> United Kingdom -->
 
----
+<!-- --- -->
 
 ## Social
 
