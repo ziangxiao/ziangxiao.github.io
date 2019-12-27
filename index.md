@@ -10,6 +10,8 @@ I am a 4th yr Ph.D candidate in Computer Science at [University of Illinois at U
 
 My research interest lies at the interaction of technology and human behavior. I am particularly interested in how we can use technology to understand human behavior and what's the pros and cons of technology in persuasion. 
 
+**NEWS** My paper *[If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills]* is just accepted by CHI 20!
+
 <!-- ## Projects -->
 
 <!-- My research interest lies at the interaction of technology and human behavior. I am particularly interested in how we can use technology to understand human behavior and what's the pros and cons of technology in persuasion. 
