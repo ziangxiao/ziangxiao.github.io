@@ -6,19 +6,21 @@ layout: default
 
 <img class="profile-picture" src="profile.jpg">
 
-I am a Ph.D candidate in Computer Science with focus in Interactive Computing at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I am advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/).
+I am a 4th yr Ph.D candidate in Computer Science at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I do reserach in Artificial Intelligence and Human-Computer Interaction. I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/). Prior my Ph.D, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois with Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen).
 
-Prior my Ph.D journey, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois. Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen) advised my undergraduate thesis regarding language and financial decision-making process.
+My research interest lies at the interaction of technology and human behavior. I am particularly interested in how we can use technology to understand human behavior and what's the pros and cons of technology in persuasion. 
 
-## Research Interest
+<!-- ## Projects -->
 
-My research interest lies at the interaction of technology and human behavior. I am particularly interested in how we can use technology to understand human behavior and how technology can persuade people to engage with beneficial behaviors.  
+<!-- My research interest lies at the interaction of technology and human behavior. I am particularly interested in how we can use technology to understand human behavior and what's the pros and cons of technology in persuasion. 
+
+how technology can persuade people to engage with beneficial behaviors.  
 
 Coming from social psychology, I deeply curious about how human function and individual differences. What psychology attracts me the most are not only theories depicting how human respond to internal and external stimuli but also experiment methods that can rigorously examine those seemly untestable hypotheses. Looking back to the history of the quest to understand human behavior, I believe it is a collective effort across disciplinaries. As a student in computer science, I want to empower scientists with technologies to understand human behavior at scale.
 
 Currently, I am building ''Petri'', an AI powered research infrastructure that aimed to facilitate scientists to effectively and efficiently conduct longitudinal field studies. Inspired by the movie, ''Her'', I want to leverage AI-powered conversational agents to elicit valuable information for scientists to learn more about how we interact with the surrounding environment and create engaging experiences for study participants.
 
-I am also working on projects in the area of persuasion, misinformation, and educational technology.
+I am also working on projects in the area of persuasion, misinformation, and educational technology. -->
 
 ## Selected Publications
 
