@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section>
+    <div class="container">
+        <header class="major">
+            {% if page.type == "research" %}
+                <h2 style="font-size:2.25em;">{{ page.title }}</h2>
+            {% else %}
+                <h2>{{ page.title }}</h2>
+            {% endif %}
+            
+        </header>
+
+        <section class="post-content">
+            {{ content }}
+        </section>
+        
+    </div>
+
+</section>

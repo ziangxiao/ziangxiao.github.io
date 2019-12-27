@@ -30,7 +30,7 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 
 9. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C., *If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills.* (Accepted by **CHI ‘20**)
 
-8. **Xiao, Z.**, Wang, X., Ho, P., Karahalios, K. and Sundaram, H. 2019. *Should We Use an Abstract Comic Form to Persuade? Experiments with Online Charitable Donation.* In Proceedings of ACM Human-Computer Interaction, 3, CSCW, Article 75 (**CSCW '19**).
+8. **Xiao, Z.**, Wang, X., Ho, P., Karahalios, K. and Sundaram, H. 2019. [*Should We Use an Abstract Comic Form to Persuade? Experiments with Online Charitable Donation.*](./contact) In Proceedings of ACM Human-Computer Interaction, 3, CSCW, Article 75 (**CSCW '19**).
 
 7. **Xiao, Z.**, Zhou, M., and Fu, W. 2019. *Who Should Be My Teammates: Using A Conversational Agent to Understand Individual Difference and Help Teaming.* In Proceedings of the 24th International Conference on Intelligent User Interfaces (**IUI '19**).
 
