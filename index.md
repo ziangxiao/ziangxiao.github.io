@@ -32,7 +32,7 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 
 10. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C., *If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*. (Accepted by **CHI ‘20**)
 
-9. **Xiao, Z.**, Zhou, M., Liao, V., Mark, G. Chi, C., Chen, W., Yang., H. [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself). arXiv preprint arXiv:1905.10700 [Detail](./paper/should_we_use_an_abstract_comic_form_to_persuade) / [PDF](./paperPDF/cscw075-xiao.pdf)
+9. **Xiao, Z.**, Zhou, M., Liao, V., Mark, G. Chi, C., Chen, W., Yang., H. [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself). arXiv preprint arXiv:1905.10700 [Detail](./paper/tell_me_about_your_self) / [PDF](./paperPDF/cscw075-xiao.pdf)
 
 8. **Xiao, Z.**, Wang, X., Ho, P., Karahalios, K. and Sundaram, H. 2019. [*Should We Use an Abstract Comic Form to Persuade? Experiments with Online Charitable Donation*](./paper/should_we_use_an_abstract_comic_form_to_persuade). In Proceedings of ACM Human-Computer Interaction, 3, CSCW, Article 75 (**CSCW '19**). [Detail](./paper/should_we_use_an_abstract_comic_form_to_persuade) / [PDF](./paperPDF/cscw075-xiao.pdf)
 
