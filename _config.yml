@@ -1,6 +1,6 @@
 title: Ziang Xiao
 url: "https://www.ziangxiao.com"
-baseurl: "/"
+baseurl: "./"
 
 markdown: kramdown
 
