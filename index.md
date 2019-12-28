@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Ziang Xiao"
 ---
 
 ## About Me
