@@ -5,13 +5,13 @@ title: "Publications"
 
 ## Publications 
 
-13. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C., *If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*. (Accepted by **CHI ‘20**)
+13. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C., [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](). (Accepted by **CHI ‘20**)
 
 12. **Xiao, Z.**, Zhou, M., Liao, V., Mark, G. Chi, C., Chen, W., Yang., H. [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself). arXiv preprint arXiv:1905.10700 / [Detail](./paper/tell_me_about_yourself) / [PDF](./paperPDF/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf)
 
 11. **Xiao, Z.**, Wang, X., Ho, P., Karahalios, K. and Sundaram, H. 2019. [*Should We Use an Abstract Comic Form to Persuade? Experiments with Online Charitable Donation*](./paper/should_we_use_an_abstract_comic_form_to_persuade). In Proceedings of ACM Human-Computer Interaction, 3, CSCW, Article 75 (**CSCW '19**). / [Detail](./paper/should_we_use_an_abstract_comic_form_to_persuade) / [PDF](./paperPDF/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf)
 
-10. **Xiao, Z.**, Zuo, S., Zhao, J., Fu, W., Goldstein, M., Philpott, M., Laystorm-Woodard, J., Pool, M., Wolters, A., and Woodard, B. 2019. [*Towards Understanding Interrelated Growth Mindset and Academic Participation & Performance*](). In Proceedings of the 126th ASEE Annual Conference and Exposition (**ASEE '19**). 
+10. **Xiao, Z.**, Zuo, S., Zhao, J., Fu, W., Goldstein, M., Philpott, M., Laystorm-Woodard, J., Pool, M., Wolters, A., and Woodard, B. 2019. [*Towards Understanding Interrelated Growth Mindset and Academic Participation & Performance*](https://peer.asee.org/understanding-interrelated-growth-mind-set-and-academic-participation-performance). In Proceedings of the 126th ASEE Annual Conference and Exposition (**ASEE '19**). 
 
 9. **Xiao, Z.**, Zhou, M., and Fu, W. 2019. [*Who Should Be My Teammates: Using A Conversational Agent to Understand Individual Difference and Help Teaming.*](./paper/who_should_be_my_teammates) In Proceedings of the 24th International Conference on Intelligent User Interfaces (**IUI '19**). / [Detail](./paper/who_should_be_my_teammates) / [PDF](./paperPDF/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf)
 
@@ -22,7 +22,7 @@ title: "Publications"
 
 6. **Xiao, Z.**, Wauck, H., Peng, Z., Ren, H., Zhang, L., Zuo, S., Yao, Y., and Fu, W. 2018. [*Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills*](./paper/cubicle). In Proceedings of the 23rd International Conference on Intelligent User Interfaces (**IUI '18**). / [Detail](./paper/cubicle) [PDF](./paperPDF/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf)
 
-5. Chiu, P., Wauck, H., **Xiao, Z**, Yao, Y., and Fu, W. 2018. [*Supporting Spatial Skills Learning with Gesture-based Embodied Design*](). In Proceedings of the 23rd International Conference on Intelligent User Interfaces (**IUI '18**).
+5. Chiu, P., Wauck, H., **Xiao, Z**, Yao, Y., and Fu, W. 2018. [*Supporting Spatial Skills Learning with Gesture-based Embodied Design*](https://dl.acm.org/citation.cfm?id=3172994). In Proceedings of the 23rd International Conference on Intelligent User Interfaces (**IUI '18**).
 
 4. **Xiao, Z.**, Yao, Y., and Fu, W. 2018. [*An Intelligent Educational Platform for Training Spatial Visualization Skills*](./paper/intelligent_spatial_platform). In Proceedings of the 23rd International Conference on Intelligent User Interfaces Companion (**IUI '18 Companion**). / [Detail](./paper/intelligent_spatial_platform) [PDF](./paperPDF/[p]Xiao_2018_An_Intelligent_Educational_Platform_for_Training_Spatial_Visualization_Skills.pdf)
 
