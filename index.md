@@ -41,7 +41,7 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 
 4. **Xiao, Z.**, Wauck, H., Peng, Z., Ren, H., Zhang, L., Zuo, S., Yao, Y., and Fu, W. 2018. [*Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills*](./paper/cubcile). In Proceedings of the 23rd International Conference on Intelligent User Interfaces (**IUI '18**).
 
-3. **Xiao, Z.**, Yao, Y., and Fu, W. 2018. [An Intelligent Educational Platform for Training Spatial Visualization Skills*](./paper/intelligent_spatial_platform). In Proceedings of the 23rd International Conference on Intelligent User Interfaces Companion (**IUI '18 Companion**).
+3. **Xiao, Z.**, Yao, Y., and Fu, W. 2018. [*An Intelligent Educational Platform for Training Spatial Visualization Skills*](./paper/intelligent_spatial_platform). In Proceedings of the 23rd International Conference on Intelligent User Interfaces Companion (**IUI '18 Companion**).
 
 2.  **Xiao, Z.**, Yao, Y., Yen, C, Dey, S., Wauck, H., Leake, J., Woodard, B., Wolters, A., and Fu, W. 2017. [*A Scalable Online Platform for Evaluating and Training Visuospatial Skills of Engineering Students*](./paper/spatial_platform). In Proceedings of the 124th 2017 ASEE Annual Conference and Exposition (**ASEE '17**). Columbus, Ohio.
 
