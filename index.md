@@ -36,7 +36,7 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 
 8. **Xiao, Z.**, Wang, X., Ho, P., Karahalios, K. and Sundaram, H. 2019. [*Should We Use an Abstract Comic Form to Persuade? Experiments with Online Charitable Donation*](./paper/should_we_use_an_abstract_comic_form_to_persuade). In Proceedings of ACM Human-Computer Interaction, 3, CSCW, Article 75 (**CSCW '19**). / [Detail](./paper/should_we_use_an_abstract_comic_form_to_persuade) / [PDF](./paperPDF/cscw075-xiao.pdf)
 
-7. **Xiao, Z.**, Zhou, M., and Fu, W. 2019. [*Who Should Be My Teammates: Using A Conversational Agent to Understand Individual Difference and Help Teaming.*](./paper/who_should_be_my_teammates) In Proceedings of the 24th International Conference on Intelligent User Interfaces (**IUI '19**). / [Detail](./paper/who_should_be_my_teammates) / [PDF](./paperPDF/cscw075-xiao.pdf)
+7. **Xiao, Z.**, Zhou, M., and Fu, W. 2019. [*Who Should Be My Teammates: Using A Conversational Agent to Understand Individual Difference and Help Teaming.*](./paper/who_should_be_my_teammates) In Proceedings of the 24th International Conference on Intelligent User Interfaces (**IUI '19**). / [Detail](./paper/who_should_be_my_teammates) / [PDF](./paperPDF/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming)
 
 
 6. Zhou, M. Chen, W. **Xiao, Z.**, Yang, H., Chi, T. and Williams, R. 2019. [*Getting Virtually Personal: Chatbots Who Actively Listen to You and Infer Your Personality.*](./paper/getting_virtually_personal) In Proceedings of the 24th International Conference on Intelligent User Interfaces Companion (**IUI '19 Companion**). / [Detail](./paper/who_should_be_my_teammates) / [PDF](./paperPDF/cscw075-xiao.pdf)
