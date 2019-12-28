@@ -27,8 +27,7 @@ Currently, I am building ''Petri'', an AI powered research infrastructure that a
 
 I am also working on projects in the area of persuasion, misinformation, and educational technology. -->
 
-## Selected Publications 
-[Full List](./publications)
+## Selected Publications [Full](./publications)
 
 8. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C., *If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*. (Accepted by **CHI ‘20**)
 
