@@ -7,9 +7,13 @@ title: "Ziang Xiao"
 
 <img class="profile-picture" src="profile.jpg">
 
-I am a 4th yr Ph.D candidate in Computer Science at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I do reserach in Artificial Intelligence and Human-Computer Interaction. I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/). Prior my Ph.D, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois with Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen).
+I am a 4th yr Ph.D candidate in Computer Science at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I do reserach in Human-Computer Interaction and Artificial Intelligence. I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/). Prior my Ph.D, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois with Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen).
 
-My research interest lies at the interaction of technology and human behavior. I am particularly interested in how we can use technology to understand human behavior and what's the pros and cons of technology in persuasion. 
+I am particularly interested in how we can use technology to better understand human behavior and how technology can be used to alter the decision making process. I work on conversational agents with current focus on information elicitation, trust, emotion, and long-term companionship. 
+
+I am currently building a research platfrom, "Petri", that aimed to help behavioral researchers to take their lab experiments to the wild. If you have any thoughts on how could we use technologies to better understand ourselves, I am more than happy to chat! 
+
+I am also working on projects in the area of persuasion, misinformation, and educational technology. 
 
 > **NEWS** 
 > My paper [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*]() is accepted by CHI 20!
@@ -28,7 +32,7 @@ Currently, I am building ''Petri'', an AI powered research infrastructure that a
 I am also working on projects in the area of persuasion, misinformation, and educational technology. -->
 
 ## Selected Publications. 
-[Full](./publications)
+[All Publications](./publications)
 
 8. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C., [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](). (Accepted by **CHI ‘20**)
 
