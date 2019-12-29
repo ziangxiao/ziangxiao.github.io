@@ -9,7 +9,7 @@ title: "Ziang Xiao"
 
 I am a 4th yr Ph.D candidate in Computer Science at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I do reserach in Human-Computer Interaction and Artificial Intelligence. I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/). Prior my Ph.D, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois with Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen).
 
-I am particularly interested in how we can use technology to better understand human behavior and how technology can be used to alter the decision making process. I work on conversational agents with current focus on information elicitation, trust, emotion, and long-term companionship. 
+I am interested in how we can use technology to better understand human behavior and what's the role of technology in persuasion. Recently, I work on conversational agents with focus on information elicitation, trust, emotion, and long-term companionship. 
 
 I am currently building a research platfrom, "Petri", that aimed to help behavioral researchers to take their lab experiments to the wild. If you have any thoughts on how could we use technologies to better understand ourselves, I am more than happy to chat! 
 
