@@ -16,7 +16,7 @@ I am currently building a research platfrom, "Petri", that aimed to help behavio
 I am also working on projects in the area of persuasion, misinformation, and educational technology. 
 
 > **NEWS** 
-> My paper [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*]() is accepted by CHI 20!
+> My paper [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](./paper/active_listening) is accepted by CHI 20!
 >
 
 <!-- ## Projects -->
@@ -34,7 +34,7 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 ## Selected Publications. 
 [All Publications](./publications)
 
-8. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C., [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](). (Accepted by **CHI ‘20**)
+8. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C., [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](./paper/active_listening). (Accepted by **CHI ‘20**)
 
 7. **Xiao, Z.**, Zhou, M., Liao, V., Mark, G. Chi, C., Chen, W., Yang., H. [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself). arXiv preprint arXiv:1905.10700 / [Detail](./paper/tell_me_about_yourself) / [PDF](./paperPDF/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf)
 
