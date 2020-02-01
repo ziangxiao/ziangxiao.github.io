@@ -16,8 +16,8 @@ I am currently building a research platfrom, "Petri", that aimed to help behavio
 I am also working on projects in the area of persuasion, misinformation, and educational technology. 
 
 > **NEWS**
- 
-> My first journal paper [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself) is accepted by ACM Transactions on Computer-Human Interaction!
+
+> My first journal paper [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself) is accepted by ACM Transactions on Computer-Human Interaction (TOCHI)!
 
 > My paper [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](./paper/active_listening) is accepted by CHI 20!
 >
