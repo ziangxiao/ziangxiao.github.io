@@ -16,11 +16,11 @@ I am currently building a research platfrom, "Petri", that aimed to help behavio
 I am also working on projects in the area of persuasion, misinformation, and educational technology. 
 
 > **NEWS**
+
 > I will join Spotify Reserach as a reserach scientist intern this summer! #JoinTheBand
 
 > My first journal paper [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself) is accepted by ACM Transactions on Computer-Human Interaction (TOCHI)!
 
->
 
 <!-- ## Projects -->
 
