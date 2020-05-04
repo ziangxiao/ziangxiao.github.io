@@ -7,7 +7,7 @@ title: "Ziang Xiao"
 
 <img class="profile-picture" src="profile.jpg">
 
-I am a 4th yr Ph.D candidate in Computer Science at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I do reserach in Human-Computer Interaction and Artificial Intelligence. I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/). Prior my Ph.D, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois with Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen).
+I am a 4th yr Ph.D candidate in Computer Science at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I do research in Human-Computer Interaction and Artificial Intelligence. I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/). Prior my Ph.D, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois with Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen).
 
 I am interested in how we can use technology to better understand human behavior and what's the role of technology in persuasion. Recently, I work on conversational agents with focus on information elicitation, trust, emotion, and long-term companionship. 
 
@@ -17,7 +17,7 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 
 > **NEWS**
 
-> I will join Spotify Reserach as a reserach scientist intern this summer! #JoinTheBand
+> I will join Spotify Research as a research scientist intern this summer! #JoinTheBand
 
 > My first journal paper [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself) is accepted by ACM Transactions on Computer-Human Interaction (TOCHI)!
 
