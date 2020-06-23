@@ -19,8 +19,6 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 
 > I will join Spotify Research as a research scientist intern this summer! #JoinTheBand
 
-> My first journal paper [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself) is accepted by ACM Transactions on Computer-Human Interaction (TOCHI)!
-
 
 <!-- ## Projects -->
 
@@ -39,7 +37,7 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 
 8. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C. 2020. [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](./paper/active_listening). In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1-14). (**CHI '20**) / [Detail](./paper/active_listening) / [PDF](./paperPDF/If_I_Hear_You_Correctly.pdf)
 
-7. **Xiao, Z.**, Zhou, M., Liao, V., Mark, G. Chi, C., Chen, W., Yang., H. (In press)[*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself). Accepted by ACM Transactions on Computer-Human Interaction (**TOCHI**) / [Detail](./paper/tell_me_about_yourself) / [PDF](./paperPDF/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf)
+7. **Xiao, Z.**, Zhou, M., Liao, V., Mark, G. Chi, C., Chen, W., Yang., H. 2020. [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself). ACM Trans. Comput.-Hum. Interact. 27, 3, Article 15 (June 2020), 37 pages. (**TOCHI**) / [Detail](./paper/tell_me_about_yourself) / [PDF](./paperPDF/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf)
 
 6. **Xiao, Z.**, Wang, X., Ho, P., Karahalios, K. and Sundaram, H. 2019. [*Should We Use an Abstract Comic Form to Persuade? Experiments with Online Charitable Donation*](./paper/should_we_use_an_abstract_comic_form_to_persuade). In Proceedings of ACM Human-Computer Interaction, 3, CSCW, Article 75 (**CSCW '19**). / [Detail](./paper/should_we_use_an_abstract_comic_form_to_persuade) / [PDF](./paperPDF/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf) / [Blog](https://crowddynamicslab.github.io/people/2020/02/01/Comic-Persuasion/)
 
