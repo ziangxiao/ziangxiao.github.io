@@ -15,9 +15,9 @@ I am currently building a research platfrom, "Petri", that aimed to help behavio
 
 I am also working on projects in the area of persuasion, misinformation, and educational technology. 
 
-> **NEWS**
+<!-- > **NEWS**
 
-> I will join Spotify Research as a research scientist intern this summer! #JoinTheBand
+> I will join Spotify Research as a research scientist intern this summer! #JoinTheBand -->
 
 
 <!-- ## Projects -->
