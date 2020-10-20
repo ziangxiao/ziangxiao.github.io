@@ -7,18 +7,18 @@ title: "Ziang Xiao"
 
 <img class="profile-picture" src="profile.jpg">
 
-I am a 4th yr Ph.D candidate in Computer Science at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I do research in Human-Computer Interaction and Artificial Intelligence. I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/). Prior my Ph.D, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois with Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen).
+I am a 5th yr Ph.D candidate in Computer Science at [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/). I do research in Human-Computer Interaction and Artificial Intelligence. I am co-advised by Prof. [Hari Sundaram](http://sundaram.cs.illinois.edu/) and Prof. [Karrie Karahalios](http://www.karriekarahalios.com/). Prior my Ph.D, I completed my B.S. in Psychology and Statistics & Computer Science at University of Illinois with Prof. [Dov Cohen](https://psychology.illinois.edu/directory/profile/dovcohen).
 
-I am interested in how we can use technology to better understand human behavior and what's the role of technology in persuasion. Recently, I work on conversational agents with focus on information elicitation, trust, emotion, and long-term companionship. 
+I am interested in how we can use technology to understand human behavior and the role of technology in behavior change. Recently, I work on conversational agents with focus on information elicitation, trust, emotion, and long-term companionship. 
 
 I am currently building a research platfrom, "Petri", that aimed to help behavioral researchers to take their lab experiments to the wild. If you have any thoughts on how could we use technologies to better understand ourselves, I am more than happy to chat! 
 
-I am also working on projects in the area of persuasion, misinformation, and educational technology. 
+I am also working on projects in the area of persuasion, social media, and educational technology. 
 
-<!-- > **NEWS**
+> **NEWS**
 
-> I will join Spotify Research as a research scientist intern this summer! #JoinTheBand -->
-
+> Our CHIPlay paper ''A Data-Driven, Player-Centric Approach to Evaluating Spatial Skill Training Games'' won the honorable mention!
+> I am a student volunteer at CSCW 20. Let's chat!
 
 <!-- ## Projects -->
 
@@ -34,10 +34,11 @@ I am also working on projects in the area of persuasion, misinformation, and edu
 
 ## Selected Publications. 
 [All Publications](./publications)
+9. Wauck, H., Woodard, B., **Xiao, Z.**, Li, T. and Bailey, B. 2020. [*A Data-Driven, Player-Centric Approach to Evaluating Spatial Skill Training Games*](./). In Proceedings of the 2020 Annual Symposium on Computer-Human Interaction in Play. (**CHIPlay '20**) 
 
-8. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., Chi, C. 2020. [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](./paper/active_listening). In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1-14). (**CHI '20**) / [Detail](./paper/active_listening) / [PDF](./paperPDF/If_I_Hear_You_Correctly.pdf)
+8. **Xiao, Z.**, Zhou, M., Chen, W., Yang., H., and Chi, C. 2020. [*If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills*](./paper/active_listening). In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (pp. 1-14). (**CHI '20**) / [Detail](./paper/active_listening) / [PDF](./paperPDF/If_I_Hear_You_Correctly.pdf)
 
-7. **Xiao, Z.**, Zhou, M., Liao, V., Mark, G. Chi, C., Chen, W., Yang., H. 2020. [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself). ACM Trans. Comput.-Hum. Interact. 27, 3, Article 15 (June 2020), 37 pages. (**TOCHI**) / [Detail](./paper/tell_me_about_yourself) / [PDF](./paperPDF/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf)
+7. **Xiao, Z.**, Zhou, M., Liao, V., Mark, G. Chi, C., Chen, W., and Yang., H. 2020. [*Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions*](./paper/tell_me_about_yourself). ACM Trans. Comput.-Hum. Interact. 27, 3, Article 15 (June 2020), 37 pages. (**TOCHI**) / [Detail](./paper/tell_me_about_yourself) / [PDF](./paperPDF/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf)
 
 6. **Xiao, Z.**, Wang, X., Ho, P., Karahalios, K. and Sundaram, H. 2019. [*Should We Use an Abstract Comic Form to Persuade? Experiments with Online Charitable Donation*](./paper/should_we_use_an_abstract_comic_form_to_persuade). In Proceedings of ACM Human-Computer Interaction, 3, CSCW, Article 75 (**CSCW '19**). / [Detail](./paper/should_we_use_an_abstract_comic_form_to_persuade) / [PDF](./paperPDF/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf) / [Blog](https://crowddynamicslab.github.io/people/2020/02/01/Comic-Persuasion/)
 
