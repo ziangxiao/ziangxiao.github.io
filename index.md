@@ -18,8 +18,7 @@ I am also working on projects in the area of persuasion, social media, and educa
 > **NEWS**
 
 > Our CHIPlay paper ''A Data-Driven, Player-Centric Approach to Evaluating Spatial Skill Training Games'' won the honorable mention!
- 
->I am a student volunteer at CSCW 20. Let's chat!
+
 
 <!-- ## Projects -->
 
