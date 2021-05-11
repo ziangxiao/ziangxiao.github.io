@@ -11,13 +11,13 @@ I am a 5th yr Ph.D candidate in Computer Science at [University of Illinois at U
 
 I am interested in how we can use technology to understand human behavior and the role of technology in behavior change. Recently, I work on conversational agents with focus on information elicitation, trust, emotion, and long-term companionship. 
 
-I am currently building a research platfrom, "Petri", that aimed to help behavioral researchers to take their lab experiments to the wild. If you have any thoughts on how could we use technologies to better understand ourselves, I am more than happy to chat! 
+I am currently building a research platfrom, "Petri", that aimed to help behavioral researchers to take their lab experiments to the wild with conversational agents. If you have any thoughts on how could we use technologies to better understand ourselves, I am more than happy to chat! 
 
 I am also working on projects in the area of persuasion, social media, and educational technology. 
 
 > **NEWS**
 
-> Our CHIPlay paper ''A Data-Driven, Player-Centric Approach to Evaluating Spatial Skill Training Games'' won the honorable mention!
+> I am attending CHI (virtually) now!! I am presenting our TOCHI paper, Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions! I will be on the job market this year! Looking forward to chat with you!
 
 
 <!-- ## Projects -->
