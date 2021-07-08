@@ -17,7 +17,7 @@ I am also working on projects in the area of persuasion, social media, and educa
 
 > **NEWS**
 
-> Two paper accepted by CSCW 21'! More to come
+> Two paper were accepted by CSCW 21'! More to come
 
 
 <!-- ## Projects -->
