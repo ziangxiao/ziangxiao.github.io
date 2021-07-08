@@ -17,7 +17,7 @@ I am also working on projects in the area of persuasion, social media, and educa
 
 > **NEWS**
 
-> I am attending CHI (virtually) now!! I am presenting our TOCHI paper, Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions! I will be on the job market this year! Looking forward to chat with you!
+> Two paper accepted by CSCW 21'! More to come
 
 
 <!-- ## Projects -->
