@@ -45,4 +45,9 @@
      column-count:         1;
     }
  }
+
+ .container {
+   display: flex;
+   justify-content: center;
+ }
  
