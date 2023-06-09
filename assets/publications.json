@@ -1,0 +1,766 @@
+[  
+  {  
+    "image": "",  
+    "alt": "",  
+    "title": "Evaluating NLG Evaluation Metrics: A Measurement Theory Perspective",  
+    "authors": [  
+      {  
+        "name": "Ziang Xiao*",  
+        "url": "",  
+        "extraClass": "zx"  
+      },  
+      {  
+        "name": "Susu Zhang*",  
+        "url": ""  
+      },  
+      {  
+        "name": "Vivian Lai",  
+        "url": ""  
+      },  
+      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} 
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": ""  
+    },  
+    "paper": "https://arxiv.org/pdf/2305.14889.pdf",  
+    "video": "",  
+    "acmDL": "",  
+    "year":"Work in Progress",
+    "featured": false,
+    "type": "Paper",
+    "topic":"Eval"  
+  },
+  {  
+    "image": "",  
+    "alt": "",  
+    "title": "Rethinking Model Evaluation as Narrowing the Socio-Technical Gap",  
+    "authors": [   
+      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      }    
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": ""  
+    },  
+    "paper": "https://arxiv.org/pdf/2306.03100v1.pdf",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "Work in Progress",
+    "featured": false,
+    "type": "Paper",
+    "topic":"Eval"    
+  },
+  {  
+    "image": "images/inform.png",  
+    "alt": "SEM model",  
+    "title": "Inform the Uninformed: Improving Online Informed Consent Reading with an AI-Powered Chatbot",  
+    "authors": [  
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },  
+      {  
+        "name": "Tiffany Wenting Li",  
+        "url": "https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en"  
+      },  
+      {  
+        "name": "Karrie Karahalios",  
+        "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"  
+      },  
+      {  
+        "name": "Hari Sundaram",  
+        "url": "http://sundaram.cs.illinois.edu/"  
+      }  
+    ],  
+    "venue": {  
+      "name": "CHI 2023",  
+      "url": ""  
+    },  
+    "paper": "pdf/Xiao et al. 2023 - Inform the Uninformed - Improving Online Informed Consent Reading with an AI-Powered Chatbot.pdf",  
+    "video": "https://www.youtube.com/watch?v=zFZOhvzlkNw",  
+    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3544548.3581252",  
+    "year": 2023,
+    "featured": true,
+    "type": "Paper",
+    "topic":"AI4SS"   
+  },  
+  {  
+    "image": "images/JenniferOverview.png",  
+    "alt": "Jennifer Architecture",  
+    "title": "Powering an AI Chatbot with Expert Sourcing to Support Credible Health Information Access",  
+    "authors": [  
+      {"name": "Ziang Xiao", "url": "", "extraClass": "zx"},  
+      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"},  
+      {"name": "Michelle Zhou", "url": "https://dblp.org/pid/90/5406.html"},  
+      {"name": "Tyrone Grandison", "url": "https://www.tyronegrandison.org/"},  
+      {"name": "Yunyao Li", "url": "https://yunyaoli.github.io/"}  
+    ],  
+    "venue": {"name": "IUI 2023", "url": ""},  
+    "paper": "pdf/Xiao et al. 2023 - Powering an AI Chatbot with Expert Sourcing to Support Credible Health Information Access.pdf",  
+    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3581641.3584031",
+    "year": 2023,
+    "featured": true,
+    "type": "Paper",
+    "topic":"INFO"   
+  },
+  {
+    "image": "images/llm_coding.png",
+    "alt": "inter-rater reliability between GPT-3 and expert raters",
+    "title": "Supporting Qualitative Analysis with Large Language Models: Combining Codebook with GPT-3 for Deductive Coding",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Xingdi Yuan",
+        "url": "http://qveraliao.com/"
+      },
+      {
+        "name": "Q. Vera Liao",
+        "url": "http://qveraliao.com/"
+      },
+      {
+        "name": "Rania Abdelghani",
+        "url": ""
+      },
+      {
+        "name": "Pierre-Yves Oudeyer",
+        "url": ""
+      }
+    ],
+    "venue": {
+      "name": "IUI 2023",
+      "url": ""
+    },
+    "paper": "pdf/Xiao et al. 2023 - Supporting Qualitative Analysis with Large Language Models - Combining Codebook with GPT-3 for Deductive Coding.pdf",
+    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3581754.3584136",
+    "year": 2023,
+    "featured": true,
+    "type": "Poster",
+    "topic":"AI4SS"   
+  },
+  {
+    "image": "images/follow_up_gen.png",
+    "alt": "example of a conersational survey with follow-up questions",
+    "title": "What Should I Ask: A Knowledge-driven Approach for Follow-up Questions Generation in Conversational Surveys",
+    "authors": [
+      {
+        "name": "Yubin Ge*",
+        "url": "https://scholar.google.com/citations?hl=en&user=Q0HQH3YAAAAJ&view_op=list_works&sortby=pubdate"
+      },
+      {
+        "name": "Ziang Xiao*",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Jana Diesner",
+        "url": "https://jdiesnerlab.ischool.illinois.edu/index.html"
+      },
+      {
+        "name": "Heng Ji",
+        "url": "http://blender.cs.illinois.edu/hengji.html"
+      },
+      {
+        "name": "Karrie Karahalios",
+        "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"
+      },
+      {
+        "name": "Hari Sundaram",
+        "url": "http://sundaram.cs.illinois.edu/"
+      }
+    ],
+    "venue": {
+      "name": "ArXiv",
+      "url": ""
+    },
+    "paper": "pdf/Follow_up_Question_Gen.pdf",
+    "acmDL": "",
+    "year": 2022,
+    "featured": false,
+    "type": "Paper",
+    "topic":"AI4SS"   
+  },
+  {
+    "image": "images/letmeaskyouthis.png",
+    "alt": "balance between valuable feedback and user experiences",
+    "title": "Let Me Ask You This: How Can a Voice Assistant Elicit Explicit User Feedback?",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Sarah Mennicken", "url": ""},
+      {"name": "Bernd Huber", "url": ""},
+      {"name": "Adam Shonkoff", "url": ""},
+      {"name": "Jennifer Thom", "url": ""}
+    ],
+    "venue": {
+      "name": "CSCW 2021",
+      "url": "https://cscw.acm.org/2021/"
+    },
+    "paper": "pdf/Voice_Interaction_for_Information_Elicitation.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3479532",
+    "year": 2021,
+    "featured": true,
+    "type": "Paper",
+    "topic":"AI4SS"   
+  },
+  {
+    "image": "images/contestability.png",
+    "alt": "participant's drawing during workshop",
+    "title": "Contestability for Content Moderation",
+    "authors": [
+      {
+        "name": "Kristen Vaccaro",
+        "url": "http://kvaccaro.com/"
+      },
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Kevin Hamilton", "url": ""},
+      {"name": "Karrie Karahalios", "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"}
+    ],
+    "venue": {
+      "name": "CSCW 2021",
+      "url": "https://cscw.acm.org/2021/"
+    },
+    "paper": "pdf/Contestability_For_Content_Moderation.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3476059",
+    "year": 2021,
+    "featured": true,
+    "type": "Paper",
+    "topic":"INFO"   
+  },
+  {
+    "image": "images/workshop.png",
+    "alt": "",
+    "title": "Application of Online Visual-Spatial Training to Increase Visual-Spatial Ability and Growth Mindset of Engineering Students",
+    "authors": [
+      {"name": "Molly H Goldstein", "url": ""},
+      {"name": "John Mark Froiland", "url": ""},
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Brian S Woodard", "url": ""},
+      {"name": "Li Tao", "url": ""},
+      {"name": "Michael L Philpott", "url": ""}
+    ],
+    "venue": {
+      "name": "International Journal of Engineering Education (IJEE)",
+      "url": "https://www.asee.org/annual-conference/2021"
+    },
+    "paper": "",
+    "acmDL": "",
+    "year": 2021,
+    "featured": false,
+    "type": "Poster",
+    "topic":"SV"   
+  },
+  {
+    "image": "images/sketcher.png",
+    "alt": "feedback message for student's sketch",
+    "title": "Evaluating an Intelligent Sketching Feedback Tool for Scalable Spatial Visualization Skill Training",
+    "authors": [
+      {
+        "name": "Tiffany Wenting Li",
+        "url": "https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en"
+      },
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Molly H Goldstein", "url": ""},
+      {"name": "Michael L Philpott", "url": ""},
+      {"name": "Brian S Woodard", "url": ""}
+    ],
+    "venue": {
+      "name": "ASEE 2021",
+      "url": "https://www.asee.org/annual-conference/2021"
+    },
+    "paper": "pdf/evaluating-an-intelligent-sketching-feedback-tool-for-scalable-spatial-visualization-skill-training.pdf",
+    "acmDL": "",
+    "year": 2021,
+    "featured": false,
+    "type": "Poster",
+    "topic":"SV"    
+  },
+  {
+    "image": "images/tochi_tell.png",
+    "alt": "teaser image for tell me about yourself",
+    "title": "Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Michelle X Zhou", "url": ""},
+      {
+        "name": "Q. Vera Liao",
+        "url": "http://qveraliao.com/"
+      },
+      {"name": "Gloria Mark", "url": ""},
+      {"name": "Changyan Chi", "url": ""},
+      {"name": "Wenxi Chen", "url": ""},
+      {"name": "Huahai Yang", "url": ""}
+    ],
+    "venue": {
+      "name": "ACM Transactions on Computer-Human Interaction (TOCHI)",
+      "url": "https://dl.acm.org/journal/tochi"
+    },
+    "paper": "pdf/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf",
+    "video": "https://www.youtube.com/watch?v=YS13B6cxGYE",
+    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3381804",
+    "year": 2020,
+    "featured": true,
+    "type": "Paper",
+    "topic":"AI4SS"    
+  },
+  {
+    "image": "images/chiplay20.png",
+    "alt": "",
+    "title": "A Data-Driven, Player-Centric Approach to Evaluating Spatial Skill Training Games",
+    "authors": [
+      {
+        "name": "Helen Wauck",
+        "url": "https://www.sift.net/staff/helen-wauck"
+      },
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Tiffany Wenting Li",
+        "url": "https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en"
+      },
+      {
+        "name": "Brian P Bailey",
+        "url": "https://orchid.cs.illinois.edu/people/bailey/index.html"
+      }
+    ],
+    "venue": {
+      "name": "CHI Play 2020",
+      "url": "https://chiplay.acm.org/2020/"
+    },
+    "paper": "pdf/wauck_chiplay2020.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3410404.3414255",
+    "award": "Honorable Mention",
+    "year": 2020,
+    "featured": true,
+    "type": "Paper",
+    "topic":"SV"    
+  },
+  {
+    "image": "images/active_listening.png",
+    "alt": "system architecture",
+    "title": "If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Michelle X Zhou", "url": ""},
+      {"name": "Wenxi Chen", "url": ""},
+      {"name": "Huahai Yang", "url": ""},
+      {"name": "Changyan Chi", "url": ""}
+    ],
+    "venue": {
+      "name": "CHI 2020",
+      "url": "https://chi2020.acm.org/"
+    },
+    "paper": "pdf/[p]Xiao_If_I_Hear_You_Correctly.pdf",
+    "video": "https://www.youtube.com/watch?v=tGk3GC3BXts",
+    "blogPost": "https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/if-i-hear-you-correctly-building-and-evaluating-interview-chatbots-with-active-listening-skills-91a51ab1d78b",
+    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3313831.3376131#",
+    "year": 2020,
+    "featured": false,
+    "type": "Paper",
+    "topic":"AI4SS"    
+  },
+  {
+    "image": "images/comic.png",
+    "alt": "comic strip for persuasion",
+    "title": "Should We Use an Abstract Comic Form to Persuade?: Experiments with Online Charitable Donation",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Po-Shiun Ho", "url": ""},
+      {"name": "Xinran Wang", "url": ""},
+      {"name": "Karrie Karahalios", "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"},
+      {"name": "Hari Sundaram", "url": "http://sundaram.cs.illinois.edu/"}
+    ],
+    "venue": {
+      "name": "CSCW 2019",
+      "url": "https://cscw.acm.org/2019/"
+    },
+    "paper": "pdf/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf",
+    "blogPost": "https://crowddynamicslab.github.io/people/2020/02/01/Comic-Persuasion/",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3359177",
+    "year": 2019,
+    "featured": true,
+    "type": "Paper",
+    "topic":"INFO"    
+  },
+  {
+    "image": "images/mindset.png",
+    "alt": "mindset teaser image",
+    "title": "Understanding Interrelated Growth Mindset and Academic Participation & Performance",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Shiliang Zuo", "url": "https://sites.google.com/view/shiliangzuo/"},
+      {"name": "Jinhao Zhao", "url": ""},
+      {"name": "Wai-Tat Fu", "url": ""},
+      {"name": "Molly H Goldstein", "url": ""},
+      {"name": "Michael L Philpott", "url": ""},
+      {"name": "Julia Laystrom-Woodard", "url": ""},
+      {"name": "Marcia Pool", "url": ""},
+      {"name": "Angela Wolters", "url": ""},
+      {"name": "Brian S Woodard", "url": ""}
+    ],
+    "venue": {
+      "name": "ASEE 2019",
+      "url": "https://www.asee.org/annual-conference/2019"
+    },
+    "paper": "pdf/[p]Xiao_2019_Understanding_Interrelated_Growth_Mind-set_and_Academic Participation_&_Performance.pdf",
+    "year": 2019,
+    "featured": false,
+    "type": "Paper",
+    "topic":"SV"   
+  },
+  {
+    "image": "images/INDIGO.png",
+    "alt": "INDIGO Result",
+    "title": "Who Should be My Teammates: Using a Conversational Agent to Understand Individuals and Help Teaming",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Michelle X Zhou", "url": ""},
+      {"name": "Wai-Tat Fu", "url": ""}
+    ],
+    "venue": {
+      "name": "IUI 2019",
+      "url": "https://iui.acm.org/2019/"
+    },
+    "paper": "pdf/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3301275.3302264",
+    "year": 2019,
+    "featured": true,
+    "type": "Paper",
+    "topic":"AI4SS"   
+  },
+  {
+    "image": "images/Virtually_personal.png",
+    "alt": "getting virtualll personal teaser image",
+    "title": "Getting virtually personal: chatbots who actively listen to you and infer your personality",
+    "authors": [
+      {"name": "Michelle X Zhou", "url": ""},
+      {"name": "Wenxi Chen", "url": ""},
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {"name": "Huahai Yang", "url": ""},
+      {"name": "Tracy Chi", "url": ""},
+      {"name": "Ransom Williams", "url": ""}
+    ],
+    "venue": {
+      "name": "IUI 2019",
+      "url": "https://iui.acm.org/2019/"
+    },
+    "demoPaper": "pdf/[d]Zhou_Getting_Virtually_Personal_Chatbots_Who_Actively_Listen_to_You_and_Infer_Your_Personality.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3308557.3308667",
+    "year": 2019,
+    "featured": false,
+    "type": "Demo",
+    "topic":"AI4SS"   
+  },
+  {
+    "image": "images/labelornot.png",
+    "alt": "newfeed stance label",
+    "title": "To Label or Not to Label: The Effect of Stance and Credibility Labels on Readers' Selection and Perception of News Articles",
+    "authors": [
+      {
+        "name": "Mingkun Gao",
+        "url": "https://uiucgmk.github.io/",
+        "extraClass": ""
+      },
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Karrie Karahalios",
+        "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"
+      },
+      {
+        "name": "Wai-Tat Fu",
+        "url": ""
+      }
+    ],
+    "venue": {
+      "name": "CSCW 2018",
+      "url": "https://cscw.acm.org/2018/"
+    },
+    "paper": "pdf/[p]Xiao_2018_To_Label_or_Not_to_Label_The_Effect_of_Stance_and_Credibility_Labels_on_Readers_Selection_and_Perception_of_News_Articles.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3274324",
+    "year": 2018,
+    "featured": true,
+    "type": "Paper",
+    "topic":"INFO"   
+  },
+  {
+    "image": "images/rotation.png",
+    "alt": "rotation gestures, rotation x,y,and z.",
+    "title": "Supporting Spatial Skill Learning with Gesture-Based Embodied Design",
+    "authors": [
+      {
+        "name": "Po-Tsung Chiu",
+        "url": ""
+      },
+      {
+        "name": "Helen Wauck",
+        "url": "https://www.sift.net/staff/helen-wauck"
+      },
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Yuqi Yao",
+        "url": "https://yuqiyao.com/"
+      },
+      {
+        "name": "Wai-Tat Fu",
+        "url": ""
+      }
+    ],
+    "venue": {
+      "name": "IUI 2018",
+      "url": "https://iui.acm.org/2018/"
+    },
+    "shortPaper": "pdf/[p]Chiu_2018_Supporting_Spatial_Skill_Learning_with_Gesture-Based_Emodied_Design.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3172944.3172994",
+    "year": 2018,
+    "featured": false,
+    "type": "Short Paper",
+    "topic":"SV"  
+  },
+  {
+    "image": "images/cubicle.png",
+    "alt": "Screenshots from the Cubicle",
+    "title": "Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Helen Wauck",
+        "url": "https://www.sift.net/staff/helen-wauck"
+      },
+      {
+        "name": "Zeya Peng",
+        "url": ""
+      },
+      {
+        "name": "Hanfei Ren",
+        "url": "http://hanfei.ren/about"
+      },
+      {
+        "name": "Lei Zhang",
+        "url": "http://raynezhang.me/"
+      },
+      {
+        "name": "Shiliang Zuo",
+        "url": "https://sites.google.com/view/shiliangzuo/"
+      },
+      {
+        "name": "Yuqi Yao",
+        "url": "https://yuqiyao.com/"
+      },
+      {
+        "name": "Wai-Tat Fu",
+        "url": ""
+      }
+    ],
+    "venue": {
+      "name": "IUI 2018",
+      "url": "https://iui.acm.org/2018/"
+    },
+    "paper": "pdf/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3172944.3172954",
+    "year": 2018,
+    "featured": true,
+    "type": "Paper",
+    "topic":"SV"   
+  },
+  {
+    "image": "images/intelligenteducationalplatform.png",
+    "alt": "Spatial vis teaser",
+    "title": "An Intelligent Educational Platform for Training Spatial Visualization Skills",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Yuqi Yao",
+        "url": "https://yuqiyao.com/"
+      },
+      {
+        "name": "Wai-Tat Fu",
+        "url": ""
+      }
+    ],
+    "venue": {
+      "name": "IUI 2018",
+      "url": "https://iui.acm.org/2018/"
+    },
+    "poster": "pdf/[p]Xiao_2018_An_Intelligent_Educational_Platform_for_Training_Spatial_Visualization_Skills.pdf",
+    "acmDL": "https://dl.acm.org/doi/10.1145/3180308.3180370",
+    "featured": false,
+    "year": 2018,
+    "type": "Poster",
+    "topic":"SV"  
+  },
+  {
+    "image": "images/homeworldbound.png",
+    "alt": "Game Features in Homeworld Bound",
+    "title": "Untangling the Relationship Between Spatial Skills, Game Features, and Gender in a Video Game",
+    "authors": [
+      {
+        "name": "Helen Wauck",
+        "url": "https://www.sift.net/staff/helen-wauck"
+      },
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Po-Tsung Chiu",
+        "url": ""
+      },
+      {
+        "name": "Wai-Tat Fu",
+        "url": ""
+      }
+    ],
+    "venue": {
+      "name": "IUI 2017",
+      "url": "https://iui.acm.org/2017/"
+    },
+    "paper": "pdf/[p]Wauck_2017_Untangling_the_Relationship_Between_Spatial_Skills_Game_Features_and_Gender_in_a_Video_Game.pdf",
+    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3025171.3025225",
+    "year": 2017,
+    "featured": false,
+    "type": "Paper",
+    "topic":"SV"  
+  },
+  {
+    "image": "images/spatial_vis.png",
+    "alt": "spatial vis interface",
+    "title": "A Scalable Online Platform for Evaluating and Training Visuospatial Skills of Engineering Students",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      },
+      {
+        "name": "Yuqi Yao",
+        "url": "https://yuqiyao.com/"
+      },
+      {
+        "name": "Chi-hsien Yen",
+        "url": "https://chihsienyen.github.io/"
+      },
+      {
+        "name": "Sanorita Dey",
+        "url": "https://www.csee.umbc.edu/~sanorita/"
+      },
+      {
+        "name": "Helen Wauck",
+        "url": "https://www.sift.net/staff/helen-wauck"
+      },
+      {
+        "name": "Lames M Leake",
+        "url": ""
+      },
+      {
+        "name": "Brian S. Woodard",
+        "url": ""
+      },
+      {
+        "name": "Angela Wolters",
+        "url": ""
+      },
+      {
+        "name": "Wai-Tat Fu",
+        "url": ""
+      }
+    ],
+    "venue": {
+      "name": "ASEE 2017",
+      "url": "https://www.asee.org/annual-conference/2017"
+    },
+    "paper": "pdf/[p]Xiao_2017_A_Scalable_Online_Platform_for_Evaluating_and_Training_Visuospatial_Skills_of_Engineering_Students.pdf",
+    "year": 2017,
+    "featured": true,
+    "type": "Paper",
+    "topic":"SV"  
+  },
+  {
+    "image": "images/stock.png",
+    "alt": "stock market teaser",
+    "title": "Does Grammatically Gendered Language Have an Impact on Investors' behaviors? Companies with Grammatically Masculine Names Show More Stock Momentum Than Those with Grammatically Feminine Names",
+    "authors": [
+      {
+        "name": "Ziang Xiao",
+        "url": "",
+        "extraClass": "zx"
+      }
+    ],
+    "venue": {
+      "name": "Supervised by Prof. Dov Cohen",
+      "url": ""
+    },
+    "paper": "",
+    "type": "Bachelor Thesis",
+    "year": 2016,
+    "featured": false,
+    "topic":"INFO"  
+  }  
+]  

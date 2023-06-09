@@ -9,6 +9,102 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-120527594-1');
+
+  function createPaperBlock(jsonData) {  
+    const publication = jsonData;  
+    let authorsHtml = '';  
+    
+    publication.authors.forEach((author, index) => {  
+      if (index > 0) {  
+        authorsHtml += ', ';  
+      }  
+    
+      if (author.url) {  
+        authorsHtml += `<span class="author${author.extraClass ? ` ${author.extraClass}` : ''}"><a href="${author.url}">${author.name}</a></span>`;  
+      } else {  
+        authorsHtml += `<span class="author${author.extraClass ? ` ${author.extraClass}` : ''}">${author.name}</span>`;  
+      }  
+    }); 
+    
+    let metaHtml = '';
+    if (publication.venue){
+      metaHtml+=`<span class="venue"><a href="${publication.venue.url}">${publication.venue.name}</a></span>`
+    }
+    if (publication.type){
+      metaHtml+=` / <span class="tag"><a href="${publication.paper}">${publication.type}</a></span>`
+    }
+    if (publication.video){
+      metaHtml+=` / <span class="tag"><a href="${publication.video}">Video</a></span>`
+    }
+    if (publication.blogPost){
+      metaHtml+=` / <span class="tag"><a href="${publication.blogPost}">Blog Post</a></span>`
+    }
+    if (publication.acmDL){
+      metaHtml+=` / <span class="tag"><a href="${publication.acmDL}">ACM DL</a></span>`
+    }
+    if (publication.award){
+      metaHtml+=` / <span class="tag" style="color:#E84A27;"><a>${publication.award}</a></span>`
+    }
+    
+    const htmlBlock = `  
+      <div class="publication">  
+        <div class="img"><img class="img_responsive" src="${publication.image}" alt="${publication.alt}"></div>  
+        <div class="text">  
+          <div class="title"><a href="">${publication.title}</a></div>  
+          <div class="authors">${authorsHtml}</div>  
+          <div>${metaHtml}</div>  
+        </div>  
+      </div>  
+    `;  
+    
+    return htmlBlock;  
+  }
+
+  function loadJsonData(url, callback) {  
+    const xhr = new XMLHttpRequest();  
+    xhr.onreadystatechange = function () {  
+      if (xhr.readyState === 4 && xhr.status === 200) {  
+        const jsonData = JSON.parse(xhr.responseText);  
+        callback(jsonData);  
+      }  
+    };  
+    xhr.open('GET', url, true);  
+    xhr.send();  
+  }  
+    
+  function createHtmlBlockFromJsonFile(jsonFileUrl) {  
+    loadJsonData(jsonFileUrl, function (jsonData) {  
+      if (jsonData) {   
+        var cur_year = ''
+        for (var i=0; i < jsonData.length; i++) {
+          const htmlBlock = createPaperBlock(jsonData[i]); 
+          if (jsonData[i].year!=cur_year){
+            const year = `<div class="text anchor"><h4>${jsonData[i].year}</h4></div>    `;
+            document.getElementById('pubs_by_date').innerHTML += year; 
+            cur_year = jsonData[i].year
+          }
+          document.getElementById('pubs_by_date').innerHTML += htmlBlock;
+          if (jsonData[i].featured == true){
+            document.getElementById('pubs_selected').innerHTML += htmlBlock;
+          } 
+          if (jsonData[i].topic == 'Eval'){
+            document.getElementById('Eval').innerHTML += htmlBlock;
+          }
+          if (jsonData[i].topic == 'AI4SS'){
+            document.getElementById('AI4SS').innerHTML += htmlBlock;
+          }
+          if (jsonData[i].topic == 'INFO'){
+            document.getElementById('INFO').innerHTML += htmlBlock;
+          } 
+          if (jsonData[i].topic == 'SV'){
+            document.getElementById('SV').innerHTML += htmlBlock;
+          }    
+        }    
+        showPubs(0);
+      }  
+    });  
+  }  
+
 </script>
 
      <meta name="author" content="Ziang Xiao">    <meta name="viewport" content="width=device-width, initial-scale=1">    <link rel="shortcut icon" href="/images/White-L.ico">
@@ -16,6 +112,8 @@
     <link rel="stylesheet" href="./assets/main.css">
     <script src="./assets/scroll.js"></script>
     <script src="./assets/main.js"></script>
+
+    
 
 </head>
 
@@ -35,11 +133,10 @@
             <div>Postdoctoral Researcher</div>
             <div>FATE group | Montréal</div>
             <div>Microsoft Research</div>
-            <div>Email:&nbsp;ziangxiao [at] microsoft (dot) com</div>
             <p>
             </p>
             
-            <div>Research Assistant Professor</div>
+            <div>Assistant Professor [2024 Jan]</div>
             <div>Computer Science</div>
             <div>Johns Hopkins University</div>
             <div>Email:&nbsp;ziang.xiao [at] jhu (dot) edu</div>
@@ -52,7 +149,7 @@
           <div class="content" style="z-index:1;position:relative">
             <div class="text">
               <h3 style="margin-bottom:.5em;">News.</h3>
-              <p style="color:#E84A27;">I will start my full-time position as an Assistant Professor in Computer Science at Johns Hopkins University in Jan 2024. I am looking for students to work with me. Drop me a note if you are interested!</p>
+              <p style="color:#E84A27;"> I am recuriting a few Ph.D students for Fall 2024. Drop me a note if you are interested!</p>
               <p style="color:#6A8CE5;"></p>
 
               <!-- <span style="color:#E84A27;"><a href="/pdf/ZiangXiao_Research_Statement.pdf">Research Statement</a></span>/
@@ -64,7 +161,7 @@
           
           <div class="text">
             <h3 style="margin-bottom:.5em">About.</h3>
-            <p> I am a Research Assistant Professor in Computer Science at Johns Hopkins University and a Postdoctoral Researcher in the Fairness, Accountability, Transparency, and Ethics group at Microsoft Research Montréal. I completed my Ph.D in <a href="https://cs.illinois.edu/">Computer Science</a> at <a href="https://illinois.edu/">the University of Illinois Urbana-Champaign</a>. 
+            <p> I am a Assistant Professor in Computer Science at Johns Hopkins University and a Postdoctoral Researcher in the Fairness, Accountability, Transparency, and Ethics group at Microsoft Research Montréal. I completed my Ph.D in <a href="https://cs.illinois.edu/">Computer Science</a> at <a href="https://illinois.edu/">the University of Illinois Urbana-Champaign</a>. 
             I was co-advised by <a href="http://sundaram.cs.illinois.edu/">Prof. Hari Sundaram</a> and <a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Prof. Karrie Karahalios</a></p> 
             <!-- I completed my B.S. in Psychology and Statistics & Computer Science at the University of Illinois with <a href="https://psychology.illinois.edu/directory/profile/dovcohen">Prof. Dov Cohen</a>. -->
 
@@ -87,1038 +184,17 @@
           
           <div id="pubs"></div>
 
-          <div id="pubs_selected" language="text" style="display: none;">
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/inform.png" alt="SEM model"></div>
-              <div class="text">
-                <div class="title"><a href="">Inform the Uninformed: Improving Online Informed Consent Reading with an AI-Powered Chatbot</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en">Tiffany Wenting Li</span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="http://sundaram.cs.illinois.edu/">Hari Sundaram</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="">CHI 2023</a></span>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/JenniferOverview.png" alt="Jennifer Architecture"></div>
-              <div class="text">
-                <div class="title"><a href="">Powering an AI Chatbot with Expert Sourcing to Support Credible Health Information Access</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="http://qveraliao.com/">Q. Vera Liao</a></span>,
-                  <span class="author"><a href="https://dblp.org/pid/90/5406.html">Michelle Zhou</a></span>,
-                  <span class="author"><a href="">Tyrone Grandison</a></span>,
-                  <span class="author"><a href="https://yunyaoli.github.io/">Yunyao Li</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="">IUI 2023</a></span>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/tochi_tell.png" alt="teaser image for tell me about yourself"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf">Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Michelle X Zhou</span>,
-                  <span class="author"><a href="http://qveraliao.com/">Q. Vera Liao</a></span>,
-                  <span class="author"><a href="">Gloria Mark</a></span>,
-                  <span class="author"><a href="">Changyan Chi</a></span>,
-                  <span class="author"><a href="">Wenxi Chen</a></span>,
-                  <span class="author"><a href="">Huahai Yang</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://dl.acm.org/journal/tochi">ACM Transactions on Computer-Human Interaction (TOCHI)</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://www.youtube.com/watch?v=YS13B6cxGYE">Video</a></span>/
-                  <span class="tag"><a href="https://dl.acm.org/doi/abs/10.1145/3381804">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/letmeaskyouthis.png" alt="balance between valuable feedback and user experiences"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/Voice_Interaction_for_Information_Elicitation.pdf">Let Me Ask You This: How Can a Voice Assistant Elicit Explicit User Feedback?</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>
-                  <span class="author"><a href="">Sarah Mennicken</a></span>,
-                  <span class="author"><a href="">Bernd Huber</a></span>,
-                  <span class="author"><a href="">Adam Shonkoff</a></span>,
-                  <span class="author"><a href="">Jennifer Thom</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2021/">CSCW 2021</a></span> /
-                  <span class="tag"><a href="pdf/Voice_Interaction_for_Information_Elicitation.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://www.youtube.com/watch?v=wfs6GBAXcB8">Video</a></span>/
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3479532">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/contestability.png" alt="participant's drawing during workshop"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/Contestability_For_Content_Moderation.pdf">Contestability for Content Moderation</a></div>
-                <div class="authors">
-                  <span class="author"><a href="http://kvaccaro.com/">Kristen Vaccaro</span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Kevin Hamilton</a></span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2021/">CSCW 2021</a></span> /
-                  <span class="tag"><a href="pdf/Contestability_For_Content_Moderation.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3476059">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/active_listening.png" alt="system architecture"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_If_I_Hear_You_Correctly.pdf">If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Michelle X Zhou</span>,
-                  <span class="author"><a href="">Wenxi Chen</a></span>,
-                  <span class="author"><a href="">Huahai Yang</a></span>,
-                  <span class="author"><a href="">Changyan Chi</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://chi2020.acm.org/">CHI 2020</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_If_I_Hear_You_Correctly.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://www.youtube.com/watch?v=tGk3GC3BXts">Video</a></span>/
-                  <span class="tag"><a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/if-i-hear-you-correctly-building-and-evaluating-interview-chatbots-with-active-listening-skills-91a51ab1d78b">Blog Post</a></span>/
-                  <span class="tag"><a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376131#">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/comic.png" alt="comic strip for persuasion"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf">Should We Use an Abstract Comic Form to Persuade?: Experiments with Online Charitable Donation</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Po-Shiun Ho</span>,
-                  <span class="author"><a href="">Xinran Wang</a></span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="http://sundaram.cs.illinois.edu/">Hari Sundaram</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2019/">CSCW 2019</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://crowddynamicslab.github.io/people/2020/02/01/Comic-Persuasion/">Blog Post</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3359177">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/INDIGO.png" alt="INDIGO Result"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf">Who Should be My Teammates: Using a Conversational Agent to Understand Individuals and Help Teaming</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Michelle X Zhou</span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2019/">IUI 2019</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/ai-chatbot-as-your-teammate-1e00b206c8f9">Blog Post</a></span> /
-                  <span class="tag"><a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/ai-chatbot-as-your-teammate-1e00b206c8f9">Blog Post</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3301275.3302264">ACM DL</a></span> 
-                </div>
-              </div>
-            </div>
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/labelornot.png" alt="newfeed stance label"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2018_To_Label_or_Not_to_Label_The_Effect_of_Stance_and_Credibility_Labels_on_Readers_Selection_and_Perception_of_News_Articles.pdf">To Label or Not to Label: The Effect of Stance and Credibility Labels on Readers' Selection and Perception of News Articles</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://uiucgmk.github.io/">Mingkun Gao*</span>,
-                    <span class="author zx">Ziang Xiao*</span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2018/">CSCW 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2018_To_Label_or_Not_to_Label_The_Effect_of_Stance_and_Credibility_Labels_on_Readers_Selection_and_Perception_of_News_Articles.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3274324">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/cubicle.png" alt="Screenshots from the Cubicle"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf">Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author"><a href="">Zeya Peng</a></span>,
-                  <span class="author"><a href="http://hanfei.ren/about">Hanfei Ren</a></span>,
-                  <span class="author"><a href="http://raynezhang.me/">Lei Zhang</a></span>,
-                  <span class="author"><a href="https://sites.google.com/view/shiliangzuo/">Shiliang Zuo</a></span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2018/">IUI 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3172944.3172954">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/spatial_vis.png" alt="spatial vis interface"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2017_A_Scalable_Online_Platform_for_Evaluating_and_Training_Visuospatial_Skills_of_Engineering_Students.pdf">A Scalable Online Platform for Evaluating and Training Visuospatial Skills of Engineering Students</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</span>,
-                  <span class="author"><a href="https://chihsienyen.github.io/">Chi-hsien Yen</span>,
-                  <span class="author"><a href="https://www.csee.umbc.edu/~sanorita/">Sanorita Dey</span>,
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</span>,
-                  <span class="author"><a href="">Lames M Leake</span>,
-                  <span class="author"><a href="">Brian S. Woodard</span>,
-                  <span class="author"><a href="">Angela Wolters</span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2017">ASEE 2017</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2017_A_Scalable_Online_Platform_for_Evaluating_and_Training_Visuospatial_Skills_of_Engineering_Students.pdf">Paper</a></span> 
-                </div>
-              </div>
-            </div>
-
-          </div>    
+          <div id="pubs_selected" language="text" style="display: none;"></div>    
           <!-- BY DATE -->
-          <div id="pubs_by_date" language="text" style="display: none;">
-            <div class="text anchor"><h4>Working Paper</h4></div>
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="" alt=""></div>
-              <div class="text">
-                <div class="title"><a href="">On Knowledge-driven follow-up question generation.</a></div>
-                <div class="authors">
-                  <span class="author">Yubin Ge*</span>,
-                  <span class="author zx">Ziang Xiao*</span>,
-                  <span class="author"><a href="">Jana Diesner</span>,
-                    <span class="author"><a href="">Heng Ji</span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="http://sundaram.cs.illinois.edu/">Hari Sundaram</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="">Submitted</a></span>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="" alt=""></div>
-              <div class="text">
-                <div class="title"><a href="">On LLM-based Deductive Coding</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a>Xingdi Yuan</span>,
-                  <span class="author"><a>Q. Vera Liao</a></span>,
-                  <span class="author"><a>Rania Abdelghani</a></span>,
-                  <span class="author"><a>Pierre-Yves Oudeyer</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="">Submitted</a></span>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="text anchor"><h4>2023</h4></div>
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/inform.png" alt="SEM model"></div>
-              <div class="text">
-                <div class="title"><a href="">Inform the Uninformed: Improving Online Informed Consent Reading with an AI-Powered Chatbot</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en">Tiffany Wenting Li</span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="http://sundaram.cs.illinois.edu/">Hari Sundaram</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="">CHI 2023</a></span>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/JenniferOverview.png" alt="Jennifer Architecture"></div>
-              <div class="text">
-                <div class="title"><a href="">Powering an AI Chatbot with Expert Sourcing to Support Credible Health Information Access</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="http://qveraliao.com/">Q. Vera Liao</a></span>,
-                  <span class="author"><a href="https://dblp.org/pid/90/5406.html">Michelle Zhou</a></span>,
-                  <span class="author"><a href="">Tyrone Grandison</a></span>,
-                  <span class="author"><a href="https://yunyaoli.github.io/">Yunyao Li</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="">IUI 2023</a></span>
-
-                </div>
-              </div>
-            </div>
-            
-            <div class="text anchor"><h4>2021</h4></div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/letmeaskyouthis.png" alt="balance between valuable feedback and user experiences"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/Voice_Interaction_for_Information_Elicitation.pdf">Let Me Ask You This: How Can a Voice Assistant Elicit Explicit User Feedback?</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Sarah Mennicken</a></span>,
-                  <span class="author"><a href="">Bernd Huber</a></span>,
-                  <span class="author"><a href="">Adam Shonkoff</a></span>,
-                  <span class="author"><a href="">Jennifer Thom</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2021/">CSCW 2021</a></span> /
-                  <span class="tag"><a href="pdf/Voice_Interaction_for_Information_Elicitation.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://www.youtube.com/watch?v=wfs6GBAXcB8">Video</a></span>/
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3479532">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/contestability.png" alt="participant's drawing during workshop"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/Contestability_For_Content_Moderation.pdf">Contestability for Content Moderation</a></div>
-                <div class="authors">
-                  <span class="author"><a href="http://kvaccaro.com/">Kristen Vaccaro</span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Kevin Hamilton</a></span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2021/">CSCW 2021</a></span> /
-                  <span class="tag"><a href="pdf/Contestability_For_Content_Moderation.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3476059">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/workshop.png" alt=""></div>
-              <div class="text">
-                <div class="title"><a href="">Application of Online Visual-Spatial Training to Increase Visual-Spatial Ability and Growth Mindset of Engineering
-                  Students</a></div>
-                <div class="authors">
-                  <span class="author"><a href="">Molly H Goldstein</a></span>,
-                  <span class="author"><a href="">John Mark Froiland</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Brian S Woodard</a></span>,
-                  <span class="author"><a href="">Li Tao</a></span>,
-                  <span class="author"><a href="">Michael L Philpott</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2021">International Journal of Engineering Education (IJEE)</a></span> /
-                  <span class="tag"><a href="">Paper (in press)</a></span> 
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/sketcher.png" alt="feedback message for student's sketch"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/evaluating-an-intelligent-sketching-feedback-tool-for-scalable-spatial-visualization-skill-training.pdf">Evaluating an Intelligent Sketching Feedback Tool for Scalable Spatial Visualization Skill Training</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en">Tiffany Wenting Li</span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Molly H Goldstein</a></span>,
-                  <span class="author"><a href="">Michael L Philpott</a></span>,
-                  <span class="author"><a href="">Brian S Woodard</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2021">ASEE 2021</a></span> /
-                  <span class="tag"><a href="pdf/evaluating-an-intelligent-sketching-feedback-tool-for-scalable-spatial-visualization-skill-training.pdf">Work in Progress</a></span> 
-                </div>
-              </div>
-            </div>
-
-          <div class="text anchor"><h4>2020</h4></div>
-
-           <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/chiplay20.png" alt=""></div>
-              <div class="text">
-                <div class="title"><a href="pdf/wauck_chiplay2020.pdf">A Data-Driven, Player-Centric Approach to Evaluating Spatial Skill Training Games</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en">Tiffany Wenting Li</span>,
-                  <span class="author"><a href="https://orchid.cs.illinois.edu/people/bailey/index.html">Brian P Bailey</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://chiplay.acm.org/2020/">CHI Play 2020</a></span> /
-                  <span class="tag"><a href="pdf/wauck_chiplay2020.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3410404.3414255">ACM DL</a></span>
-                </div>
-                <div>
-                  <span class="highlight">Honorable Mention</span> 
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/tochi_tell.png" alt="teaser image for tell me about yourself"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf">Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Michelle X Zhou</span>,
-                  <span class="author"><a href="http://qveraliao.com/">Q. Vera Liao</a></span>,
-                  <span class="author"><a href="">Gloria Mark</a></span>,
-                  <span class="author"><a href="">Changyan Chi</a></span>,
-                  <span class="author"><a href="">Wenxi Chen</a></span>,
-                  <span class="author"><a href="">Huahai Yang</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://dl.acm.org/journal/tochi">ACM Transactions on Computer-Human Interaction (TOCHI)</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://www.youtube.com/watch?v=YS13B6cxGYE">Video</a></span>/
-                  <span class="tag"><a href="https://dl.acm.org/doi/abs/10.1145/3381804">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/active_listening.png" alt="system architecture"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_If_I_Hear_You_Correctly.pdf">If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Michelle X Zhou</span>,
-                  <span class="author"><a href="">Wenxi Chen</a></span>,
-                  <span class="author"><a href="">Huahai Yang</a></span>,
-                  <span class="author"><a href="">Changyan Chi</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://chi2020.acm.org/">CHI 2020</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_If_I_Hear_You_Correctly.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://www.youtube.com/watch?v=tGk3GC3BXts">Video</a></span>/
-                  <span class="tag"><a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/if-i-hear-you-correctly-building-and-evaluating-interview-chatbots-with-active-listening-skills-91a51ab1d78b">Blog Post</a></span>/
-                  <span class="tag"><a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376131#">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="text anchor"><h4>2019</h4></div>
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/comic.png" alt="comic strip for persuasion"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf">Should We Use an Abstract Comic Form to Persuade?: Experiments with Online Charitable Donation</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Po-Shiun Ho</span>,
-                  <span class="author"><a href="">Xinran Wang</a></span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="http://sundaram.cs.illinois.edu/">Hari Sundaram</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2019/">CSCW 2019</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://crowddynamicslab.github.io/people/2020/02/01/Comic-Persuasion/">Blog Post</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3359177">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/mindset.png" alt="mindset teaser image"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2019_Understanding_Interrelated_Growth_Mind-set_and_Academic Participation_&_Performance.pdf">Understanding Interrelated Growth Mindset and Academic Participation & Performance</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://sites.google.com/view/shiliangzuo/">Shiliang Zuo</span>,
-                  <span class="author"><a href="">Jinhao Zhao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>,
-                  <span class="author"><a href="">Molly H Goldstein</a></span>,
-                  <span class="author"><a href="">Michael L Philpott</a></span>,
-                  <span class="author"><a href="">Julia Laystrom-Woodard</a></span>,
-                  <span class="author"><a href="">Marcia Pool</a></span>,
-                  <span class="author"><a href="">Angela Wolters</a></span>,
-                  <span class="author"><a href="">Brian S Woodard</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2019">ASEE 2019</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2019_Understanding_Interrelated_Growth_Mind-set_and_Academic Participation_&_Performance.pdf">Work in Progress</a></span> 
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/INDIGO.png" alt="INDIGO Result"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf">Who Should be My Teammates: Using a Conversational Agent to Understand Individuals and Help Teaming</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Michelle X Zhou</span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2019/">IUI 2019</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3301275.3302264">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/Virtually_personal.png" alt="getting virtualll personal teaser image"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[d]Zhou_Getting_Virtually_Personal_Chatbots_Who_Actively_Listen_to_You_and_Infer_Your_Personality.pdf">Getting virtually personal: chatbots who actively listen to you and infer your personality</a></div>
-                <div class="authors">
-                  <span class="author"><a href="">Michelle X Zhou</span>,
-                    <span class="author"><a href="">Wenxi Chen</a></span>,
-                    <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Huahai Yang</a></span>,
-                  <span class="author"><a href="">Tracy Chi</a></span>,
-                  <span class="author"><a href="">Ransom Williams</a></span>,
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2019/">IUI 2019</a></span> /
-                  <span class="tag"><a href="pdf/[d]Zhou_Getting_Virtually_Personal_Chatbots_Who_Actively_Listen_to_You_and_Infer_Your_Personality.pdf">Demo Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3308557.3308667">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="text anchor"><h4>2018</h4></div>
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/labelornot.png" alt="newfeed stance label"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2018_To_Label_or_Not_to_Label_The_Effect_of_Stance_and_Credibility_Labels_on_Readers_Selection_and_Perception_of_News_Articles.pdf">To Label or Not to Label: The Effect of Stance and Credibility Labels on Readers' Selection and Perception of News Articles</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://uiucgmk.github.io/">Mingkun Gao*</span>,
-                    <span class="author zx">Ziang Xiao*</span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2018/">CSCW 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2018_To_Label_or_Not_to_Label_The_Effect_of_Stance_and_Credibility_Labels_on_Readers_Selection_and_Perception_of_News_Articles.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3274324">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/rotation.png" alt="rotation gestures, rotation x,y,and z."></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Chiu_2018_Supporting_Spatial_Skill_Learning_with_Gesture-Based_Embodied_Design.pdf">Supporting Spatial Skill Learning with Gesture-Based Embodied Design</a></div>
-                <div class="authors">
-                  <span class="author"><a href="">Po-Tsung Chiu</span>,
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2018/">IUI 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Chiu_2018_Supporting_Spatial_Skill_Learning_with_Gesture-Based_Embodied_Design.pdf">Short Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3172944.3172994">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/cubicle.png" alt="Screenshots from the Cubicle"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf">Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author"><a href="">Zeya Peng</a></span>,
-                  <span class="author"><a href="http://hanfei.ren/about">Hanfei Ren</a></span>,
-                  <span class="author"><a href="http://raynezhang.me/">Lei Zhang</a></span>,
-                  <span class="author"><a href="https://sites.google.com/view/shiliangzuo/">Shiliang Zuo</a></span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2018/">IUI 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3172944.3172954">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/intelligenteducationalplatform.png" alt="Spatial vis teaser"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2018_An_Intelligent_Educational_Platform_for_Training_Spatial_Visualization_Skills.pdf">An Intelligent Educational Platform for Training Spatial Visualization Skills</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2018/">IUI 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2018_An_Intelligent_Educational_Platform_for_Training_Spatial_Visualization_Skills.pdf">Poster</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3180308.3180370">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="text anchor"><h4>2017</h4></div>
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/homeworldbound.png" alt="Game Features in Homeworld Bound"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Wauck_2017_Untangling_the_Relationship_Between_Spatial_Skills_Game_Features_and_Gender_in_a_Video_Game.pdf">Untangling the Relationship Between Spatial Skills, Game Features, and Gender in a Video Game</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Po-Tsung Chiu</span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="http://iccv2021.thecvf.com/home">IUI 2017</a></span> /
-                  <span class="tag"><a href="pdf/[p]Wauck_2017_Untangling_the_Relationship_Between_Spatial_Skills_Game_Features_and_Gender_in_a_Video_Game.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/abs/10.1145/3025171.3025225">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/spatial_vis.png" alt="spatial vis interface"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2017_A_Scalable_Online_Platform_for_Evaluating_and_Training_Visuospatial_Skills_of_Engineering_Students.pdf">A Scalable Online Platform for Evaluating and Training Visuospatial Skills of Engineering Students</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</span>,
-                  <span class="author"><a href="https://chihsienyen.github.io/">Chi-hsien Yen</span>,
-                  <span class="author"><a href="https://www.csee.umbc.edu/~sanorita/">Sanorita Dey</span>,
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</span>,
-                  <span class="author"><a href="">Lames M Leake</span>,
-                  <span class="author"><a href="">Brian S. Woodard</span>,
-                  <span class="author"><a href="">Angela Wolters</span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2017">ASEE 2017</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2017_A_Scalable_Online_Platform_for_Evaluating_and_Training_Visuospatial_Skills_of_Engineering_Students.pdf">Paper</a></span> 
-                </div>
-              </div>
-            </div>
-            <div class="text anchor"><h4>2016</h4></div>
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/stock.png" alt="stock market teaser"></div>
-              <div class="text">
-                <div class="title"><a href="">Does Grammatically Gendered Language Have an Impact on Investors' behaviors? Companies with Grammatically Masculine Names Show More Stock Momentum Than Those with Grammatically Feminine Names</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>
-                </div>
-                <div>
-                  <span class="venue"><a href="http://iccv2021.thecvf.com/home">Supervised by Prof. Dov Cohen</a></span> /
-                  <span class="tag"><a href="">Bachelor Thesis</a></span> 
-                </div>
-              </div>
-            </div>
-          </div>
+          <div id="pubs_by_date" language="text" style="display: none;"></div> 
           <!-- BY TOPIC -->
           <div id="pubs_by_topic" language="text" style="display: none;">
             
-          <div class="text anchor" id="ai"><h4>Conversational interface for human understanding.</h4></div>
-
-          <div class="publication">
-            <div class="img"><img class="img_responsive" src="images/inform.png" alt="SEM model"></div>
-            <div class="text">
-              <div class="title"><a href="">Inform the Uninformed: Improving Online Informed Consent Reading with an AI-Powered Chatbot</a></div>
-              <div class="authors">
-                <span class="author zx">Ziang Xiao</span>,
-                <span class="author"><a href="https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en">Tiffany Wenting Li</span>,
-                <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                <span class="author"><a href="http://sundaram.cs.illinois.edu/">Hari Sundaram</a></span>
-              </div>
-              <div>
-                <span class="venue"><a href="">CHI 2023</a></span>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="publication">
-            <div class="img"><img class="img_responsive" src="images/tochi_tell.png" alt="teaser image for tell me about yourself"></div>
-            <div class="text">
-              <div class="title"><a href="pdf/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf">Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions</a></div>
-              <div class="authors">
-                <span class="author zx">Ziang Xiao</span>,
-                <span class="author"><a href="">Michelle X Zhou</span>,
-                <span class="author"><a href="http://qveraliao.com/">Q. Vera Liao</a></span>,
-                <span class="author"><a href="">Gloria Mark</a></span>,
-                <span class="author"><a href="">Changyan Chi</a></span>,
-                <span class="author"><a href="">Wenxi Chen</a></span>,
-                <span class="author"><a href="">Huahai Yang</a></span>
-              </div>
-              <div>
-                <span class="venue"><a href="https://dl.acm.org/journal/tochi">ACM Transactions on Computer-Human Interaction (TOCHI)</a></span> /
-                <span class="tag"><a href="pdf/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf">Paper</a></span> /
-                <span class="tag"><a href="https://www.youtube.com/watch?v=YS13B6cxGYE">Video</a></span>/
-                <span class="tag"><a href="https://dl.acm.org/doi/abs/10.1145/3381804">ACM DL</a></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="publication">
-            <div class="img"><img class="img_responsive" src="images/letmeaskyouthis.png" alt="balance between valuable feedback and user experiences"></div>
-            <div class="text">
-              <div class="title"><a href="pdf/Voice_Interaction_for_Information_Elicitation.pdf">Let Me Ask You This: How Can a Voice Assistant Elicit Explicit User Feedback?</a></div>
-              <div class="authors">
-                <span class="author zx">Ziang Xiao</span>,
-                <span class="author"><a href="">Sarah Mennicken</a></span>,
-                <span class="author"><a href="">Bernd Huber</a></span>,
-                <span class="author"><a href="">Adam Shonkoff</a></span>,
-                <span class="author"><a href="">Jennifer Thom</a></span>
-              </div>
-              <div>
-                <span class="venue"><a href="https://cscw.acm.org/2021/">CSCW 2021</a></span> /
-                <span class="tag"><a href="pdf/Voice_Interaction_for_Information_Elicitation.pdf">Paper</a></span> /
-                <span class="tag"><a href="https://www.youtube.com/watch?v=wfs6GBAXcB8">Video</a></span>/
-                <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3479532">ACM DL</a></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="publication">
-            <div class="img"><img class="img_responsive" src="images/active_listening.png" alt="system architecture"></div>
-            <div class="text">
-              <div class="title"><a href="pdf/[p]Xiao_If_I_Hear_You_Correctly.pdf">If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills</a></div>
-              <div class="authors">
-                <span class="author zx">Ziang Xiao</span>,
-                <span class="author"><a href="">Michelle X Zhou</span>,
-                <span class="author"><a href="">Wenxi Chen</a></span>,
-                <span class="author"><a href="">Huahai Yang</a></span>,
-                <span class="author"><a href="">Changyan Chi</a></span>
-              </div>
-              <div>
-                <span class="venue"><a href="https://chi2020.acm.org/">CHI 2020</a></span> /
-                <span class="tag"><a href="pdf/[p]Xiao_If_I_Hear_You_Correctly.pdf">Paper</a></span> /
-                <span class="tag"><a href="https://www.youtube.com/watch?v=tGk3GC3BXts">Video</a></span>/
-                <span class="tag"><a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/if-i-hear-you-correctly-building-and-evaluating-interview-chatbots-with-active-listening-skills-91a51ab1d78b">Blog Post</a></span>/
-                <span class="tag"><a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376131#">ACM DL</a></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="publication">
-            <div class="img"><img class="img_responsive" src="images/INDIGO.png" alt="INDIGO Result"></div>
-            <div class="text">
-              <div class="title"><a href="pdf/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf">Who Should be My Teammates: Using a Conversational Agent to Understand Individuals and Help Teaming</a></div>
-              <div class="authors">
-                <span class="author zx">Ziang Xiao</span>,
-                <span class="author"><a href="">Michelle X Zhou</span>,
-                <span class="author"><a href="">Wai-Tat Fu</a></span>
-              </div>
-              <div>
-                <span class="venue"><a href="https://iui.acm.org/2019/">IUI 2019</a></span> /
-                <span class="tag"><a href="pdf/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf">Paper</a></span> /
-                <span class="tag"><a href="https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/ai-chatbot-as-your-teammate-1e00b206c8f9">Blog Post</a></span> /
-                <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3301275.3302264">ACM DL</a></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="publication">
-            <div class="img"><img class="img_responsive" src="images/Virtually_personal.png" alt="getting virtualll personal teaser image"></div>
-            <div class="text">
-              <div class="title"><a href="pdf/[d]Zhou_Getting_Virtually_Personal_Chatbots_Who_Actively_Listen_to_You_and_Infer_Your_Personality.pdf">Getting virtually personal: chatbots who actively listen to you and infer your personality</a></div>
-              <div class="authors">
-                <span class="author"><a href="">Michelle X Zhou</span>,
-                  <span class="author"><a href="">Wenxi Chen</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                <span class="author"><a href="">Huahai Yang</a></span>,
-                <span class="author"><a href="">Tracy Chi</a></span>,
-                <span class="author"><a href="">Ransom Williams</a></span>,
-              </div>
-              <div>
-                <span class="venue"><a href="https://iui.acm.org/2019/">IUI 2019</a></span> /
-                <span class="tag"><a href="pdf/[d]Zhou_Getting_Virtually_Personal_Chatbots_Who_Actively_Listen_to_You_and_Infer_Your_Personality.pdf">Demo Paper</a></span> /
-                <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3308557.3308667">ACM DL</a></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="text anchor" id="ai"><h4>Understanding human information seeking and consumption.</h4></div>
-
-          <div class="publication">
-            <div class="img"><img class="img_responsive" src="images/JenniferOverview.png" alt="Jennifer Architecture"></div>
-            <div class="text">
-              <div class="title"><a href="">Powering an AI Chatbot with Expert Sourcing to Support Credible Health Information Access</a></div>
-              <div class="authors">
-                <span class="author zx">Ziang Xiao</span>,
-                <span class="author"><a href="http://qveraliao.com/">Q. Vera Liao</a></span>,
-                <span class="author"><a href="https://dblp.org/pid/90/5406.html">Michelle Zhou</a></span>,
-                <span class="author"><a href="">Tyrone Grandison</a></span>,
-                <span class="author"><a href="https://yunyaoli.github.io/">Yunyao Li</a></span>
-              </div>
-              <div>
-                <span class="venue"><a href="">IUI 2023</a></span>
-
-              </div>
-            </div>
-          </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/comic.png" alt="comic strip for persuasion"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf">Should We Use an Abstract Comic Form to Persuade?: Experiments with Online Charitable Donation</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Po-Shiun Ho</span>,
-                  <span class="author"><a href="">Xinran Wang</a></span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="http://sundaram.cs.illinois.edu/">Hari Sundaram</a></span>
-                </div>
-              <div>
-                <span class="venue"><a href="https://cscw.acm.org/2019/">CSCW 2019</a></span> /
-                <span class="tag"><a href="pdf/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf">Paper</a></span> /
-                <span class="tag"><a href="https://crowddynamicslab.github.io/people/2020/02/01/Comic-Persuasion/">Blog Post</a></span> /
-                <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3359177">ACM DL</a></span>
-              </div>
-            </div>
-            </div>
-            
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/labelornot.png" alt="newfeed stance label"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2018_To_Label_or_Not_to_Label_The_Effect_of_Stance_and_Credibility_Labels_on_Readers_Selection_and_Perception_of_News_Articles.pdf">To Label or Not to Label: The Effect of Stance and Credibility Labels on Readers' Selection and Perception of News Articles</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://uiucgmk.github.io/">Mingkun Gao*</span>,
-                    <span class="author zx">Ziang Xiao*</span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2018/">CSCW 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2018_To_Label_or_Not_to_Label_The_Effect_of_Stance_and_Credibility_Labels_on_Readers_Selection_and_Perception_of_News_Articles.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3274324">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="text anchor" id="ai"><h4>Online spaces and social computing.</h4></div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/contestability.png" alt="participant's drawing during workshop"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/Contestability_For_Content_Moderation.pdf">Contestability for Content Moderation</a></div>
-                <div class="authors">
-                  <span class="author"><a href="http://kvaccaro.com/">Kristen Vaccaro</span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Kevin Hamilton</a></span>,
-                  <span class="author"><a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Karrie Karahalios</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://cscw.acm.org/2021/">CSCW 2021</a></span> /
-                  <span class="tag"><a href="pdf/Contestability_For_Content_Moderation.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3476059">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="text anchor" id="ai"><h4>Spatial visualization skills.</h4></div>
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/workshop.png" alt=""></div>
-              <div class="text">
-                <div class="title"><a href="">Application of Online Visual-Spatial Training to Increase Visual-Spatial Ability and Growth Mindset of Engineering
-                  Students</a></div>
-                <div class="authors">
-                  <span class="author"><a href="">Molly H Goldstein</a></span>,
-                  <span class="author"><a href="">John Mark Froiland</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Brian S Woodard</a></span>,
-                  <span class="author"><a href="">Li Tao</a></span>,
-                  <span class="author"><a href="">Michael L Philpott</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2021">International Journal of Engineering Education (IJEE)</a></span> /
-                  <span class="tag"><a href="">Paper (in press)</a></span> 
-                </div>
-              </div>
-            </div>
-            
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/sketcher.png" alt="feedback message for student's sketch"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/evaluating-an-intelligent-sketching-feedback-tool-for-scalable-spatial-visualization-skill-training.pdf">Evaluating an Intelligent Sketching Feedback Tool for Scalable Spatial Visualization Skill Training</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en">Tiffany Wenting Li</span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Molly H Goldstein</a></span>,
-                  <span class="author"><a href="">Michael L Philpott</a></span>,
-                  <span class="author"><a href="">Brian S Woodard</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2021">ASEE 2021</a></span> /
-                  <span class="tag"><a href="pdf/evaluating-an-intelligent-sketching-feedback-tool-for-scalable-spatial-visualization-skill-training.pdf">Work in Progress</a></span> 
-                </div>
-              </div>
-            </div>
-
-           <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/chiplay20.png" alt=""></div>
-              <div class="text">
-                <div class="title"><a href="pdf/wauck_chiplay2020.pdf">A Data-Driven, Player-Centric Approach to Evaluating Spatial Skill Training Games</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en">Tiffany Wenting Li</span>,
-                  <span class="author"><a href="https://orchid.cs.illinois.edu/people/bailey/index.html">Brian P Bailey</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://chiplay.acm.org/2020/">CHI Play 2020</a></span> /
-                  <span class="tag"><a href="pdf/wauck_chiplay2020.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3410404.3414255">ACM DL</a></span>
-                </div>
-                <div>
-                  <span class="highlight">Honorable Mention</span> 
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/mindset.png" alt="mindset teaser image"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2019_Understanding_Interrelated_Growth_Mind-set_and_Academic Participation_&_Performance.pdf">Understanding Interrelated Growth Mindset and Academic Participation & Performance</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://sites.google.com/view/shiliangzuo/">Shiliang Zuo</span>,
-                  <span class="author"><a href="">Jinhao Zhao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>,
-                  <span class="author"><a href="">Molly H Goldstein</a></span>,
-                  <span class="author"><a href="">Michael L Philpott</a></span>,
-                  <span class="author"><a href="">Julia Laystrom-Woodard</a></span>,
-                  <span class="author"><a href="">Marcia Pool</a></span>,
-                  <span class="author"><a href="">Angela Wolters</a></span>,
-                  <span class="author"><a href="">Brian S Woodard</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2019">ASEE 2019</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2019_Understanding_Interrelated_Growth_Mind-set_and_Academic Participation_&_Performance.pdf">Work in Progress</a></span> 
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/rotation.png" alt="rotation gestures, rotation x,y,and z."></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Chiu_2018_Supporting_Spatial_Skill_Learning_with_Gesture-Based_Embodied_Design.pdf">Supporting Spatial Skill Learning with Gesture-Based Embodied Design</a></div>
-                <div class="authors">
-                  <span class="author"><a href="">Po-Tsung Chiu</span>,
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2018/">IUI 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Chiu_2018_Supporting_Spatial_Skill_Learning_with_Gesture-Based_Embodied_Design.pdf">Short Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3172944.3172994">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/cubicle.png" alt="Screenshots from the Cubicle"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf">Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author"><a href="">Zeya Peng</a></span>,
-                  <span class="author"><a href="http://hanfei.ren/about">Hanfei Ren</a></span>,
-                  <span class="author"><a href="http://raynezhang.me/">Lei Zhang</a></span>,
-                  <span class="author"><a href="https://sites.google.com/view/shiliangzuo/">Shiliang Zuo</a></span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2018/">IUI 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3172944.3172954">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/intelligenteducationalplatform.png" alt="Spatial vis teaser"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2018_An_Intelligent_Educational_Platform_for_Training_Spatial_Visualization_Skills.pdf">An Intelligent Educational Platform for Training Spatial Visualization Skills</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</a></span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://iui.acm.org/2018/">IUI 2018</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2018_An_Intelligent_Educational_Platform_for_Training_Spatial_Visualization_Skills.pdf">Poster</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/10.1145/3180308.3180370">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/homeworldbound.png" alt="Game Features in Homeworld Bound"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Wauck_2017_Untangling_the_Relationship_Between_Spatial_Skills_Game_Features_and_Gender_in_a_Video_Game.pdf">Untangling the Relationship Between Spatial Skills, Game Features, and Gender in a Video Game</a></div>
-                <div class="authors">
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</a></span>,
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="">Po-Tsung Chiu</span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="http://iccv2021.thecvf.com/home">IUI 2017</a></span> /
-                  <span class="tag"><a href="pdf/[p]Wauck_2017_Untangling_the_Relationship_Between_Spatial_Skills_Game_Features_and_Gender_in_a_Video_Game.pdf">Paper</a></span> /
-                  <span class="tag"><a href="https://dl.acm.org/doi/abs/10.1145/3025171.3025225">ACM DL</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img_responsive" src="images/spatial_vis.png" alt="spatial vis interface"></div>
-              <div class="text">
-                <div class="title"><a href="pdf/[p]Xiao_2017_A_Scalable_Online_Platform_for_Evaluating_and_Training_Visuospatial_Skills_of_Engineering_Students.pdf">A Scalable Online Platform for Evaluating and Training Visuospatial Skills of Engineering Students</a></div>
-                <div class="authors">
-                  <span class="author zx">Ziang Xiao</span>,
-                  <span class="author"><a href="https://yuqiyao.com/">Yuqi Yao</span>,
-                  <span class="author"><a href="https://chihsienyen.github.io/">Chi-hsien Yen</span>,
-                  <span class="author"><a href="https://www.csee.umbc.edu/~sanorita/">Sanorita Dey</span>,
-                  <span class="author"><a href="https://www.sift.net/staff/helen-wauck">Helen Wauck</span>,
-                  <span class="author"><a href="">Lames M Leake</span>,
-                  <span class="author"><a href="">Brian S. Woodard</span>,
-                  <span class="author"><a href="">Angela Wolters</span>,
-                  <span class="author"><a href="">Wai-Tat Fu</a></span>
-                </div>
-                <div>
-                  <span class="venue"><a href="https://www.asee.org/annual-conference/2017">ASEE 2017</a></span> /
-                  <span class="tag"><a href="pdf/[p]Xiao_2017_A_Scalable_Online_Platform_for_Evaluating_and_Training_Visuospatial_Skills_of_Engineering_Students.pdf">Paper</a></span> 
-                </div>
-              </div>
-            </div>
+          <div class="text anchor" id="AI4SS"><h4>AI4SocialScience.</h4></div>
+          <div class="text anchor" id="Eval"><h4>Evaluation.</h4></div>          
+          <div class="text anchor" id="INFO"><h4>Informavore.</h4></div>
+          <div class="text anchor" id="SV"><h4>SpatialVis.</h4></div>
+           
                       
           </div>
 
@@ -1126,11 +202,10 @@
 
       </div> <!-- container -->
       <footer>
-        <p>last update: 01/23/2023</p>
+        <p>last update: 06/08/2023</p>
       </footer>
       
     </div> <!-- outer container -->
 
-    <script>showPubs(0);</script>
-    <script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000}); createHtmlBlockFromJsonFile('./assets/publications.json'); </script>
 </body>
