@@ -20,19 +20,78 @@
       {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} 
     ],  
     "venue": {  
-      "name": "ArXiv",  
+      "name": "Under Review",  
       "url": ""  
     },  
-    "paper": "https://arxiv.org/pdf/2305.14889.pdf",  
+    "paper": "pdf/Evaluate_NLG_Evaluation_Metrics__A_Measurement_Theory_Perspective.pdf",  
     "video": "",  
     "acmDL": "",  
-    "year":"Work in Progress",
+    "year":"Under Review",
     "featured": false,
     "type": "Paper",
-    "topic":"Eval"  
+    "topic":"LAN"  
   },
   {  
     "image": "",  
+    "alt": "",  
+    "title": "ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games",  
+    "authors": [   
+      {"name": "Ruoyao Wang", "url": "https://wsxzwps.github.io/"},
+      {"name": "Graham Todd", "url": "https://scholar.google.com/citations?user=NyBWyCIAAAAJ&hl=en"},
+      {"name": "Xingdi Yuan", "url": "https://xingdi-eric-yuan.github.io/"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Marc-Alexandre Côté", "url": "https://www.microsoft.com/en-us/research/people/macote/"},
+      {"name": "Peter Jansen", "url": "https://ischool.arizona.edu/person/peter-jansen"}    
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": ""  
+    },  
+    "paper": "https://arxiv.org/pdf/2305.14879.pdf",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "Under Review",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN"    
+  },
+  {
+    "image": "",  
+    "alt": "",  
+    "title": "Deep Language Networks: Joint Prompt Training of Stacked LLMs using Variational Inference",  
+    "authors": [   
+      {"name": "Alessandro Sordoni", "url": "https://www.microsoft.com/en-us/research/people/alsordon/"},
+      {"name": "Xingdi Yuan", "url": "https://xingdi-eric-yuan.github.io/"},
+      {"name": "Marc-Alexandre Côté", "url": "https://www.microsoft.com/en-us/research/people/macote/"},
+      {"name": "Matheus Pereira", "url": "https://www.microsoft.com/en-us/research/people/matpereira/"},
+      {"name": "Adam Trischler", "url": "https://www.microsoft.com/en-us/research/people/adtrisch/"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },   
+      {"name": "Arian Hosseini", "url": "https://arianhosseini.github.io/"},
+      {"name": "Friederike Niedtner", "url": "https://www.microsoft.com/en-us/research/people/fniedtner/"},
+      {"name": "Nicolas Le Roux", "url": "https://nicolas.le-roux.name/"}
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": "https://arxiv.org/abs/2306.12509"  
+    },  
+    "paper": "https://arxiv.org/abs/2306.12509",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "Under Review",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN"    
+  },
+  {  
+    "image": "images/stock.png",  
     "alt": "",  
     "title": "Rethinking Model Evaluation as Narrowing the Socio-Technical Gap",  
     "authors": [   
@@ -44,16 +103,16 @@
       }    
     ],  
     "venue": {  
-      "name": "ArXiv",  
-      "url": ""  
+      "name": "AI&HCI at ICML 2023",  
+      "url": "https://sites.google.com/view/aihci/home"  
     },  
     "paper": "https://arxiv.org/pdf/2306.03100v1.pdf",  
     "video": "",  
     "acmDL": "",  
-    "year": "Work in Progress",
+    "year": "2023",
     "featured": false,
     "type": "Paper",
-    "topic":"Eval"    
+    "topic":"LAN"    
   },
   {  
     "image": "images/inform.png",  
@@ -121,7 +180,7 @@
       },
       {
         "name": "Xingdi Yuan",
-        "url": "http://qveraliao.com/"
+        "url": "https://xingdi-eric-yuan.github.io/"
       },
       {
         "name": "Q. Vera Liao",

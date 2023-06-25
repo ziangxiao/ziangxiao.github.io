@@ -87,8 +87,8 @@
           if (jsonData[i].featured == true){
             document.getElementById('pubs_selected').innerHTML += htmlBlock;
           } 
-          if (jsonData[i].topic == 'Eval'){
-            document.getElementById('Eval').innerHTML += htmlBlock;
+          if (jsonData[i].topic == 'LAN'){
+            document.getElementById('LAN').innerHTML += htmlBlock;
           }
           if (jsonData[i].topic == 'AI4SS'){
             document.getElementById('AI4SS').innerHTML += htmlBlock;
@@ -100,7 +100,7 @@
             document.getElementById('SV').innerHTML += htmlBlock;
           }    
         }    
-        showPubs(0);
+        showPubs(2);
       }  
     });  
   }  
@@ -176,7 +176,8 @@
             <h3 style="margin-bottom:0em">
               Publications. 
             </h3>
-            <div><a href="https://ziangxiao.com/" id="select0" onclick="showPubs(0); return false;" style="text-decoration: underline; color: rgb(0, 0, 0);">featured</a> / 
+            <div>
+              <!-- <a href="https://ziangxiao.com/" id="select0" onclick="showPubs(0); return false;" style="text-decoration: underline; color: rgb(0, 0, 0);">featured</a> /  -->
               <a href="https://ziangxiao.com/" id="select2" onclick="showPubs(2); return false;" >by topic</a> / 
               <a href="https://ziangxiao.com/" id="select1" onclick="showPubs(1); return false;" >by date:all</a></div>
             <span class="tag">(* indicate equal contribution)</span>
@@ -184,14 +185,14 @@
           
           <div id="pubs"></div>
 
-          <div id="pubs_selected" language="text" style="display: none;"></div>    
+          <!-- <div id="pubs_selected" language="text" style="display: none;"></div>     -->
           <!-- BY DATE -->
           <div id="pubs_by_date" language="text" style="display: none;"></div> 
           <!-- BY TOPIC -->
           <div id="pubs_by_topic" language="text" style="display: none;">
             
           <div class="text anchor" id="AI4SS"><h4>AI4SocialScience.</h4></div>
-          <div class="text anchor" id="Eval"><h4>Evaluation.</h4></div>          
+          <div class="text anchor" id="LAN"><h4>Language.</h4></div>          
           <div class="text anchor" id="INFO"><h4>Informavore.</h4></div>
           <div class="text anchor" id="SV"><h4>SpatialVis.</h4></div>
            
