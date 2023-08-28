@@ -112,7 +112,8 @@
     "year": "2023",
     "featured": false,
     "type": "Paper",
-    "topic":"LAN"    
+    "topic":"LAN",
+    "award": "Honorable Mention"    
   },
   {  
     "image": "images/inform.png",  
