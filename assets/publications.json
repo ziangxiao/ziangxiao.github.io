@@ -1,4 +1,59 @@
-[  
+[      
+{  
+  "image": "",  
+  "alt": "",  
+  "title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Information Seeking",  
+  "authors": [
+    {  
+      "name": "Nikhil Sharma",  
+      "url": ""  
+    },    
+    {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
+    {  
+      "name": "Ziang Xiao",  
+      "url": "",  
+      "extraClass": "zx"  
+    }
+  ],  
+  "venue": {  
+    "name": "Under Review",  
+    "url": ""  
+  },  
+  "paper": "",  
+  "video": "",  
+  "acmDL": "",  
+  "year":"Under Review",
+  "featured": false,
+  "type": "Paper",
+  "topic":"INFO"  
+},
+{  
+  "image": "",  
+  "alt": "",  
+  "title": "Trust or Stigmatization? Evidence From De-anonymizing Social Media in China",  
+  "authors": [
+    {  
+      "name": "Yiqian Wang",  
+      "url": ""  
+    },    
+    {  
+      "name": "Ziang Xiao",  
+      "url": "",  
+      "extraClass": "zx"  
+    }
+  ],  
+  "venue": {  
+    "name": "Under Review",  
+    "url": ""  
+  },  
+  "paper": "",  
+  "video": "",  
+  "acmDL": "",  
+  "year":"Under Review",
+  "featured": false,
+  "type": "Paper",
+  "topic":"INFO"  
+},
   {  
     "image": "",  
     "alt": "",  
