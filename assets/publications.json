@@ -134,13 +134,13 @@
       {"name": "Nicolas Le Roux", "url": "https://nicolas.le-roux.name/"}
     ],  
     "venue": {  
-      "name": "ArXiv",  
+      "name": "NeurIPS",  
       "url": "https://arxiv.org/abs/2306.12509"  
     },  
     "paper": "https://arxiv.org/abs/2306.12509",  
     "video": "",  
     "acmDL": "",  
-    "year": "Under Review",
+    "year": "2023",
     "featured": false,
     "type": "Paper",
     "topic":"LAN"    
