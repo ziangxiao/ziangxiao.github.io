@@ -55,9 +55,9 @@
   "topic":"INFO"  
 },
   {  
-    "image": "",  
+    "image": "images/metricEval.png",  
     "alt": "",  
-    "title": "Evaluating NLG Evaluation Metrics: A Measurement Theory Perspective",  
+    "title": "Evaluating Evaluation Metrics: A Framework for Analyzing NLG Evaluation Metrics using Measurement Theory",  
     "authors": [  
       {  
         "name": "Ziang Xiao*",  
@@ -66,28 +66,28 @@
       },  
       {  
         "name": "Susu Zhang*",  
-        "url": ""  
+        "url": "https://sites.google.com/view/susuzhang/"  
       },  
       {  
         "name": "Vivian Lai",  
-        "url": ""  
+        "url": "https://vivlai.github.io/"  
       },  
       {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} 
     ],  
     "venue": {  
-      "name": "Under Review",  
+      "name": "EMNLP 2023",  
       "url": ""  
     },  
     "paper": "pdf/Evaluate_NLG_Evaluation_Metrics__A_Measurement_Theory_Perspective.pdf",  
     "video": "",  
     "acmDL": "",  
-    "year":"Under Review",
+    "year":"2023",
     "featured": false,
     "type": "Paper",
     "topic":"LAN"  
   },
   {  
-    "image": "",  
+    "image": "images/bs32.png",  
     "alt": "",  
     "title": "ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games",  
     "authors": [   
@@ -103,19 +103,19 @@
       {"name": "Peter Jansen", "url": "https://ischool.arizona.edu/person/peter-jansen"}    
     ],  
     "venue": {  
-      "name": "ArXiv",  
+      "name": "EMNLP 2023",  
       "url": ""  
     },  
     "paper": "https://arxiv.org/pdf/2305.14879.pdf",  
     "video": "",  
     "acmDL": "",  
-    "year": "Under Review",
+    "year": "2023",
     "featured": false,
     "type": "Paper",
     "topic":"LAN"    
   },
   {
-    "image": "",  
+    "image": "images/dln.png",  
     "alt": "",  
     "title": "Deep Language Networks: Joint Prompt Training of Stacked LLMs using Variational Inference",  
     "authors": [   
@@ -134,7 +134,7 @@
       {"name": "Nicolas Le Roux", "url": "https://nicolas.le-roux.name/"}
     ],  
     "venue": {  
-      "name": "Accepted by NeurIPS 2023",  
+      "name": "NeurIPS 2023",  
       "url": "https://arxiv.org/abs/2306.12509"  
     },  
     "paper": "https://arxiv.org/abs/2306.12509",  
