@@ -1,4 +1,27 @@
-[      
+[ 
+{  
+  "image": "",  
+  "alt": "",  
+  "title": "Seeing Us Through Machines: Designing and Building Conversational AI to Understand Humans",  
+  "authors": [
+    {  
+      "name": "Ziang Xiao",  
+      "url": "",  
+      "extraClass": "zx"  
+    }
+  ],  
+  "venue": {  
+    "name": "Ph.D. Dissertation",  
+    "url": ""  
+  },  
+  "paper": "pdf/XIAO-DISSERTATION-2023.pdf",  
+  "video": "",  
+  "acmDL": "",  
+  "year":"2023",
+  "featured": false,
+  "type": "Paper",
+  "topic":"AI4SS"  
+},     
 {  
   "image": "",  
   "alt": "",  
