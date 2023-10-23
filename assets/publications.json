@@ -78,7 +78,7 @@
   "topic":"INFO"  
 },
   {  
-    "image": "images/metricEval.png",  
+    "image": "images/metricEval.jpg",  
     "alt": "",  
     "title": "Evaluating Evaluation Metrics: A Framework for Analyzing NLG Evaluation Metrics using Measurement Theory",  
     "authors": [  
@@ -101,7 +101,7 @@
       "name": "EMNLP 2023",  
       "url": ""  
     },  
-    "paper": "pdf/Evaluate_NLG_Evaluation_Metrics__A_Measurement_Theory_Perspective.pdf",  
+    "paper": "pdf/[p]Xiao_Evaluating_Evaluation_Metrics_A_Framework_for_Analyzing_NLG_Evaluation_Metrics_using_Measurement_Theory.pdf",  
     "video": "",  
     "acmDL": "",  
     "year":"2023",
@@ -320,9 +320,9 @@
       "name": "PACLIC 2023",
       "url": ""
     },
-    "paper": "pdf/Follow_up_Question_Gen.pdf",
+    "paper": "pdf/[p]Xiao_What_should_I_Ask_A_Knowledge_driven_Approach_for_Follow_up_Questions_Generation_in_Conversational Surveys.pdf",
     "acmDL": "",
-    "year": 2022,
+    "year": 2023,
     "featured": false,
     "type": "Paper",
     "topic":"AI4SS"   
