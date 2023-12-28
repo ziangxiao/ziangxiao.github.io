@@ -1,6 +1,6 @@
 [ 
 {  
-  "image": "",  
+  "image": "images/thesis.png",  
   "alt": "",  
   "title": "Seeing Us Through Machines: Designing and Building Conversational AI to Understand Humans",  
   "authors": [
@@ -29,7 +29,7 @@
   "authors": [
     {  
       "name": "Nikhil Sharma",  
-      "url": ""  
+      "url": "https://www.nikhilsksharma.com/about"  
     },    
     {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
     {  
@@ -57,7 +57,7 @@
   "authors": [
     {  
       "name": "Yiqian Wang",  
-      "url": ""  
+      "url": "https://sites.google.com/view/yiqianwang/home"  
     },    
     {  
       "name": "Ziang Xiao",  
@@ -99,15 +99,17 @@
     ],  
     "venue": {  
       "name": "EMNLP 2023",  
-      "url": ""  
+      "url": "https://2023.emnlp.org/"  
     },  
     "paper": "pdf/[p]Xiao_Evaluating_Evaluation_Metrics_A_Framework_for_Analyzing_NLG_Evaluation_Metrics_using_Measurement_Theory.pdf",  
     "video": "",  
-    "acmDL": "",  
+    "acmDL": "https://aclanthology.org/2023.emnlp-main.676/",  
     "year":"2023",
-    "featured": false,
+    "featured": true,
     "type": "Paper",
-    "topic":"LAN"  
+    "topic":"LAN",
+    "code":"https://github.com/isle-dev/MetricEval",
+    "PyPI":"https://pypi.org/project/metric-eval/"
   },
   {  
     "image": "images/bs32.png",  
@@ -127,14 +129,15 @@
     ],  
     "venue": {  
       "name": "EMNLP 2023",  
-      "url": ""  
+      "url": "https://2023.emnlp.org/"  
     },  
     "paper": "https://arxiv.org/pdf/2305.14879.pdf",  
     "video": "",  
-    "acmDL": "",  
+    "acmDL": "https://aclanthology.org/2023.emnlp-main.830/",  
     "year": "2023",
     "featured": false,
     "type": "Paper",
+    "code":"https://github.com/cognitiveailab/BYTESIZED32",
     "topic":"LAN"    
   },
   {
@@ -158,15 +161,17 @@
     ],  
     "venue": {  
       "name": "NeurIPS 2023",  
-      "url": "https://arxiv.org/abs/2306.12509"  
+      "url": "https://nips.cc/"  
     },  
-    "paper": "https://arxiv.org/abs/2306.12509",  
-    "video": "",  
+    "paper": "Joint Prompt Optimization of Stacked LLMs using Variational Inference",  
+    "video": "https://podcasts.apple.com/us/podcast/abstracts-december-11-2023/id1318021537?i=1000638238693",  
     "acmDL": "",  
     "year": "2023",
     "featured": false,
     "type": "Paper",
-    "topic":"LAN"    
+    "topic":"LAN",
+    "blogPost":"https://medium.com/@friederike.niedtner/deep-language-networks-stacking-llms-in-trainable-layers-e7f719bcabde",
+    "code":"https://github.com/microsoft/deep-language-networks"
   },
   {  
     "image": "images/sogap.png",  

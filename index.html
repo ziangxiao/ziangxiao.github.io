@@ -42,6 +42,12 @@
     if (publication.acmDL){
       metaHtml+=` / <span class="tag"><a href="${publication.acmDL}">ACM DL</a></span>`
     }
+    if (publication.code){
+      metaHtml+=` / <span class="tag"><a href="${publication.code}">Github</a></span>`
+    }
+    if (publication.PyPI){
+      metaHtml+=` / <span class="tag"><a href="${publication.PyPI}">PyPI</a></span>`
+    }
     if (publication.award){
       metaHtml+=` / <span class="tag" style="color:#E84A27;"><a>${publication.award}</a></span>`
     }
@@ -130,13 +136,13 @@
             <h1>Ziang Xiao</h1>
             <p>
             </p>
-            <div>Postdoctoral Researcher</div>
+            <!-- <div>Postdoctoral Researcher</div>
             <div>FATE group | Montréal</div>
             <div>Microsoft Research</div>
             <p>
-            </p>
+            </p> -->
             
-            <div>Assistant Professor [2024 Jan]</div>
+            <div>Assistant Professor</div>
             <div>Computer Science</div>
             <div>Johns Hopkins University</div>
             <div>Email:&nbsp;ziang.xiao [at] jhu (dot) edu</div>
@@ -149,18 +155,23 @@
           <div class="content" style="z-index:1;position:relative">
             <div class="text">
               <h3 style="margin-bottom:.5em;">News.</h3>
-              <p style="color:#E84A27;"> I am recuriting 1-2 Ph.D students for Fall 2024. Please read my thougths on <a a href='./posts/studentadvising.html'>student advising and research landscape</a>. If you are interested, feel free to drop me a note!</p>
-              <p style="color:#E84A27;">A few recent papers were accepted at NeurIPS 23 and EMNLP 23. We are organizing an workshop on HCI+NLP at NAACL 2024 and a tutorial on Human-Centered Evaluation of Language Technologies at EMNLP 2024.  </p>
+              <p> In 2024, I am co-orgainzing/co-editing the following workshops and speiacl issues on topics related to <a href="">Human-centric generaitve AI</a> and <a href="">model evaluation</a>.</p>
+              <p> <a style="color:#E84A27;">[Speical Issue]</a> Human-Centric Generative AI @TiiS <a href="https://dl.acm.org/pb-assets/static_journal_pages/tiis/pdf/ACM_CFP_TiiS_Human-Centric-Generative-AI-1702668535690.pdf"> [Link]</a></p> 
+              <p> <a style="color:#E84A27;">[Workshop]</a> HEAL:Human-centered evalution and audting of lanaguges models @ CHI 2024 <a href="https://heal-workshop.github.io/"> [Link]</a> </p>
+              <p> <a style="color:#E84A27;">[Workshop]</a> 3rd NLP+HCI Workshop @ NACCL 2024 <a href="https://sites.google.com/view/hciandnlp/home"> [Link]</a></p>
+              <p> <a style="color:#E84A27;">[Tutorial]</a> Human-Centered Evaluation of Language Technologies @ EMNLP 2024 <a href="https://2024.emnlp.org/"> [Link]</a> </p>
+              <p>Please considering submitting your work and join us!</p>
             </div>
           </div>
+
           
           <div class="text">
             <h3 style="margin-bottom:.5em">About.</h3>
-            <p> I am a Assistant Professor in Computer Science at Johns Hopkins University and a Postdoctoral Researcher in the Fairness, Accountability, Transparency, and Ethics group at Microsoft Research Montréal. I completed my Ph.D in <a href="https://cs.illinois.edu/">Computer Science</a> at <a href="https://illinois.edu/">the University of Illinois Urbana-Champaign</a>. 
-            I was co-advised by <a href="http://sundaram.cs.illinois.edu/">Prof. Hari Sundaram</a> and <a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Prof. Karrie Karahalios</a></p> 
-            <!-- I completed my B.S. in Psychology and Statistics & Computer Science at the University of Illinois with <a href="https://psychology.illinois.edu/directory/profile/dovcohen">Prof. Dov Cohen</a>. -->
+            <p> I am an Assistant Professor in Computer Science at Johns Hopkins University. I completed my Ph.D in <a href="https://cs.illinois.edu/">Computer Science</a> at <a href="https://illinois.edu/">the University of Illinois Urbana-Champaign</a>. 
+            I was co-advised by <a href="http://sundaram.cs.illinois.edu/">Prof. Hari Sundaram</a> and <a href="http://social.cs.uiuc.edu/people/karriekarahalios.html">Prof. Karrie Karahalios</a>. 
+            I earned my B.S. in Psychology and Statistics & Computer Science at the University of Illinois with <a href="https://psychology.illinois.edu/directory/profile/dovcohen">Prof. Dov Cohen</a>.</p>
 
-            My research is motivated by the fundamental question of <b>understanding humans at scale</b>. My goal is to study human-AI interaction to expand our knowledge about our behaviors and decision making processes. Currently, I want to spend my time on three exciting topics, <b>AI for social science discovery</b>, <b>contextualized model evaluation</b>, and <b>power-dynamics in human-ai interaction</b>. Broadly, my work lies in the intersection of <b>human-computer interaction</b>, <b>natural language processing</b>, and <b>social and personality psychology</b>.</div>
+            My research is motivated by the fundamental question of <b>understanding humans at scale</b>. My goal is to study human-AI interaction to expand our knowledge about our behaviors and decision-making processes. Currently, I want to spend my time on three exciting topics, <b>AI for Social Science</b>, <b>Human-centered model evaluation</b>, and <b>Information Seeking</b>. Broadly, my work lies in the intersection of <b>human-computer interaction</b>, <b>natural language processing</b>, and <b>social and personality psychology</b>.</div>
         </div>
 
         <div class="content anchor" id="publications">
@@ -195,7 +206,7 @@
 
       </div> <!-- container -->
       <footer>
-        <p>last update: 08/28/2023</p>
+        <p>last update: 12/28/2023</p>
       </footer>
       
     </div> <!-- outer container -->
