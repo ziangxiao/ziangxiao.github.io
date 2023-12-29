@@ -1,4 +1,31 @@
-[ 
+[
+  {
+    "image": "images/mp2.png",  
+    "alt": "",  
+    "title": "Canonical Design for Language Agents using Natural Language Reward Models",  
+    "authors": [   
+      {"name": "Silviu Pitis", "url": "https://silviupitis.com/"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Alessandro Sordoni", "url": "https://www.microsoft.com/en-us/research/people/alsordon/"}
+    ],  
+    "venue": {  
+      "name": "MP2 @ NeurIPS 2023",  
+      "url": "https://aipsychphil.github.io/"  
+    },  
+    "paper": "pdf/[p]Pitis_2023_canonical_design_for_language_agent.pdf",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2023",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":""
+  }, 
 {  
   "image": "images/thesis.png",  
   "alt": "",  
@@ -163,7 +190,7 @@
       "name": "NeurIPS 2023",  
       "url": "https://nips.cc/"  
     },  
-    "paper": "Joint Prompt Optimization of Stacked LLMs using Variational Inference",  
+    "paper": "https://arxiv.org/abs/2306.12509",  
     "video": "https://podcasts.apple.com/us/podcast/abstracts-december-11-2023/id1318021537?i=1000638238693",  
     "acmDL": "",  
     "year": "2023",
@@ -186,7 +213,7 @@
       }    
     ],  
     "venue": {  
-      "name": "AI&HCI at ICML 2023",  
+      "name": "AI&HCI @ ICML 2023",  
       "url": "https://sites.google.com/view/aihci/home"  
     },  
     "paper": "https://arxiv.org/pdf/2306.03100v1.pdf",  
