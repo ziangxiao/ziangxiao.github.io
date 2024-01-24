@@ -1,5 +1,36 @@
 [
   {
+    "image": "",  
+    "alt": "",  
+    "title": "Canvil: Designerly Adaptation for LLM-Powered User Experiences",  
+    "authors": [   
+      {"name": "Kevin Feng", "url": "https://kjfeng.me/"},
+      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Jennifer Wortman Vaughan", "url": "https://www.jennwv.com/"},
+      {"name": "Amy X. Zhang", "url": "https://homes.cs.washington.edu/~axz/"},
+      {"name": "David W. McDonald", "url": "https://www.pensivepuffin.com/dwmcphd/biographical/index.html"}
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": "https://arxiv.org/abs/2401.09051"  
+    },  
+    "paper": "https://arxiv.org/abs/2401.09051",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2024",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":"https://www.figma.com/community/widget/1277396720888327660/canvil"
+  }, 
+  {
     "image": "images/mp2.png",  
     "alt": "",  
     "title": "Canonical Design for Language Agents using Natural Language Reward Models",  
@@ -24,7 +55,7 @@
     "type": "Paper",
     "topic":"LAN",
     "blogPost":"",
-    "code":""
+    "code":"https://www.figma.com/community/widget/1277396720888327660/canvil"
   }, 
 {  
   "image": "images/thesis.png",  
@@ -52,11 +83,12 @@
 {  
   "image": "",  
   "alt": "",  
-  "title": "On Generative Echo Chamber",  
+  "title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking",  
   "authors": [
     {  
       "name": "Nikhil Sharma",  
-      "url": "https://www.nikhilsksharma.com/about"  
+      "url": "https://www.nikhilsksharma.com/about",
+      "extraClass": "zx" 
     },    
     {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
     {  
@@ -66,14 +98,14 @@
     }
   ],  
   "venue": {  
-    "name": "Under Review",  
+    "name": "CHI 2024",  
     "url": ""  
   },  
   "paper": "",  
   "video": "",  
   "acmDL": "",  
-  "year":"Under Review",
-  "featured": false,
+  "year":"2024",
+  "featured": true,
   "type": "Paper",
   "topic":"INFO"  
 },
