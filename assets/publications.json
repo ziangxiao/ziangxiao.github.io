@@ -175,30 +175,7 @@
     "topic":"LAN",
     "blogPost":"",
     "code":""
-  }, 
-{  
-  "image": "images/thesis.png",  
-  "alt": "",  
-  "title": "Seeing Us Through Machines: Designing and Building Conversational AI to Understand Humans",  
-  "authors": [
-    {  
-      "name": "Ziang Xiao",  
-      "url": "",  
-      "extraClass": "zx"  
-    }
-  ],  
-  "venue": {  
-    "name": "Ph.D. Dissertation",  
-    "url": ""  
-  },  
-  "paper": "pdf/XIAO-DISSERTATION-2023.pdf",  
-  "video": "",  
-  "acmDL": "",  
-  "year":"2023",
-  "featured": false,
-  "type": "Paper",
-  "topic":"AI4SS"  
-},     
+  },    
   {  
     "image": "images/metricEval.jpg",  
     "alt": "",  
@@ -454,6 +431,29 @@
     "type": "Paper",
     "topic":"AI4SS"   
   },
+  {  
+  "image": "images/thesis.png",  
+  "alt": "",  
+  "title": "Seeing Us Through Machines: Designing and Building Conversational AI to Understand Humans",  
+  "authors": [
+    {  
+      "name": "Ziang Xiao",  
+      "url": "",  
+      "extraClass": "zx"  
+    }
+  ],  
+  "venue": {  
+    "name": "Ph.D. Dissertation",  
+    "url": ""  
+  },  
+  "paper": "pdf/XIAO-DISSERTATION-2023.pdf",  
+  "video": "",  
+  "acmDL": "",  
+  "year":"2022",
+  "featured": false,
+  "type": "Paper",
+  "topic":"AI4SS"  
+},  
   {
     "image": "images/letmeaskyouthis.png",
     "alt": "balance between valuable feedback and user experiences",
