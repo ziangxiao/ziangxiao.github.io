@@ -1,4 +1,94 @@
 [
+  {  
+  "image": "",  
+  "alt": "",  
+  "title": "On the Effect of De-anonymizing Social Media",  
+  "authors": [
+    {  
+      "name": "Yiqian Wang",  
+      "url": "https://sites.google.com/view/yiqianwang/home"  
+    },    
+    {  
+      "name": "Ziang Xiao",  
+      "url": "",  
+      "extraClass": "zx"  
+    }
+  ],  
+  "venue": {  
+    "name": "Under Review",  
+    "url": ""  
+  },  
+  "paper": "",  
+  "video": "",  
+  "acmDL": "",  
+  "year":"2024",
+  "featured": false,
+  "type": "Paper",
+  "topic":"INFO"  
+},
+  {
+    "image": "",  
+    "alt": "",  
+    "title": "On NLP Benchmark Design",  
+    "authors": [   
+      {"name": "Yu Lu Liu", "url": "https://yululiu.github.io/"},
+      {"name": "Su Lin Blodgett", "url": "https://sblodgett.github.io/"} ,  
+      {"name": "Jackie Chi Kit Cheung", "url": "https://www.cs.mcgill.ca/~jcheung/"},
+      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"},
+      {"name": "Alexandra Olteanu", "url": "https://www.aolteanu.com/"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      }
+    ],  
+    "venue": {  
+      "name": "Under Review",  
+      "url": ""  
+    },  
+    "paper": "",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2024",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
+  {
+    "image": "",  
+    "alt": "",  
+    "title": "On Language Models as World Simulators",  
+    "authors": [   
+      {"name": "Ruoyao Wang", "url": "https://wsxzwps.github.io/"},
+      {"name": "Graham Todd", "url": "https://scholar.google.com/citations?user=NyBWyCIAAAAJ&hl=en"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Xingdi Yuan", "url": "https://xingdi-eric-yuan.github.io/"},
+      {"name": "Marc-Alexandre Côté", "url": "https://www.microsoft.com/en-us/research/people/macote/"},
+      {"name": "Peter Clark", "url": "https://allenai.org/team/peterc"},
+      {"name": "Peter Jansen", "url": "https://ischool.arizona.edu/person/peter-jansen"}    
+    ],  
+    "venue": {  
+      "name": "Under Review",  
+      "url": ""  
+    },  
+    "paper": "",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2024",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
   {
     "image": "",  
     "alt": "",  
@@ -30,6 +120,35 @@
     "code":"",
     "PyPI":"https://www.figma.com/community/widget/1277396720888327660/canvil"
   }, 
+  {  
+  "image": "",  
+  "alt": "",  
+  "title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking",  
+  "authors": [
+    {  
+      "name": "Nikhil Sharma",  
+      "url": "https://www.nikhilsksharma.com/about",
+      "extraClass": "isle" 
+    },    
+    {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
+    {  
+      "name": "Ziang Xiao",  
+      "url": "",  
+      "extraClass": "zx"  
+    }
+  ],  
+  "venue": {  
+    "name": "CHI 2024",  
+    "url": ""  
+  },  
+  "paper": "https://arxiv.org/abs/2402.05880",  
+  "video": "",  
+  "acmDL": "",  
+  "year":"2024",
+  "featured": true,
+  "type": "Paper",
+  "topic":"INFO"  
+},
   {
     "image": "images/mp2.png",  
     "alt": "",  
@@ -80,62 +199,6 @@
   "type": "Paper",
   "topic":"AI4SS"  
 },     
-{  
-  "image": "",  
-  "alt": "",  
-  "title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking",  
-  "authors": [
-    {  
-      "name": "Nikhil Sharma",  
-      "url": "https://www.nikhilsksharma.com/about",
-      "extraClass": "zx" 
-    },    
-    {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
-    {  
-      "name": "Ziang Xiao",  
-      "url": "",  
-      "extraClass": "zx"  
-    }
-  ],  
-  "venue": {  
-    "name": "CHI 2024",  
-    "url": ""  
-  },  
-  "paper": "",  
-  "video": "",  
-  "acmDL": "",  
-  "year":"2024",
-  "featured": true,
-  "type": "Paper",
-  "topic":"INFO"  
-},
-{  
-  "image": "",  
-  "alt": "",  
-  "title": "On the Effect of De-anonymizing Social Media",  
-  "authors": [
-    {  
-      "name": "Yiqian Wang",  
-      "url": "https://sites.google.com/view/yiqianwang/home"  
-    },    
-    {  
-      "name": "Ziang Xiao",  
-      "url": "",  
-      "extraClass": "zx"  
-    }
-  ],  
-  "venue": {  
-    "name": "Under Review",  
-    "url": ""  
-  },  
-  "paper": "",  
-  "video": "",  
-  "acmDL": "",  
-  "year":"Under Review",
-  "featured": false,
-  "type": "Paper",
-  "topic":"INFO"  
-},
   {  
     "image": "images/metricEval.jpg",  
     "alt": "",  
