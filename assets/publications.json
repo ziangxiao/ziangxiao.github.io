@@ -21,7 +21,7 @@
   "paper": "",  
   "video": "",  
   "acmDL": "",  
-  "year":"2024",
+  "year":"Under Review",
   "featured": false,
   "type": "Paper",
   "topic":"INFO"  
@@ -29,9 +29,9 @@
   {
     "image": "",  
     "alt": "",  
-    "title": "On NLP Benchmark Design",  
+    "title": "ECBD: Evidence-Centered Benchmark Design for NLP",  
     "authors": [   
-      {"name": "Yu Lu Liu", "url": "https://yululiu.github.io/"},
+      {"name": "Yu Lu Liu", "url": "https://yululiu.github.io/","extraClass":"isle"},
       {"name": "Su Lin Blodgett", "url": "https://sblodgett.github.io/"} ,  
       {"name": "Jackie Chi Kit Cheung", "url": "https://www.cs.mcgill.ca/~jcheung/"},
       {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"},
@@ -49,7 +49,7 @@
     "paper": "",  
     "video": "",  
     "acmDL": "",  
-    "year": "2024",
+    "year": "Under Review",
     "featured": false,
     "type": "Paper",
     "topic":"LAN",
@@ -60,7 +60,7 @@
   {
     "image": "",  
     "alt": "",  
-    "title": "On Language Models as World Simulators",  
+    "title": "Can Language Models Serve as Text-Based World Simulators?",  
     "authors": [   
       {"name": "Ruoyao Wang", "url": "https://wsxzwps.github.io/"},
       {"name": "Graham Todd", "url": "https://scholar.google.com/citations?user=NyBWyCIAAAAJ&hl=en"},
@@ -81,7 +81,7 @@
     "paper": "",  
     "video": "",  
     "acmDL": "",  
-    "year": "2024",
+    "year": "Under Review",
     "featured": false,
     "type": "Paper",
     "topic":"LAN",
@@ -121,7 +121,7 @@
     "PyPI":"https://www.figma.com/community/widget/1277396720888327660/canvil"
   }, 
   {  
-  "image": "",  
+  "image": "images/genechochamber.png",  
   "alt": "",  
   "title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking",  
   "authors": [
@@ -143,7 +143,8 @@
   },  
   "paper": "https://arxiv.org/abs/2402.05880",  
   "video": "",  
-  "acmDL": "",  
+  "acmDL": "",
+  "award": "Best Paper",  
   "year":"2024",
   "featured": true,
   "type": "Paper",

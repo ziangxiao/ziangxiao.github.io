@@ -16,9 +16,9 @@ div.ftsubheader a:link,
 div.ftsubheader a:visited{color:#000000;text-decoration:none}
 div.title a:link,
 div.title a:visited{color:#000000}
-span.isle{color:#68ACE5 !important;font-weight:600;text-decoration:underline}
+span.isle{color:#ffffff !important;background-color: #68ACE5;}
 span.isle a:link,
-span.isle a:visited{color:#68ACE5 !important;font-weight:600;text-decoration:underline}
+span.isle a:visited{color:#ffffff !important;}
 div.authors a:link,
 div.authors a:visited{color:#777777}
 div.content a:hover,
@@ -55,6 +55,10 @@ span.highlight a:visited{color:#BB2222}
 span.fullvenue{padding-left:8px}
 div.anchor{border-top:50px solid transparent;margin-top:-50px}
 div.recruit{display:none}
+mark {
+    background-color: #68ACE5;
+    color: black;
+  }
 @media only screen and (max-width: 599px) {
     div.ftsubheader{padding-left:0.5rem;padding-right:0.5rem}
     div.heading div.img{padding-right:80px}
