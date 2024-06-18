@@ -1,33 +1,6 @@
 [
-  {  
-  "image": "",  
-  "alt": "",  
-  "title": "On the Effect of De-anonymizing Social Media",  
-  "authors": [
-    {  
-      "name": "Yiqian Wang",  
-      "url": "https://sites.google.com/view/yiqianwang/home"  
-    },    
-    {  
-      "name": "Ziang Xiao",  
-      "url": "",  
-      "extraClass": "zx"  
-    }
-  ],  
-  "venue": {  
-    "name": "Under Review",  
-    "url": ""  
-  },  
-  "paper": "",  
-  "video": "",  
-  "acmDL": "",  
-  "year":"Under Review",
-  "featured": false,
-  "type": "Paper",
-  "topic":"INFO"  
-},
   {
-    "image": "",  
+    "image": "images/ecbd.png",  
     "alt": "",  
     "title": "ECBD: Evidence-Centered Benchmark Design for NLP",  
     "authors": [   
@@ -44,13 +17,13 @@
     ],  
     "venue": {  
       "name": "ACL 2024",  
-      "url": ""  
+      "url": "https://2024.aclweb.org/"  
     },  
-    "paper": "",  
+    "paper": "pdf/[p]Liu_2024_ECBD_Evidence-Centered_Benchmark_Design_for_NLP.pdf",  
     "video": "",  
     "acmDL": "",  
     "year": "2024",
-    "featured": false,
+    "featured": true,
     "type": "Paper",
     "topic":"LAN",
     "blogPost":"",
@@ -58,7 +31,7 @@
     "PyPI":""
   }, 
   {
-    "image": "",  
+    "image": "images/bs32sp.png",  
     "alt": "",  
     "title": "Can Language Models Serve as Text-Based World Simulators?",  
     "authors": [   
@@ -76,21 +49,21 @@
     ],  
     "venue": {  
       "name": "ACL 2024",  
-      "url": ""  
+      "url": "https://2024.aclweb.org/"  
     },  
-    "paper": "",  
+    "paper": "pdf/[p]Wang_2024_Can_Language_Models_Serve_as_Text-Based_World_Simulators.pdf",  
     "video": "",  
     "acmDL": "",  
     "year": "2024",
-    "featured": false,
+    "featured": true,
     "type": "Paper",
     "topic":"LAN",
     "blogPost":"",
-    "code":"",
+    "code":"https://github.com/cognitiveailab/GPT-simulator",
     "PyPI":""
   }, 
   {
-    "image": "",  
+    "image": "images/canvil.png",  
     "alt": "",  
     "title": "Canvil: Designerly Adaptation for LLM-Powered User Experiences",  
     "authors": [   
@@ -141,9 +114,9 @@
     "name": "CHI 2024",  
     "url": ""  
   },  
-  "paper": "https://arxiv.org/abs/2402.05880",  
-  "video": "",  
-  "acmDL": "",
+  "paper": "pdf/[p]Sharma_Generative_echo_chamber_Effect_of_LLM-powered_search_systems_on_diverse_information_seeking.pdf",  
+  "video": "https://www.youtube.com/watch?v=s2A0YVr4vP8",  
+  "acmDL": "https://dl.acm.org/doi/10.1145/3613904.3642459",
   "award": "Best Paper Award",  
   "year":"2024",
   "featured": true,
@@ -201,7 +174,7 @@
       "name": "EMNLP 2023",  
       "url": "https://2023.emnlp.org/"  
     },  
-    "paper": "pdf/[p]Xiao_Evaluating_Evaluation_Metrics_A_Framework_for_Analyzing_NLG_Evaluation_Metrics_using_Measurement_Theory.pdf",  
+    "paper": "pdf/[p]Xiao_2023_Evaluating_Evaluation_Metrics_A_Framework_for_Analyzing_NLG_Evaluation_Metrics_using_Measurement_Theory.pdf",  
     "video": "",  
     "acmDL": "https://aclanthology.org/2023.emnlp-main.676/",  
     "year":"2023",
@@ -325,7 +298,7 @@
       "name": "CHI 2023",  
       "url": ""  
     },  
-    "paper": "pdf/Xiao et al. 2023 - Inform the Uninformed - Improving Online Informed Consent Reading with an AI-Powered Chatbot.pdf",  
+    "paper": "pdf/[p]Xiao_2023_Inform_the_Uninformed_Improving_Online_Informed_Consent_Reading_with_an_AI-Powered_Chatbot.pdf",  
     "video": "https://www.youtube.com/watch?v=zFZOhvzlkNw",  
     "acmDL": "https://dl.acm.org/doi/abs/10.1145/3544548.3581252",  
     "year": 2023,
@@ -345,7 +318,7 @@
       {"name": "Yunyao Li", "url": "https://yunyaoli.github.io/"}  
     ],  
     "venue": {"name": "IUI 2023", "url": ""},  
-    "paper": "pdf/Xiao et al. 2023 - Powering an AI Chatbot with Expert Sourcing to Support Credible Health Information Access.pdf",  
+    "paper": "pdf/[p]Xiao_2023_Powering_an_AI_Chatbot_with_Expert_Sourcing_to_Support_Credible_Health_Information_Access.pdf",  
     "acmDL": "https://dl.acm.org/doi/abs/10.1145/3581641.3584031",
     "year": 2023,
     "featured": true,
@@ -383,7 +356,7 @@
       "name": "IUI 2023",
       "url": ""
     },
-    "paper": "pdf/Xiao et al. 2023 - Supporting Qualitative Analysis with Large Language Models - Combining Codebook with GPT-3 for Deductive Coding.pdf",
+    "paper": "pdf/[d]Xiao_2023_Supporting_Qualitative_Analysis_with_Large_Language_Models_Combining_Codebook_with_GPT-3_for_Deductive_Coding.pdf",
     "acmDL": "https://dl.acm.org/doi/abs/10.1145/3581754.3584136",
     "year": 2023,
     "featured": true,
@@ -425,7 +398,7 @@
       "name": "PACLIC 2023",
       "url": ""
     },
-    "paper": "pdf/[p]Xiao_What_should_I_Ask_A_Knowledge_driven_Approach_for_Follow_up_Questions_Generation_in_Conversational Surveys.pdf",
+    "paper": "pdf/[p]Xiao_2023_What_should_I_Ask_A_Knowledge_driven_Approach_for_Follow_up_Questions_Generation_in_Conversational_Surveys.pdf",
     "acmDL": "",
     "year": 2023,
     "featured": false,
@@ -447,7 +420,7 @@
     "name": "Ph.D. Dissertation",  
     "url": ""  
   },  
-  "paper": "pdf/XIAO-DISSERTATION-2023.pdf",  
+  "paper": "pdf/[p]Xiao_2022_Seeing_Us_Through_Machines-Designing_and_Building_Conversational_AI_to_Understand Humans.pdf",  
   "video": "",  
   "acmDL": "",  
   "year":"2022",
@@ -474,7 +447,7 @@
       "name": "CSCW 2021",
       "url": "https://cscw.acm.org/2021/"
     },
-    "paper": "pdf/Voice_Interaction_for_Information_Elicitation.pdf",
+    "paper": "pdf/[p]Xiao_2021_Let_Me_Ask_You_This-How_Can_A_Voice_Assistnat_Elicit_Explicit_User_Feedback.pdf",
     "acmDL": "https://dl.acm.org/doi/10.1145/3479532",
     "year": 2021,
     "featured": true,
@@ -502,7 +475,7 @@
       "name": "CSCW 2021",
       "url": "https://cscw.acm.org/2021/"
     },
-    "paper": "pdf/Contestability_For_Content_Moderation.pdf",
+    "paper": "pdf/[p]Vaccaro_2021_Contestability_For_Content_Moderation.pdf",
     "acmDL": "https://dl.acm.org/doi/10.1145/3476059",
     "year": 2021,
     "featured": true,
@@ -558,7 +531,7 @@
       "name": "ASEE 2021",
       "url": "https://www.asee.org/annual-conference/2021"
     },
-    "paper": "pdf/evaluating-an-intelligent-sketching-feedback-tool-for-scalable-spatial-visualization-skill-training.pdf",
+    "paper": "pdf/[d]Li_2023_Evaluating_an_Intelligent_Sketching_Feedback_Tool_for_Scalable_Spatical_Visulization_Skill_Training.pdf",
     "acmDL": "",
     "year": 2021,
     "featured": false,
@@ -589,7 +562,7 @@
       "name": "ACM Transactions on Computer-Human Interaction (TOCHI)",
       "url": "https://dl.acm.org/journal/tochi"
     },
-    "paper": "pdf/[p]Xiao_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf",
+    "paper": "pdf/[p]Xiao_2020_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf",
     "video": "https://www.youtube.com/watch?v=YS13B6cxGYE",
     "acmDL": "https://dl.acm.org/doi/abs/10.1145/3381804",
     "year": 2020,
@@ -624,7 +597,7 @@
       "name": "CHI Play 2020",
       "url": "https://chiplay.acm.org/2020/"
     },
-    "paper": "pdf/wauck_chiplay2020.pdf",
+    "paper": "pdf/[p]Wauck_A_Data-Driven_Player-Centric_Approach_to_Evaluating_Spatial_Skill_Training_Games.pdf",
     "acmDL": "https://dl.acm.org/doi/10.1145/3410404.3414255",
     "award": "Honorable Mention",
     "year": 2020,
@@ -651,7 +624,7 @@
       "name": "CHI 2020",
       "url": "https://chi2020.acm.org/"
     },
-    "paper": "pdf/[p]Xiao_If_I_Hear_You_Correctly.pdf",
+    "paper": "pdf/[p]Xiao_2020_If_I_Hear_You_Correctly-Building_and_Evaluating_Interview_Chatbots_with_Active_Listening_Skills.pdf",
     "video": "https://www.youtube.com/watch?v=tGk3GC3BXts",
     "blogPost": "https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/if-i-hear-you-correctly-building-and-evaluating-interview-chatbots-with-active-listening-skills-91a51ab1d78b",
     "acmDL": "https://dl.acm.org/doi/abs/10.1145/3313831.3376131#",
@@ -1020,11 +993,11 @@
       }
     ],
     "venue": {
-      "name": "Supervised by Prof. Dov Cohen",
+      "name": "Bachelor Thesis",
       "url": ""
     },
     "paper": "",
-    "type": "Bachelor Thesis",
+    "type": "",
     "year": 2016,
     "featured": false,
     "topic":"INFO"  
