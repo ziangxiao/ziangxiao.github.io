@@ -52,9 +52,18 @@
       metaHtml+=` / <span class="tag" style="color:#E84A27;"><a>${publication.award}</a></span>`
     }
     
+    // const htmlBlock = `  
+    //   <div class="publication">  
+    //     <div class="img"><img class="img_responsive" src="${publication.image}" alt="${publication.alt}"></div>  
+    //     <div class="text">  
+    //       <div class="title"><a>${publication.title}</a></div>  
+    //       <div class="authors">${authorsHtml}</div>  
+    //       <div>${metaHtml}</div>  
+    //     </div>  
+    //   </div>  
+    // `; 
     const htmlBlock = `  
-      <div class="publication">  
-        <div class="img"><img class="img_responsive" src="${publication.image}" alt="${publication.alt}"></div>  
+      <div class="publication">   
         <div class="text">  
           <div class="title"><a>${publication.title}</a></div>  
           <div class="authors">${authorsHtml}</div>  
@@ -155,7 +164,10 @@
           <div class="content" style="z-index:1;position:relative">
             <div class="text">
               <h3 style="margin-bottom:.5em;">News.</h3>
-              <p style="color:#E84A27;">Papers on the <b>conceptual framework for NLP benchmark design</b> and <b>LLMs as world simulators</b> will appear at ACL 2024</p>
+              <p style="color:#68ACE5;"> Yu Lu will present <b>ECBD: Evidence-Centered Benchmark Design for NLP</b> on both <b>Mon Aug 12th 16:00-17:30</b> (Poster Session C) and <b>Wed Aug 14th 10:30-12:00</b>(Oral Presentation) under the special theme of Open science, open data, and open models for reproducible NLP research at ACL 2024. Come and talk to us!</p>
+              
+              <p style="color:#E84A27;"> Ruoyao will present <b>Can Language Models Serve as Text-Based World Simulators?</b> on <b>Mon Aug 12th 11:00-12:30</b> (Poster Session A). Ruoyao is on the job market this year. Chat with Ruoyao!</p>
+
             </div>
             <!-- <div class="text">
               <h3 style="margin-bottom:.5em;">CfPs.</h3>
@@ -198,7 +210,7 @@
           <div id="pubs_by_topic" language="text" style="display: none;">
             
           <div class="text anchor" id="AI4SS"><h4>AI4SocialScience.</h4></div>
-          <div class="text anchor" id="LAN"><h4>Language.</h4></div>          
+          <div class="text anchor" id="LAN"><h4>Language Technologies.</h4></div>          
           <div class="text anchor" id="INFO"><h4>Informavore.</h4></div>
           <div class="text anchor" id="SV"><h4>SpatialVis.</h4></div>
            
@@ -209,7 +221,7 @@
 
       </div> <!-- container -->
       <footer>
-        <p>last update: 6/18/2024</p>
+        <p>last update: 8/4/2024</p>
       </footer>
       
     </div> <!-- outer container -->

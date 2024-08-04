@@ -1,5 +1,66 @@
 [
   {
+    "image": "",  
+    "alt": "",  
+    "title": "Improving Context-Aware Preference Modeling for Language Models",  
+    "authors": [   
+      {"name": "Silviu Pitis", "url": "https://silviupitis.com/"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Nicolas Le Roux", "url": "https://nicolas.le-roux.name/"},
+      {"name": "Alessandro Sordoni", "url": "https://www.microsoft.com/en-us/research/people/alsordon/"}
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": ""  
+    },  
+    "paper": "https://arxiv.org/abs/2407.14916",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
+  {
+    "image": "",  
+    "alt": "",  
+    "title": "Faux Polyglot: A Study on Information Disparity in Multilingual Large Language Models",  
+    "authors": [   
+      {  
+        "name": "Nikhil Sharma",  
+        "url": "https://www.nikhilsksharma.com/about",
+        "extraClass": "isle" 
+      },
+      {"name": "Keton Murray", "url": "https://kentonmurray.com/index.html"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      }
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": ""  
+    },  
+    "paper": "https://arxiv.org/abs/2407.05502",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
+  {
     "image": "images/ecbd.png",  
     "alt": "",  
     "title": "ECBD: Evidence-Centered Benchmark Design for NLP",  
@@ -28,7 +89,8 @@
     "topic":"LAN",
     "blogPost":"",
     "code":"",
-    "PyPI":""
+    "PyPI":"",
+    "award": "Oral Presentation"
   }, 
   {
     "image": "images/bs32sp.png",  
@@ -122,6 +184,35 @@
   "featured": true,
   "type": "Paper",
   "topic":"INFO"  
+},
+{  
+  "image": "",  
+  "alt": "",  
+  "title": "The Role of Human-Centered AI in User Modeling, Adaptation, and Personalization — Models, Frameworks, and Paradigms",  
+  "authors": [
+    { "name": "Helma Torkamaan", "url": "https://torkamaan.de/"},    
+    {"name": "Mohammad Tahaei", "url": "https://mohammad.tahaei.com/"} ,  
+    {"name": "Stefan Buĳsman", "url": "https://www.tudelft.nl/en/staff/s.n.r.buijsman/?cHash=944dc8fbd28f0bd6d712c1f2292eebf7"} ,  
+    {  
+      "name": "Ziang Xiao",  
+      "url": "",  
+      "extraClass": "zx"  
+    },
+    {"name": "Daricia Wilkinson", "url": "https://www.dariciawilkinson.com/"},
+    {"name": "Bart Knĳnenburg", "url": "https://www.usabart.nl/portfolio/#home.html"}
+  ],  
+  "venue": {  
+    "name": "A Human-Centered Perspective of Intelligent Personalized Environments and Systems",  
+    "url": ""  
+  },  
+  "paper": "https://link.springer.com/chapter/10.1007/978-3-031-55109-3_2",  
+  "video": "",  
+  "acmDL": "",
+  "award": "",  
+  "year":"2024",
+  "featured": false,
+  "type": "Book Chapter",
+  "topic":"LAN"  
 },
   {
     "image": "images/mp2.png",  
