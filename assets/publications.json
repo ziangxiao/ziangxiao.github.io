@@ -82,7 +82,7 @@
     },  
     "paper": "pdf/[p]Liu_2024_ECBD_Evidence-Centered_Benchmark_Design_for_NLP.pdf",  
     "video": "",  
-    "acmDL": "",  
+    "acmDL": "https://aclanthology.org/2024.acl-long.861/",  
     "year": "2024",
     "featured": true,
     "type": "Paper",
@@ -90,7 +90,7 @@
     "blogPost":"",
     "code":"",
     "PyPI":"",
-    "award": "Oral Presentation"
+    "award": ""
   }, 
   {
     "image": "images/bs32sp.png",  
