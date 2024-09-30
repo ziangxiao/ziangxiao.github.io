@@ -1,4 +1,35 @@
-[
+  [  {
+    "image": "",  
+    "alt": "",  
+    "title": "Not Yet: Large Language Models Cannot Replace Human Respondents for Psychometric Research",  
+    "authors": [   
+      {"name": "Pengda Wang", "url": ""},
+      {"name": "Huiqi Zou", "url": ""},
+      {"name": "Zihan Yan", "url": ""},
+      {"name": "Feng Guo", "url": ""},
+      {"name": "Tianjun Sun", "url": ""},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Bo Zhang", "url": ""}
+    ],  
+    "venue": {  
+      "name": "Pre Print",  
+      "url": ""  
+    },  
+    "paper": "https://osf.io/preprints/osf/rwy9b",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic":"AI4SS",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
   {
     "image": "",  
     "alt": "",  
@@ -14,7 +45,7 @@
       {"name": "Alessandro Sordoni", "url": "https://www.microsoft.com/en-us/research/people/alsordon/"}
     ],  
     "venue": {  
-      "name": "ArXiv",  
+      "name": "NeurIPS 2024",  
       "url": ""  
     },  
     "paper": "https://arxiv.org/abs/2407.14916",  
