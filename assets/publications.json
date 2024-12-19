@@ -1,10 +1,67 @@
   [  {
     "image": "",  
     "alt": "",  
+    "title": "Trust or Stigmatization? Evidence From De-anonymizing Social Media in China",  
+    "authors": [
+      {"name": "Mingzi Niu", "url": ""},
+      {"name": "Yiqian Wang", "url": ""},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      }
+    ],  
+    "venue": {  
+      "name": "BREAD Asia Conference on Development Economics",  
+      "url": ""  
+    },  
+    "paper": "",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic":"INFO",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+    },
+    {
+    "image": "",  
+    "alt": "",  
+    "title": "Can LLM Self-report?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",  
+    "authors": [
+      {"name": "Huiqi Zou", "url": "https://annazou1103.github.io/","extraClass": "isle" },   
+      {"name": "Pengda Wang", "url": ""},
+      {"name": "Zihan Yan", "url": ""},
+      {"name": "Tianjun Sun", "url": ""},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      }
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": ""  
+    },  
+    "paper": "https://arxiv.org/abs/2412.00207",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+    }, {
+    "image": "",  
+    "alt": "",  
     "title": "Not Yet: Large Language Models Cannot Replace Human Respondents for Psychometric Research",  
     "authors": [   
       {"name": "Pengda Wang", "url": ""},
-      {"name": "Huiqi Zou", "url": ""},
+      {"name": "Huiqi Zou", "url": "https://annazou1103.github.io/","extraClass": "isle" }, 
       {"name": "Zihan Yan", "url": ""},
       {"name": "Feng Guo", "url": ""},
       {"name": "Tianjun Sun", "url": ""},
