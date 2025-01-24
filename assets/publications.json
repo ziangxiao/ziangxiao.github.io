@@ -1,10 +1,167 @@
-  [  {
+  [   {
+    "image": "",  
+    "alt": "",  
+    "title": "Faux Polyglot: A Study on Information Disparity in Multilingual Large Language Models",  
+    "authors": [   
+      {  
+        "name": "Nikhil Sharma",  
+        "url": "https://www.nikhilsksharma.com/about",
+        "extraClass": "isle" 
+      },
+      {"name": "Keton Murray", "url": "https://kentonmurray.com/index.html"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      }
+    ],  
+    "venue": {  
+      "name": "NAACL 2025",  
+      "url": ""  
+    },  
+    "paper": "https://arxiv.org/abs/2407.05502",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2025",
+    "featured": true,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
+  {
+    "image": "images/canvil.png",  
+    "alt": "",  
+    "title": "Canvil: Designerly Adaptation for LLM-Powered User Experiences",  
+    "authors": [   
+      {"name": "Kevin Feng", "url": "https://kjfeng.me/"},
+      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Jennifer Wortman Vaughan", "url": "https://www.jennwv.com/"},
+      {"name": "Amy X. Zhang", "url": "https://homes.cs.washington.edu/~axz/"},
+      {"name": "David W. McDonald", "url": "https://www.pensivepuffin.com/dwmcphd/biographical/index.html"}
+    ],  
+    "venue": {  
+      "name": "CHI 2025",  
+      "url": "https://chi2025.acm.org/"  
+    },  
+    "paper": "https://arxiv.org/abs/2401.09051",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":"https://www.figma.com/community/widget/1277396720888327660/canvil"
+  }, 
+  {
+    "image": "",  
+    "alt": "",  
+    "title": "From Text to Trust: Empowering AI-assisted Decision Making with Adaptive LLM-powered Analysis",  
+    "authors": [   
+      {"name": "Zhuoyan Li", "url": "https://xfleezy.github.io/zhuoyanli/"},
+      {"name": "Hangxiao Zhu", "url": "https://flypig23.github.io/"} ,  
+      {"name": "Zhuoran Lu", "url": "https://zhuoranlu.github.io/"} ,  
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Ming Yin", "url": "https://mingyin.org/"}
+    ],  
+    "venue": {  
+      "name": "CHI 2025",  
+      "url": "https://chi2025.acm.org/"  
+    },  
+    "paper": "",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
+  {
+    "image": "",  
+    "alt": "",  
+    "title": "Understanding the LLM-ification of CHI: Unpacking the Impact of LLMs at CHI through a Metareview",  
+    "authors": [   
+      {"name": "Rock Yuren Pang", "url": "https://homes.cs.washington.edu/~ypang2/"},
+      {"name": "Hope Schroeder", "url": "https://www.hopeschroeder.com/"} ,  
+      {"name": "Kynnedy Simone Smith", "url": "https://ksimone-portfolio-gwc.glitch.me/"} ,  
+      {"name": "Solon Barocas", "url": "http://solon.barocas.org/"} ,  
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Emily Tseng", "url": "https://emtseng.me/"},
+      {"name": "Danielle Bragg", "url": "https://danibragg.com/"}
+    ],  
+    "venue": {  
+      "name": "CHI 2025",  
+      "url": "https://chi2025.acm.org/"  
+    },  
+    "paper": "https://arxiv.org/pdf/2501.12557",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
+  {
+    "image": "",  
+    "alt": "",  
+    "title": "Assistance or Disruption? Exploring and Evaluating the Design and Trade-offs of Proactive AI Programming Support",  
+    "authors": [   
+      {"name": "Kevin Pu", "url": "https://kevinpjk.github.io/"},
+      {"name": "Daniel Lazaro", "url": "https://cv.dlazaro.ca/"} ,  
+      {"name": "Ian Arawjo", "url": "https://ianarawjo.com/"} ,  
+      {"name": "Haijun Xia", "url": "https://hci.ucsd.edu/haijunxia"} ,  
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Tovi Grossman", "url": "https://www.tovigrossman.com/"} ,  
+      {"name": "Yan Chen", "url": "https://chensivan.github.io/"}
+    ],  
+    "venue": {  
+      "name": "CHI 2025",  
+      "url": "https://chi2025.acm.org/"  
+    },  
+    "paper": "",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
+    {
     "image": "",  
     "alt": "",  
     "title": "Trust or Stigmatization? Evidence From De-anonymizing Social Media in China",  
     "authors": [
-      {"name": "Mingzi Niu", "url": ""},
-      {"name": "Yiqian Wang", "url": ""},
+      {"name": "Mingzi Niu", "url": "https://sites.google.com/view/mingziniu"},
+      {"name": "Yiqian Wang", "url": "https://sites.google.com/view/yiqianwang/home"},
       {  
         "name": "Ziang Xiao",  
         "url": "",  
@@ -32,9 +189,9 @@
     "title": "Can LLM Self-report?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",  
     "authors": [
       {"name": "Huiqi Zou", "url": "https://annazou1103.github.io/","extraClass": "isle" },   
-      {"name": "Pengda Wang", "url": ""},
+      {"name": "Pengda Wang", "url": "https://wpengda.github.io/"},
       {"name": "Zihan Yan", "url": ""},
-      {"name": "Tianjun Sun", "url": ""},
+      {"name": "Tianjun Sun", "url": "https://tianjunsun.owlstown.net/"},
       {  
         "name": "Ziang Xiao",  
         "url": "",  
@@ -60,17 +217,17 @@
     "alt": "",  
     "title": "Not Yet: Large Language Models Cannot Replace Human Respondents for Psychometric Research",  
     "authors": [   
-      {"name": "Pengda Wang", "url": ""},
+      {"name": "Pengda Wang", "url": "https://wpengda.github.io/"},
       {"name": "Huiqi Zou", "url": "https://annazou1103.github.io/","extraClass": "isle" }, 
       {"name": "Zihan Yan", "url": ""},
-      {"name": "Feng Guo", "url": ""},
-      {"name": "Tianjun Sun", "url": ""},
+      {"name": "Feng Guo", "url": "https://www.utc.edu/directory/dkt968-psychology-feng-guo/dkt968"},
+      {"name": "Tianjun Sun", "url": "https://tianjunsun.owlstown.net/"},
       {  
         "name": "Ziang Xiao",  
         "url": "",  
         "extraClass": "zx"  
       },
-      {"name": "Bo Zhang", "url": ""}
+      {"name": "Bo Zhang", "url": "https://psychology.illinois.edu/directory/profile/bozhang3"}
     ],  
     "venue": {  
       "name": "Pre Print",  
@@ -115,39 +272,7 @@
     "blogPost":"",
     "code":"",
     "PyPI":""
-  }, 
-  {
-    "image": "",  
-    "alt": "",  
-    "title": "Faux Polyglot: A Study on Information Disparity in Multilingual Large Language Models",  
-    "authors": [   
-      {  
-        "name": "Nikhil Sharma",  
-        "url": "https://www.nikhilsksharma.com/about",
-        "extraClass": "isle" 
-      },
-      {"name": "Keton Murray", "url": "https://kentonmurray.com/index.html"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      }
-    ],  
-    "venue": {  
-      "name": "ArXiv",  
-      "url": ""  
-    },  
-    "paper": "https://arxiv.org/abs/2407.05502",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2024",
-    "featured": true,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  }, 
+  },  
   {
     "image": "images/ecbd.png",  
     "alt": "",  
@@ -211,37 +336,6 @@
     "blogPost":"",
     "code":"https://github.com/cognitiveailab/GPT-simulator",
     "PyPI":""
-  }, 
-  {
-    "image": "images/canvil.png",  
-    "alt": "",  
-    "title": "Canvil: Designerly Adaptation for LLM-Powered User Experiences",  
-    "authors": [   
-      {"name": "Kevin Feng", "url": "https://kjfeng.me/"},
-      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Jennifer Wortman Vaughan", "url": "https://www.jennwv.com/"},
-      {"name": "Amy X. Zhang", "url": "https://homes.cs.washington.edu/~axz/"},
-      {"name": "David W. McDonald", "url": "https://www.pensivepuffin.com/dwmcphd/biographical/index.html"}
-    ],  
-    "venue": {  
-      "name": "ArXiv",  
-      "url": "https://arxiv.org/abs/2401.09051"  
-    },  
-    "paper": "https://arxiv.org/abs/2401.09051",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2024",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":"https://www.figma.com/community/widget/1277396720888327660/canvil"
   }, 
   {  
   "image": "images/genechochamber.png",  
