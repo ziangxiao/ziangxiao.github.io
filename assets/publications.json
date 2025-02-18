@@ -1,4 +1,40 @@
-  [   {
+  [   
+    {
+      "image": "",  
+      "alt": "",  
+      "title": "Personality Structured Interview for Large Language Model Simulation in Personality Research",  
+      "authors": [   
+        {"name": "Pengda Wang", "url": "https://wpengda.github.io/"},
+        {  
+          "name": "Huiqi Zou",  
+          "url": "https://annazou1103.github.io/",
+          "extraClass": "isle" 
+        },
+        {"name": "Hanjie Chen", "url": "https://hanjiechen.github.io/"},
+        {"name": "Tianjun Sun", "url": "https://profiles.rice.edu/faculty/tianjun-sun"},
+        {  
+          "name": "Ziang Xiao*",  
+          "url": "",  
+          "extraClass": "zx"  
+        },
+        {"name": "Frederick L. Oswald*", "url": "https://kentonmurray.com/index.html"}
+      ],  
+      "venue": {  
+        "name": "ArXiv",  
+        "url": ""  
+      },  
+      "paper": "https://arxiv.org/abs/2502.12109",  
+      "video": "",  
+      "acmDL": "",  
+      "year": "2025",
+      "featured": true,
+      "type": "Paper",
+      "topic":"LAN",
+      "blogPost":"",
+      "code":"",
+      "PyPI":""
+    },   
+  {
     "image": "",  
     "alt": "",  
     "title": "Faux Polyglot: A Study on Information Disparity in Multilingual Large Language Models",  
