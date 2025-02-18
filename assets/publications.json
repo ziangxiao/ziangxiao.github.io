@@ -155,6 +155,38 @@
     "code":"",
     "PyPI":""
   }, 
+  {
+    "image": "",  
+    "alt": "",  
+    "title": "Interruption Handling for Conversational Robots",  
+    "authors": [   
+      {"name": "Shiye Cao", "url": "https://shiye-cao.github.io/"},
+      {"name": "Jiwon Moon", "url": ""} ,  
+      {"name": "Amama Mahmood", "url": "https://amamamahmood.github.io/"} ,  
+      {"name": "Victor Nikhil Antony", "url": "https://vantony1.github.io/"} ,  
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Anqi Liu", "url": "https://anqiliu-ai.github.io/"} ,  
+      {"name": "Chien-Ming Huang", "url": "https://www.cs.jhu.edu/~cmhuang/"}
+    ],  
+    "venue": {  
+      "name": "ArXiv",  
+      "url": "https://arxiv.org/pdf/2501.01568"  
+    },  
+    "paper": "https://arxiv.org/pdf/2501.01568",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
     {
     "image": "",  
     "alt": "",  
@@ -200,7 +232,7 @@
     ],  
     "venue": {  
       "name": "ArXiv",  
-      "url": ""  
+      "url": "https://arxiv.org/abs/2412.00207"  
     },  
     "paper": "https://arxiv.org/abs/2412.00207",  
     "video": "",  
@@ -477,7 +509,7 @@
       "name": "EMNLP 2023",  
       "url": "https://2023.emnlp.org/"  
     },  
-    "paper": "https://arxiv.org/pdf/2305.14879.pdf",  
+    "paper": "https://aclanthology.org/2023.emnlp-main.830.pdf",  
     "video": "",  
     "acmDL": "https://aclanthology.org/2023.emnlp-main.830/",  
     "year": "2023",
