@@ -1,4 +1,251 @@
-  [   
+  [{
+    "image": "",
+    "alt": "",
+    "title": "The Incomplete Bridge: How AI Research (Mis)Engages with Psychology",
+    "authors": [
+      {"name": "Han Jiang", "url": "","extraClass": "isle"},
+      {"name": "Pengda Wang", "url": ""},
+      {"name": "Xiaoyuan Yi", "url": "https://xiaoyuanyi.github.io/"},
+      {"name": "Xing Xie", "url": ""},
+      {"name": "Ziang Xiao", "url": "", "extraClass": "zx"}
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": "https://arxiv.org/abs/2507.22847"
+    },
+    "paper": "https://arxiv.org/abs/2507.22847",
+    "video": "",
+    "acmDL": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "PyPI": ""
+  }, 
+  {
+      "image": "",
+      "alt": "",
+      "title": "PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization",
+      "authors": [
+        {"name": "Han Jiang", "url": "","extraClass": "isle"},
+        {"name": "Dongyao Zhu", "url": ""},
+        {"name": "Zhihua Wei", "url": ""},
+        {"name": "Xiaoyuan Yi", "url": "https://xiaoyuanyi.github.io/"},
+        {"name": "Ziang Xiao", "url": "", "extraClass": "zx"},
+        {"name": "Xing Xie", "url": ""}
+      ],
+      "venue": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2507.16679"
+      },
+      "paper": "https://arxiv.org/abs/2507.16679",
+      "video": "",
+      "acmDL": "",
+      "year": "2025",
+      "featured": true,
+      "type": "Paper",
+      "topic": "LAN",
+      "blogPost": "",
+      "code": "",
+      "PyPI": ""
+    }, 
+    {"image": "",  
+    "alt": "",  
+    "title": "Can LLM Self-report?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",  
+    "authors": [
+      {"name": "Huiqi Zou", "url": "https://annazou1103.github.io/","extraClass": "isle" },   
+      {"name": "Pengda Wang", "url": "https://wpengda.github.io/"},
+      {"name": "Zihan Yan", "url": ""},
+      {"name": "Tianjun Sun", "url": "https://tianjunsun.owlstown.net/"},
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      }
+    ],  
+    "venue": {  
+      "name": "CoLM 2025",  
+      "url": "https://arxiv.org/abs/2412.00207"  
+    },  
+    "paper": "https://arxiv.org/abs/2412.00207",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2025",
+    "featured": true,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+    },
+        {
+      "image": "",
+      "alt": "",
+      "title": "From Queries to Criteria: Understanding How Astronomers Evaluate LLMs",
+      "authors": [
+        {"name": "Alina Hyk", "url": ""},
+        {"name": "Kiera McCormick", "url": ""},
+        {"name": "Mian Zhong", "url": ""},
+        {"name": "Ioana Ciucă", "url": ""},
+        {"name": "Sanjib Sharma", "url": ""},
+        {"name": "John F Wu", "url": ""},
+        {"name": "JEG Peek", "url": ""},
+        {"name": "Kartheik G Iyer", "url": ""},
+        {"name": "Ziang Xiao", "url": "", "extraClass": "zx"},
+        {"name": "Anjalie Field", "url": ""}
+      ],
+      "venue": {
+        "name": "CoLM 2025",
+        "url": "https://arxiv.org/abs/2507.15715"
+      },
+      "paper": "https://arxiv.org/abs/2507.15715",
+      "video": "",
+      "acmDL": "",
+      "year": "2025",
+      "featured": false,
+      "type": "Paper",
+      "topic": "LAN",
+      "blogPost": "",
+      "code": "",
+      "PyPI": ""
+    },
+    {
+      "image": "",  
+      "alt": "",  
+      "title": "Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing",  
+      "authors": [   
+        {"name": "Han Jiang", "url": "","extraClass": "isle" },
+        {  
+          "name": "Xiaoyuan Yi",  
+          "url": "https://xiaoyuanyi.github.io/"
+        },
+        {"name": "Zhihua Wei", "url": ""},
+        {  
+          "name": "Ziang Xiao",  
+          "url": "",  
+          "extraClass": "zx"  
+        },
+        {"name": "Shu Wang", "url": ""},
+        {"name": "Xing Xie", "url": ""}
+      ],  
+      "venue": {  
+        "name": "ICML 2025",  
+        "url": "https://icml.cc/"  
+      },  
+      "paper": "https://arxiv.org/abs/2406.14230",  
+      "video": "",  
+      "acmDL": "",  
+      "year": "2025",
+      "featured": true,
+      "type": "Paper",
+      "topic":"LAN",
+      "blogPost":"",
+      "code":"",
+      "PyPI":""
+    }, 
+      {
+    "image": "",  
+    "alt": "",  
+    "title": "Interruption Handling for Conversational Robots",  
+    "authors": [   
+      {"name": "Shiye Cao", "url": "https://shiye-cao.github.io/"},
+      {"name": "Jiwon Moon", "url": ""} ,  
+      {"name": "Amama Mahmood", "url": "https://amamamahmood.github.io/"} ,  
+      {"name": "Victor Nikhil Antony", "url": "https://vantony1.github.io/"} ,  
+      {  
+        "name": "Ziang Xiao",  
+        "url": "",  
+        "extraClass": "zx"  
+      },
+      {"name": "Anqi Liu", "url": "https://anqiliu-ai.github.io/"} ,  
+      {"name": "Chien-Ming Huang", "url": "https://www.cs.jhu.edu/~cmhuang/"}
+    ],  
+    "venue": {  
+      "name": "RSS 2025",  
+      "url": "https://roboticsconference.org/"  
+    },  
+    "paper": "https://arxiv.org/pdf/2501.01568",  
+    "video": "",  
+    "acmDL": "",  
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic":"LAN",
+    "blogPost":"",
+    "code":"",
+    "PyPI":""
+  }, 
+    {
+      "image": "",  
+      "alt": "",  
+      "title": "TALES: Text Adventure Learning Environment Suite",  
+      "authors": [   
+        {"name": "Christopher Zhang Cui", "url": ""},
+        {  
+          "name": "Xingdi Yuan",  
+          "url": "https://xiaoyuanyi.github.io/"
+        },
+        {  
+          "name": "Ziang Xiao",  
+          "url": "",  
+          "extraClass": "zx"  
+        },
+        {"name": "Prithviraj Ammanabrolu", "url": ""},
+        {"name": "Marc-Alexandre Côté", "url": ""}
+      ],  
+      "venue": {  
+        "name": "ArXiv",  
+        "url": "https://arxiv.org/abs/2504.14128"  
+      },  
+      "paper": "https://arxiv.org/abs/2504.14128",  
+      "video": "",  
+      "acmDL": "",  
+      "year": "2025",
+      "featured": true,
+      "type": "Paper",
+      "topic":"LAN",
+      "blogPost":"",
+      "code":"https://github.com/microsoft/tale-suite",
+      "PyPI":""
+    }, 
+    {
+      "image": "",  
+      "alt": "",  
+      "title": "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections",  
+      "authors": [   
+        {"name": "Chaoran Chen", "url": ""},
+        {"name": "Zhiping Zhang", "url": ""},
+        {"name": "Bingcan Guo",  "url": ""},
+        {"name": "Shang Ma", "url": ""},
+        {"name": "Ibrahim Khalilov", "url": ""},
+        {"name": "Simret A Gebreegziabhe", "url": ""},
+        {"name": "Yanfang Ye", "url": ""},
+        {  
+          "name": "Ziang Xiao",  
+          "url": "",  
+          "extraClass": "zx"  
+        },
+        {"name": "Yaxing Yao", "url": ""},
+        {"name": "Tianshi Li", "url": ""},
+        {"name": "Toby Jia-Jun Li", "url": ""}
+      ],  
+      "venue": {  
+        "name": "ArXiv",  
+        "url": "https://arxiv.org/abs/2504.14128"  
+      },  
+      "paper": "https://arxiv.org/abs/2504.14128",  
+      "video": "",  
+      "acmDL": "",  
+      "year": "2025",
+      "featured": true,
+      "type": "Paper",
+      "topic":"LAN",
+      "blogPost":"",
+      "code":"",
+      "PyPI":""
+    }, 
     {
       "image": "",  
       "alt": "",  
@@ -17,7 +264,7 @@
           "url": "",  
           "extraClass": "zx"  
         },
-        {"name": "Frederick L. Oswald*", "url": "https://kentonmurray.com/index.html"}
+        {"name": "Frederick L. Oswald*", "url": "https://profiles.rice.edu/faculty/fred-oswald"}
       ],  
       "venue": {  
         "name": "ArXiv",  
@@ -57,7 +304,7 @@
     },  
     "paper": "https://arxiv.org/abs/2407.05502",  
     "video": "",  
-    "acmDL": "",  
+    "acmDL": "https://aclanthology.org/2025.naacl-long.411/",  
     "year": "2025",
     "featured": true,
     "type": "Paper",
@@ -88,7 +335,7 @@
     },  
     "paper": "https://arxiv.org/abs/2401.09051",  
     "video": "",  
-    "acmDL": "",  
+    "acmDL": "https://dl.acm.org/doi/10.1145/3706598.3713139",  
     "year": "2025",
     "featured": false,
     "type": "Paper",
@@ -116,9 +363,9 @@
       "name": "CHI 2025",  
       "url": "https://chi2025.acm.org/"  
     },  
-    "paper": "",  
+    "paper": "https://dl.acm.org/doi/10.1145/3706598.3713133",  
     "video": "",  
-    "acmDL": "",  
+    "acmDL": "https://dl.acm.org/doi/10.1145/3706598.3713133",  
     "year": "2025",
     "featured": false,
     "type": "Paper",
@@ -148,9 +395,9 @@
       "name": "CHI 2025",  
       "url": "https://chi2025.acm.org/"  
     },  
-    "paper": "https://arxiv.org/pdf/2501.12557",  
+    "paper": "https://dl.acm.org/doi/10.1145/3706598.3713726",  
     "video": "",  
-    "acmDL": "",  
+    "acmDL": "https://dl.acm.org/doi/10.1145/3706598.3713726",  
     "year": "2025",
     "featured": false,
     "type": "Paper",
@@ -191,38 +438,6 @@
     "code":"",
     "PyPI":""
   }, 
-  {
-    "image": "",  
-    "alt": "",  
-    "title": "Interruption Handling for Conversational Robots",  
-    "authors": [   
-      {"name": "Shiye Cao", "url": "https://shiye-cao.github.io/"},
-      {"name": "Jiwon Moon", "url": ""} ,  
-      {"name": "Amama Mahmood", "url": "https://amamamahmood.github.io/"} ,  
-      {"name": "Victor Nikhil Antony", "url": "https://vantony1.github.io/"} ,  
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Anqi Liu", "url": "https://anqiliu-ai.github.io/"} ,  
-      {"name": "Chien-Ming Huang", "url": "https://www.cs.jhu.edu/~cmhuang/"}
-    ],  
-    "venue": {  
-      "name": "ArXiv",  
-      "url": "https://arxiv.org/pdf/2501.01568"  
-    },  
-    "paper": "https://arxiv.org/pdf/2501.01568",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2025",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  }, 
     {
     "image": "",  
     "alt": "",  
@@ -251,36 +466,7 @@
     "code":"",
     "PyPI":""
     },
-    {
-    "image": "",  
-    "alt": "",  
-    "title": "Can LLM Self-report?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",  
-    "authors": [
-      {"name": "Huiqi Zou", "url": "https://annazou1103.github.io/","extraClass": "isle" },   
-      {"name": "Pengda Wang", "url": "https://wpengda.github.io/"},
-      {"name": "Zihan Yan", "url": ""},
-      {"name": "Tianjun Sun", "url": "https://tianjunsun.owlstown.net/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      }
-    ],  
-    "venue": {  
-      "name": "ArXiv",  
-      "url": "https://arxiv.org/abs/2412.00207"  
-    },  
-    "paper": "https://arxiv.org/abs/2412.00207",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2024",
-    "featured": true,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-    }, {
+ {
     "image": "",  
     "alt": "",  
     "title": "Not Yet: Large Language Models Cannot Replace Human Respondents for Psychometric Research",  
