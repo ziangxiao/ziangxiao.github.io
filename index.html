@@ -10,6 +10,21 @@
 
   gtag('config', 'UA-120527594-1');
 
+  function enrichAuthors(authors, authorsMap) {
+    return authors.map(author => {
+      const authorName = typeof author === 'string' ? author : author.name;
+      const authorInfo = authorsMap[authorName] || {};
+      const equalContribution = typeof author === 'object' ? (author.equalContribution || false) : false;
+      
+      return {
+        name: authorName,
+        url: authorInfo.url || '',
+        extraClass: authorInfo.extraClass || '',
+        equalContribution: equalContribution
+      };
+    });
+  }
+
   function createPaperBlock(jsonData) {  
     const publication = jsonData;  
     let authorsHtml = '';  
@@ -19,10 +34,14 @@
         authorsHtml += ', ';  
       }  
     
+      // Handle author name - add asterisk if equal contribution
+      const authorName = author.name;
+      const displayName = author.equalContribution ? authorName + '*' : authorName;
+      
       if (author.url) {  
-        authorsHtml += `<span class="author${author.extraClass ? ` ${author.extraClass}` : ''}"><a href="${author.url}">${author.name}</a></span>`;  
+        authorsHtml += `<span class="author${author.extraClass ? ` ${author.extraClass}` : ''}"><a href="${author.url}">${displayName}</a></span>`;  
       } else {  
-        authorsHtml += `<span class="author${author.extraClass ? ` ${author.extraClass}` : ''}">${author.name}</span>`;  
+        authorsHtml += `<span class="author${author.extraClass ? ` ${author.extraClass}` : ''}">${displayName}</span>`;  
       }  
     }); 
     
@@ -39,14 +58,18 @@
     if (publication.blogPost){
       metaHtml+=` / <span class="tag"><a href="${publication.blogPost}">Blog Post</a></span>`
     }
-    if (publication.acmDL){
-      metaHtml+=` / <span class="tag"><a href="${publication.acmDL}">ACM DL</a></span>`
-    }
     if (publication.code){
       metaHtml+=` / <span class="tag"><a href="${publication.code}">Code</a></span>`
     }
-    if (publication.PyPI){
-      metaHtml+=` / <span class="tag"><a href="${publication.PyPI}">Release</a></span>`
+    if (publication.software){
+      metaHtml+=` / <span class="tag"><a href="${publication.software}">Software</a></span>`
+    }
+    if (publication.media && Array.isArray(publication.media)){
+      publication.media.forEach(function(mediaItem) {
+        if (mediaItem.url && mediaItem.name) {
+          metaHtml+=` / <span class="tag"><a href="${mediaItem.url}">${mediaItem.name}</a></span>`
+        }
+      });
     }
     if (publication.award){
       metaHtml+=` / <span class="tag" style="color:#E84A27;"><a>${publication.award}</a></span>`
@@ -88,11 +111,17 @@
   }  
     
   function createHtmlBlockFromJsonFile(jsonFileUrl) {  
-    loadJsonData(jsonFileUrl, function (jsonData) {  
-      if (jsonData) {   
-        var cur_year = ''
-        for (var i=0; i < jsonData.length; i++) {
-          const htmlBlock = createPaperBlock(jsonData[i]); 
+    // Load both authors.json and publications.json
+    loadJsonData('./assets/authors.json', function (authorsData) {
+      loadJsonData(jsonFileUrl, function (jsonData) {  
+        if (jsonData) {   
+          var cur_year = ''
+          for (var i=0; i < jsonData.length; i++) {
+            // Enrich authors with data from authors.json
+            const publication = { ...jsonData[i] };
+            publication.authors = enrichAuthors(publication.authors, authorsData);
+            
+            const htmlBlock = createPaperBlock(publication); 
           if (jsonData[i].year!=cur_year){
             const year = `<div class="text anchor"><h4>${jsonData[i].year}</h4></div>    `;
             document.getElementById('pubs_by_date').innerHTML += year; 
@@ -117,7 +146,8 @@
         }    
         showPubs(1);
       }  
-    });  
+      });  
+    });
   }  
 
 </script>
@@ -159,11 +189,16 @@
 
           <div class="content" style="z-index:1;position:relative">
             <div class="text">
+              <h3 style="margin-bottom:.5em;">News.</h3>
+              <p style="color:#E84A27;"> The Human-centered Evaluation and Auditing of Language Models (HEAL) workshop is back for its 3rd iteration at CHI'26! <a href="https://heal-workshop.github.io/"> [Link]</a> </p>
               <!-- <h3 style="margin-bottom:.5em;">News.</h3>
               <p> <a style="color:#E84A27;"> </a><a href="https://heal-workshop.github.io/"> [Link]</a> </p> -->
               <!-- <p> <a style="color:#E84A27;">[Workshop]</a> 4th NLP+HCI Workshop @ EMNLP 2025 <a href=""> </a></p> -->
+              <p style="color:#E84A27;"> TiiS's new special issue on Human-Centric Generative AI now out! <a href="https://dl.acm.org/doi/full/10.1145/3779127"> [Link]</a> </p>
             </div>
             <!-- <div class="text">
+                            <p style="color:#E84A27;"> TiiS's new special issue I co-edited now out! </p>
+              <p> HEAL @ CHI 2026: Human-centered Evaluation and Auditing of Language Models <a href="https://heal-workshop.github.io/"> [Link]</a> </p>
               <h3 style="margin-bottom:.5em;">CfPs.</h3>
               <p> In 2024, I am co-orgainzing/co-editing the following workshops and speiacl issues on topics related to <a href="">Human-centric generaitve AI</a> and <a href="">model evaluation</a>.</p>
               <p> <a style="color:#E84A27;">[Speical Issue]</a> Human-Centric Generative AI @TiiS <a href="https://dl.acm.org/pb-assets/static_journal_pages/tiis/pdf/ACM_CFP_TiiS_Human-Centric-Generative-AI-1702668535690.pdf"> [Link]</a></p> 
@@ -183,8 +218,8 @@
         <div class="content" style="z-index:1;position:relative">
           <div class="text">
             <h3 style="margin-bottom:.5em;">Teaching.</h3>
+            <p> <a>[EN.601.790] Advanced HCI: Research Methods</a><a href=""> [Spring 2025/2026]</a> </p>
             <p> <a>[EN.601.490/690] Introduction to Human-Computer Interaction</a><a href=""> [Fall 2024/2025]</a> </p>
-            <p> <a>[EN.601.790] Advanced HCI: Research Methods</a><a href=""> [Spring 2025]</a> </p>
             <p> <a>[EMNLP 2024 Tutorial] Human-Centered Evaluation of Language Technologies</a><a href="https://human-centered-eval.github.io/"> [Slides]</a> </p>
             <p> <a>[EN.601.792] Advanced Topics in Conversational User Interfaces</a><a href=""> [Spring 2024]</a> </p>
           </div>
@@ -216,8 +251,9 @@
             <div>
               <a href="https://ziangxiao.com/" id="select0" onclick="showPubs(0); return false;" >featured</a> / 
               <a href="https://ziangxiao.com/" id="select2" onclick="showPubs(2); return false;" style="text-decoration: underline; color: rgb(0, 0, 0);">by topic</a> / 
-              <a href="https://ziangxiao.com/" id="select1" onclick="showPubs(1); return false;" >by date:all</a></div>
-            <span class="tag">(<a style="color:#68ACE5">&#9632;</a> indicates student advisees;* indicates equal contribution)</span>
+              <a href="https://ziangxiao.com/" id="select1" onclick="showPubs(1); return false;" >by date:all</a>
+            </div>
+            <div id="legend" style="margin-bottom: 0.5em;"><span class="tag">(<a style="color:#68ACE5">&#9632;</a> indicates student advisees;* indicates equal contribution)</span></div>
           </div>
           
           <div id="pubs"></div>

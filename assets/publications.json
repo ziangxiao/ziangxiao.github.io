@@ -1,13 +1,96 @@
-  [{
-    "image": "",
-    "alt": "",
+[
+  {
+    "title": "Personality Structured Interview for Large Language Model Simulation in Personality Research",
+    "authors": [
+      "Pengda Wang",
+      "Huiqi Zou",
+      "Han Jiang",
+      "Hanjie Chen",
+      "Tianjun Sun",
+      "Xiaoyuan Yi",
+      {
+        "name": "Ziang Xiao",
+        "equalContribution": true
+      },
+      {
+        "name": "Frederick L. Oswald",
+        "equalContribution": true
+      }
+    ],
+    "venue": {
+      "name": "EACL 2026",
+      "url": "https://2026.eacl.org/"
+    },
+    "paper": "https://arxiv.org/abs/2502.12109",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "Trauma Narratives and Healing of Offspring Caregivers of Breast Cancer Patients: a Mixed Qualitative Methods Study",
+    "authors": [
+      "Yifan Zhao",
+      "Xueli Qiu",
+      "Ziang Xiao",
+      "Michelle R Kaufman"
+    ],
+    "venue": {
+      "name": "BMC psychology",
+      "url": ""
+    },
+    "paper": "https://link.springer.com/article/10.1186/s40359-025-03854-y",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Population-Aligned Persona Generation for LLM-based Social Simulation",
+    "authors": [
+      "Zhengyu Hu",
+      "Jianxun Lian",
+      "Zheyuan Xiao",
+      "Max Xiong",
+      "Yuxuan Lei",
+      "Tianfu Wang",
+      "Kaize Ding",
+      "Ziang Xiao",
+      "Nicholas Jing Yuan",
+      "Xing Xie"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2509.10127",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
     "title": "The Incomplete Bridge: How AI Research (Mis)Engages with Psychology",
     "authors": [
-      {"name": "Han Jiang", "url": "","extraClass": "isle"},
-      {"name": "Pengda Wang", "url": ""},
-      {"name": "Xiaoyuan Yi", "url": "https://xiaoyuanyi.github.io/"},
-      {"name": "Xing Xie", "url": ""},
-      {"name": "Ziang Xiao", "url": "", "extraClass": "zx"}
+      "Han Jiang",
+      "Pengda Wang",
+      "Xiaoyuan Yi",
+      "Xing Xie",
+      "Ziang Xiao"
     ],
     "venue": {
       "name": "arXiv",
@@ -15,1197 +98,850 @@
     },
     "paper": "https://arxiv.org/abs/2507.22847",
     "video": "",
-    "acmDL": "",
     "year": "2025",
     "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
     "code": "",
-    "PyPI": ""
-  }, 
+    "software": ""
+  },
   {
-      "image": "",
-      "alt": "",
-      "title": "PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization",
-      "authors": [
-        {"name": "Han Jiang", "url": "","extraClass": "isle"},
-        {"name": "Dongyao Zhu", "url": ""},
-        {"name": "Zhihua Wei", "url": ""},
-        {"name": "Xiaoyuan Yi", "url": "https://xiaoyuanyi.github.io/"},
-        {"name": "Ziang Xiao", "url": "", "extraClass": "zx"},
-        {"name": "Xing Xie", "url": ""}
-      ],
-      "venue": {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2507.16679"
-      },
-      "paper": "https://arxiv.org/abs/2507.16679",
-      "video": "",
-      "acmDL": "",
-      "year": "2025",
-      "featured": true,
-      "type": "Paper",
-      "topic": "LAN",
-      "blogPost": "",
-      "code": "",
-      "PyPI": ""
-    }, 
-    {"image": "",  
-    "alt": "",  
-    "title": "Can LLM Self-report?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",  
+    "title": "PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization",
     "authors": [
-      {"name": "Huiqi Zou", "url": "https://annazou1103.github.io/","extraClass": "isle" },   
-      {"name": "Pengda Wang", "url": "https://wpengda.github.io/"},
-      {"name": "Zihan Yan", "url": ""},
-      {"name": "Tianjun Sun", "url": "https://tianjunsun.owlstown.net/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      }
-    ],  
-    "venue": {  
-      "name": "CoLM 2025",  
-      "url": "https://arxiv.org/abs/2412.00207"  
-    },  
-    "paper": "https://arxiv.org/abs/2412.00207",  
-    "video": "",  
-    "acmDL": "",  
+      "Han Jiang",
+      "Dongyao Zhu",
+      "Zhihua Wei",
+      "Xiaoyuan Yi",
+      "Ziang Xiao",
+      "Xing Xie"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": "https://arxiv.org/abs/2507.16679"
+    },
+    "paper": "https://arxiv.org/abs/2507.16679",
+    "video": "",
     "year": "2025",
     "featured": true,
     "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-    },
-        {
-      "image": "",
-      "alt": "",
-      "title": "From Queries to Criteria: Understanding How Astronomers Evaluate LLMs",
-      "authors": [
-        {"name": "Alina Hyk", "url": ""},
-        {"name": "Kiera McCormick", "url": ""},
-        {"name": "Mian Zhong", "url": ""},
-        {"name": "Ioana Ciucă", "url": ""},
-        {"name": "Sanjib Sharma", "url": ""},
-        {"name": "John F Wu", "url": ""},
-        {"name": "JEG Peek", "url": ""},
-        {"name": "Kartheik G Iyer", "url": ""},
-        {"name": "Ziang Xiao", "url": "", "extraClass": "zx"},
-        {"name": "Anjalie Field", "url": ""}
-      ],
-      "venue": {
-        "name": "CoLM 2025",
-        "url": "https://arxiv.org/abs/2507.15715"
-      },
-      "paper": "https://arxiv.org/abs/2507.15715",
-      "video": "",
-      "acmDL": "",
-      "year": "2025",
-      "featured": false,
-      "type": "Paper",
-      "topic": "LAN",
-      "blogPost": "",
-      "code": "",
-      "PyPI": ""
-    },
-    {
-      "image": "",  
-      "alt": "",  
-      "title": "Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing",  
-      "authors": [   
-        {"name": "Han Jiang", "url": "","extraClass": "isle" },
-        {  
-          "name": "Xiaoyuan Yi",  
-          "url": "https://xiaoyuanyi.github.io/"
-        },
-        {"name": "Zhihua Wei", "url": ""},
-        {  
-          "name": "Ziang Xiao",  
-          "url": "",  
-          "extraClass": "zx"  
-        },
-        {"name": "Shu Wang", "url": ""},
-        {"name": "Xing Xie", "url": ""}
-      ],  
-      "venue": {  
-        "name": "ICML 2025",  
-        "url": "https://icml.cc/"  
-      },  
-      "paper": "https://arxiv.org/abs/2406.14230",  
-      "video": "",  
-      "acmDL": "",  
-      "year": "2025",
-      "featured": true,
-      "type": "Paper",
-      "topic":"LAN",
-      "blogPost":"",
-      "code":"",
-      "PyPI":""
-    }, 
-      {
-    "image": "",  
-    "alt": "",  
-    "title": "Interruption Handling for Conversational Robots",  
-    "authors": [   
-      {"name": "Shiye Cao", "url": "https://shiye-cao.github.io/"},
-      {"name": "Jiwon Moon", "url": ""} ,  
-      {"name": "Amama Mahmood", "url": "https://amamamahmood.github.io/"} ,  
-      {"name": "Victor Nikhil Antony", "url": "https://vantony1.github.io/"} ,  
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Anqi Liu", "url": "https://anqiliu-ai.github.io/"} ,  
-      {"name": "Chien-Ming Huang", "url": "https://www.cs.jhu.edu/~cmhuang/"}
-    ],  
-    "venue": {  
-      "name": "RSS 2025",  
-      "url": "https://roboticsconference.org/"  
-    },  
-    "paper": "https://arxiv.org/pdf/2501.01568",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2025",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  }, 
-    {
-      "image": "",  
-      "alt": "",  
-      "title": "TALES: Text Adventure Learning Environment Suite",  
-      "authors": [   
-        {"name": "Christopher Zhang Cui", "url": ""},
-        {  
-          "name": "Xingdi Yuan",  
-          "url": "https://xiaoyuanyi.github.io/"
-        },
-        {  
-          "name": "Ziang Xiao",  
-          "url": "",  
-          "extraClass": "zx"  
-        },
-        {"name": "Prithviraj Ammanabrolu", "url": ""},
-        {"name": "Marc-Alexandre Côté", "url": ""}
-      ],  
-      "venue": {  
-        "name": "ArXiv",  
-        "url": "https://arxiv.org/abs/2504.14128"  
-      },  
-      "paper": "https://arxiv.org/abs/2504.14128",  
-      "video": "",  
-      "acmDL": "",  
-      "year": "2025",
-      "featured": true,
-      "type": "Paper",
-      "topic":"LAN",
-      "blogPost":"",
-      "code":"https://github.com/microsoft/tale-suite",
-      "PyPI":""
-    }, 
-    {
-      "image": "",  
-      "alt": "",  
-      "title": "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections",  
-      "authors": [   
-        {"name": "Chaoran Chen", "url": ""},
-        {"name": "Zhiping Zhang", "url": ""},
-        {"name": "Bingcan Guo",  "url": ""},
-        {"name": "Shang Ma", "url": ""},
-        {"name": "Ibrahim Khalilov", "url": ""},
-        {"name": "Simret A Gebreegziabhe", "url": ""},
-        {"name": "Yanfang Ye", "url": ""},
-        {  
-          "name": "Ziang Xiao",  
-          "url": "",  
-          "extraClass": "zx"  
-        },
-        {"name": "Yaxing Yao", "url": ""},
-        {"name": "Tianshi Li", "url": ""},
-        {"name": "Toby Jia-Jun Li", "url": ""}
-      ],  
-      "venue": {  
-        "name": "ArXiv",  
-        "url": "https://arxiv.org/abs/2504.14128"  
-      },  
-      "paper": "https://arxiv.org/abs/2504.14128",  
-      "video": "",  
-      "acmDL": "",  
-      "year": "2025",
-      "featured": true,
-      "type": "Paper",
-      "topic":"LAN",
-      "blogPost":"",
-      "code":"",
-      "PyPI":""
-    }, 
-    {
-      "image": "",  
-      "alt": "",  
-      "title": "Personality Structured Interview for Large Language Model Simulation in Personality Research",  
-      "authors": [   
-        {"name": "Pengda Wang", "url": "https://wpengda.github.io/"},
-        {  
-          "name": "Huiqi Zou",  
-          "url": "https://annazou1103.github.io/",
-          "extraClass": "isle" 
-        },
-        {"name": "Hanjie Chen", "url": "https://hanjiechen.github.io/"},
-        {"name": "Tianjun Sun", "url": "https://profiles.rice.edu/faculty/tianjun-sun"},
-        {  
-          "name": "Ziang Xiao*",  
-          "url": "",  
-          "extraClass": "zx"  
-        },
-        {"name": "Frederick L. Oswald*", "url": "https://profiles.rice.edu/faculty/fred-oswald"}
-      ],  
-      "venue": {  
-        "name": "ArXiv",  
-        "url": ""  
-      },  
-      "paper": "https://arxiv.org/abs/2502.12109",  
-      "video": "",  
-      "acmDL": "",  
-      "year": "2025",
-      "featured": true,
-      "type": "Paper",
-      "topic":"AI4SS",
-      "blogPost":"",
-      "code":"",
-      "PyPI":""
-    },   
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
   {
-    "image": "",  
-    "alt": "",  
-    "title": "Faux Polyglot: A Study on Information Disparity in Multilingual Large Language Models",  
-    "authors": [   
-      {  
-        "name": "Nikhil Sharma",  
-        "url": "https://www.nikhilsksharma.com/about",
-        "extraClass": "isle" 
-      },
-      {"name": "Keton Murray", "url": "https://kentonmurray.com/index.html"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      }
-    ],  
-    "venue": {  
-      "name": "NAACL 2025",  
-      "url": ""  
-    },  
-    "paper": "https://arxiv.org/abs/2407.05502",  
-    "video": "",  
-    "acmDL": "https://aclanthology.org/2025.naacl-long.411/",  
-    "year": "2025",
-    "featured": true,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  }, 
-  {
-    "image": "images/canvil.png",  
-    "alt": "",  
-    "title": "Canvil: Designerly Adaptation for LLM-Powered User Experiences",  
-    "authors": [   
-      {"name": "Kevin Feng", "url": "https://kjfeng.me/"},
-      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Jennifer Wortman Vaughan", "url": "https://www.jennwv.com/"},
-      {"name": "Amy X. Zhang", "url": "https://homes.cs.washington.edu/~axz/"},
-      {"name": "David W. McDonald", "url": "https://www.pensivepuffin.com/dwmcphd/biographical/index.html"}
-    ],  
-    "venue": {  
-      "name": "CHI 2025",  
-      "url": "https://chi2025.acm.org/"  
-    },  
-    "paper": "https://arxiv.org/abs/2401.09051",  
-    "video": "",  
-    "acmDL": "https://dl.acm.org/doi/10.1145/3706598.3713139",  
-    "year": "2025",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":"https://www.figma.com/community/widget/1277396720888327660/canvil"
-  }, 
-  {
-    "image": "",  
-    "alt": "",  
-    "title": "From Text to Trust: Empowering AI-assisted Decision Making with Adaptive LLM-powered Analysis",  
-    "authors": [   
-      {"name": "Zhuoyan Li", "url": "https://xfleezy.github.io/zhuoyanli/"},
-      {"name": "Hangxiao Zhu", "url": "https://flypig23.github.io/"} ,  
-      {"name": "Zhuoran Lu", "url": "https://zhuoranlu.github.io/"} ,  
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Ming Yin", "url": "https://mingyin.org/"}
-    ],  
-    "venue": {  
-      "name": "CHI 2025",  
-      "url": "https://chi2025.acm.org/"  
-    },  
-    "paper": "https://dl.acm.org/doi/10.1145/3706598.3713133",  
-    "video": "",  
-    "acmDL": "https://dl.acm.org/doi/10.1145/3706598.3713133",  
-    "year": "2025",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  }, 
-  {
-    "image": "",  
-    "alt": "",  
-    "title": "Understanding the LLM-ification of CHI: Unpacking the Impact of LLMs at CHI through a Systematic Literature Review",  
-    "authors": [   
-      {"name": "Rock Yuren Pang", "url": "https://homes.cs.washington.edu/~ypang2/"},
-      {"name": "Hope Schroeder", "url": "https://www.hopeschroeder.com/"} ,  
-      {"name": "Kynnedy Simone Smith", "url": "https://ksimone-portfolio-gwc.glitch.me/"} ,  
-      {"name": "Solon Barocas", "url": "http://solon.barocas.org/"} ,  
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Emily Tseng", "url": "https://emtseng.me/"},
-      {"name": "Danielle Bragg", "url": "https://danibragg.com/"}
-    ],  
-    "venue": {  
-      "name": "CHI 2025",  
-      "url": "https://chi2025.acm.org/"  
-    },  
-    "paper": "https://dl.acm.org/doi/10.1145/3706598.3713726",  
-    "video": "",  
-    "acmDL": "https://dl.acm.org/doi/10.1145/3706598.3713726",  
-    "year": "2025",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  }, 
-  {
-    "image": "",  
-    "alt": "",  
-    "title": "Assistance or Disruption? Exploring and Evaluating the Design and Trade-offs of Proactive AI Programming Support",  
-    "authors": [   
-      {"name": "Kevin Pu", "url": "https://kevinpjk.github.io/"},
-      {"name": "Daniel Lazaro", "url": "https://cv.dlazaro.ca/"} ,  
-      {"name": "Ian Arawjo", "url": "https://ianarawjo.com/"} ,  
-      {"name": "Haijun Xia", "url": "https://hci.ucsd.edu/haijunxia"} ,  
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Tovi Grossman", "url": "https://www.tovigrossman.com/"} ,  
-      {"name": "Yan Chen", "url": "https://chensivan.github.io/"}
-    ],  
-    "venue": {  
-      "name": "CHI 2025",  
-      "url": "https://chi2025.acm.org/"  
-    },  
-    "paper": "",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2025",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  }, 
-    {
-    "image": "",  
-    "alt": "",  
-    "title": "Trust or Stigmatization? Evidence From De-anonymizing Social Media in China",  
+    "title": "Can LLM Self-report?: Evaluating the Validity of Self-report Scales in Measuring Personality Design in LLM-based Chatbots",
     "authors": [
-      {"name": "Mingzi Niu", "url": "https://sites.google.com/view/mingziniu"},
-      {"name": "Yiqian Wang", "url": "https://sites.google.com/view/yiqianwang/home"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      }
-    ],  
-    "venue": {  
-      "name": "BREAD Asia Conference on Development Economics",  
-      "url": ""  
-    },  
-    "paper": "",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2024",
-    "featured": true,
-    "type": "Paper",
-    "topic":"INFO",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
+      "Huiqi Zou",
+      "Pengda Wang",
+      "Zihan Yan",
+      "Tianjun Sun",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "CoLM 2025",
+      "url": "https://arxiv.org/abs/2412.00207"
     },
- {
-    "image": "",  
-    "alt": "",  
-    "title": "Not Yet: Large Language Models Cannot Replace Human Respondents for Psychometric Research",  
-    "authors": [   
-      {"name": "Pengda Wang", "url": "https://wpengda.github.io/"},
-      {"name": "Huiqi Zou", "url": "https://annazou1103.github.io/","extraClass": "isle" }, 
-      {"name": "Zihan Yan", "url": ""},
-      {"name": "Feng Guo", "url": "https://www.utc.edu/directory/dkt968-psychology-feng-guo/dkt968"},
-      {"name": "Tianjun Sun", "url": "https://tianjunsun.owlstown.net/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Bo Zhang", "url": "https://psychology.illinois.edu/directory/profile/bozhang3"}
-    ],  
-    "venue": {  
-      "name": "Pre Print",  
-      "url": ""  
-    },  
-    "paper": "https://osf.io/preprints/osf/rwy9b",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2024",
+    "paper": "https://arxiv.org/abs/2412.00207",
+    "video": "",
+    "year": "2025",
     "featured": true,
     "type": "Paper",
-    "topic":"AI4SS",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  }, 
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
   {
-    "image": "",  
-    "alt": "",  
-    "title": "Improving Context-Aware Preference Modeling for Language Models",  
-    "authors": [   
-      {"name": "Silviu Pitis", "url": "https://silviupitis.com/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Nicolas Le Roux", "url": "https://nicolas.le-roux.name/"},
-      {"name": "Alessandro Sordoni", "url": "https://www.microsoft.com/en-us/research/people/alsordon/"}
-    ],  
-    "venue": {  
-      "name": "NeurIPS 2024",  
-      "url": ""  
-    },  
-    "paper": "https://arxiv.org/abs/2407.14916",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2024",
-    "featured": true,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":""
-  },  
-  {
-    "image": "images/ecbd.png",  
-    "alt": "",  
-    "title": "ECBD: Evidence-Centered Benchmark Design for NLP",  
-    "authors": [   
-      {"name": "Yu Lu Liu", "url": "https://yululiu.github.io/","extraClass":"isle"},
-      {"name": "Su Lin Blodgett", "url": "https://sblodgett.github.io/"} ,  
-      {"name": "Jackie Chi Kit Cheung", "url": "https://www.cs.mcgill.ca/~jcheung/"},
-      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"},
-      {"name": "Alexandra Olteanu", "url": "https://www.aolteanu.com/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      }
-    ],  
-    "venue": {  
-      "name": "ACL 2024",  
-      "url": "https://2024.aclweb.org/"  
-    },  
-    "paper": "pdf/[p]Liu_2024_ECBD_Evidence-Centered_Benchmark_Design_for_NLP.pdf",  
-    "video": "",  
-    "acmDL": "https://aclanthology.org/2024.acl-long.861/",  
-    "year": "2024",
-    "featured": true,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"",
-    "PyPI":"",
-    "award": ""
-  }, 
-  {
-    "image": "images/bs32sp.png",  
-    "alt": "",  
-    "title": "Can Language Models Serve as Text-Based World Simulators?",  
-    "authors": [   
-      {"name": "Ruoyao Wang", "url": "https://wsxzwps.github.io/"},
-      {"name": "Graham Todd", "url": "https://scholar.google.com/citations?user=NyBWyCIAAAAJ&hl=en"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Xingdi Yuan", "url": "https://xingdi-eric-yuan.github.io/"},
-      {"name": "Marc-Alexandre Côté", "url": "https://www.microsoft.com/en-us/research/people/macote/"},
-      {"name": "Peter Clark", "url": "https://allenai.org/team/peterc"},
-      {"name": "Peter Jansen", "url": "https://ischool.arizona.edu/person/peter-jansen"}    
-    ],  
-    "venue": {  
-      "name": "ACL 2024",  
-      "url": "https://2024.aclweb.org/"  
-    },  
-    "paper": "pdf/[p]Wang_2024_Can_Language_Models_Serve_as_Text-Based_World_Simulators.pdf",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2024",
-    "featured": true,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":"https://github.com/cognitiveailab/GPT-simulator",
-    "PyPI":""
-  }, 
-  {  
-  "image": "images/genechochamber.png",  
-  "alt": "",  
-  "title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking",  
-  "authors": [
-    {  
-      "name": "Nikhil Sharma",  
-      "url": "https://www.nikhilsksharma.com/about",
-      "extraClass": "isle" 
-    },    
-    {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} ,  
-    {  
-      "name": "Ziang Xiao",  
-      "url": "",  
-      "extraClass": "zx"  
-    }
-  ],  
-  "venue": {  
-    "name": "CHI 2024",  
-    "url": ""  
-  },  
-  "paper": "pdf/[p]Sharma_Generative_echo_chamber_Effect_of_LLM-powered_search_systems_on_diverse_information_seeking.pdf",  
-  "video": "https://www.youtube.com/watch?v=s2A0YVr4vP8",  
-  "acmDL": "https://dl.acm.org/doi/10.1145/3613904.3642459",
-  "award": "Best Paper Award",  
-  "year":"2024",
-  "featured": true,
-  "type": "Paper",
-  "topic":"INFO"  
-},
-{  
-  "image": "",  
-  "alt": "",  
-  "title": "The Role of Human-Centered AI in User Modeling, Adaptation, and Personalization — Models, Frameworks, and Paradigms",  
-  "authors": [
-    { "name": "Helma Torkamaan", "url": "https://torkamaan.de/"},    
-    {"name": "Mohammad Tahaei", "url": "https://mohammad.tahaei.com/"} ,  
-    {"name": "Stefan Buĳsman", "url": "https://www.tudelft.nl/en/staff/s.n.r.buijsman/?cHash=944dc8fbd28f0bd6d712c1f2292eebf7"} ,  
-    {  
-      "name": "Ziang Xiao",  
-      "url": "",  
-      "extraClass": "zx"  
+    "title": "From Queries to Criteria: Understanding How Astronomers Evaluate LLMs",
+    "authors": [
+      "Alina Hyk",
+      "Kiera McCormick",
+      "Mian Zhong",
+      "Ioana Ciucă",
+      "Sanjib Sharma",
+      "John F Wu",
+      "JEG Peek",
+      "Kartheik G Iyer",
+      "Ziang Xiao",
+      "Anjalie Field"
+    ],
+    "venue": {
+      "name": "CoLM 2025",
+      "url": "https://arxiv.org/abs/2507.15715"
     },
-    {"name": "Daricia Wilkinson", "url": "https://www.dariciawilkinson.com/"},
-    {"name": "Bart Knĳnenburg", "url": "https://www.usabart.nl/portfolio/#home.html"}
-  ],  
-  "venue": {  
-    "name": "A Human-Centered Perspective of Intelligent Personalized Environments and Systems",  
-    "url": ""  
-  },  
-  "paper": "https://link.springer.com/chapter/10.1007/978-3-031-55109-3_2",  
-  "video": "",  
-  "acmDL": "",
-  "award": "",  
-  "year":"2024",
-  "featured": false,
-  "type": "Book Chapter",
-  "topic":"LAN"  
-},
-  {
-    "image": "images/mp2.png",  
-    "alt": "",  
-    "title": "Canonical Design for Language Agents using Natural Language Reward Models",  
-    "authors": [   
-      {"name": "Silviu Pitis", "url": "https://silviupitis.com/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Alessandro Sordoni", "url": "https://www.microsoft.com/en-us/research/people/alsordon/"}
-    ],  
-    "venue": {  
-      "name": "MP2 @ NeurIPS 2023",  
-      "url": "https://aipsychphil.github.io/"  
-    },  
-    "paper": "pdf/[p]Pitis_2023_canonical_design_for_language_agent.pdf",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2023",
+    "paper": "https://arxiv.org/abs/2507.15715",
+    "video": "",
+    "year": "2025",
     "featured": false,
     "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"",
-    "code":""
-  },    
-  {  
-    "image": "images/metricEval.jpg",  
-    "alt": "",  
-    "title": "Evaluating Evaluation Metrics: A Framework for Analyzing NLG Evaluation Metrics using Measurement Theory",  
-    "authors": [  
-      {  
-        "name": "Ziang Xiao*",  
-        "url": "",  
-        "extraClass": "zx"  
-      },  
-      {  
-        "name": "Susu Zhang*",  
-        "url": "https://sites.google.com/view/susuzhang/"  
-      },  
-      {  
-        "name": "Vivian Lai",  
-        "url": "https://vivlai.github.io/"  
-      },  
-      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"} 
-    ],  
-    "venue": {  
-      "name": "EMNLP 2023",  
-      "url": "https://2023.emnlp.org/"  
-    },  
-    "paper": "pdf/[p]Xiao_2023_Evaluating_Evaluation_Metrics_A_Framework_for_Analyzing_NLG_Evaluation_Metrics_using_Measurement_Theory.pdf",  
-    "video": "",  
-    "acmDL": "https://aclanthology.org/2023.emnlp-main.676/",  
-    "year":"2023",
-    "featured": true,
-    "type": "Paper",
-    "topic":"LAN",
-    "code":"https://github.com/isle-dev/MetricEval",
-    "PyPI":"https://pypi.org/project/metric-eval/"
-  },
-  {  
-    "image": "images/bs32.png",  
-    "alt": "",  
-    "title": "ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games",  
-    "authors": [   
-      {"name": "Ruoyao Wang", "url": "https://wsxzwps.github.io/"},
-      {"name": "Graham Todd", "url": "https://scholar.google.com/citations?user=NyBWyCIAAAAJ&hl=en"},
-      {"name": "Xingdi Yuan", "url": "https://xingdi-eric-yuan.github.io/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },
-      {"name": "Marc-Alexandre Côté", "url": "https://www.microsoft.com/en-us/research/people/macote/"},
-      {"name": "Peter Jansen", "url": "https://ischool.arizona.edu/person/peter-jansen"}    
-    ],  
-    "venue": {  
-      "name": "EMNLP 2023",  
-      "url": "https://2023.emnlp.org/"  
-    },  
-    "paper": "https://aclanthology.org/2023.emnlp-main.830.pdf",  
-    "video": "",  
-    "acmDL": "https://aclanthology.org/2023.emnlp-main.830/",  
-    "year": "2023",
-    "featured": false,
-    "type": "Paper",
-    "code":"https://github.com/cognitiveailab/BYTESIZED32",
-    "topic":"LAN"    
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
   },
   {
-    "image": "images/dln.png",  
-    "alt": "",  
-    "title": "Deep Language Networks: Joint Prompt Training of Stacked LLMs using Variational Inference",  
-    "authors": [   
-      {"name": "Alessandro Sordoni", "url": "https://www.microsoft.com/en-us/research/people/alsordon/"},
-      {"name": "Xingdi Yuan", "url": "https://xingdi-eric-yuan.github.io/"},
-      {"name": "Marc-Alexandre Côté", "url": "https://www.microsoft.com/en-us/research/people/macote/"},
-      {"name": "Matheus Pereira", "url": "https://www.microsoft.com/en-us/research/people/matpereira/"},
-      {"name": "Adam Trischler", "url": "https://www.microsoft.com/en-us/research/people/adtrisch/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },   
-      {"name": "Arian Hosseini", "url": "https://arianhosseini.github.io/"},
-      {"name": "Friederike Niedtner", "url": "https://www.microsoft.com/en-us/research/people/fniedtner/"},
-      {"name": "Nicolas Le Roux", "url": "https://nicolas.le-roux.name/"}
-    ],  
-    "venue": {  
-      "name": "NeurIPS 2023",  
-      "url": "https://nips.cc/"  
-    },  
-    "paper": "https://arxiv.org/abs/2306.12509",  
-    "video": "https://podcasts.apple.com/us/podcast/abstracts-december-11-2023/id1318021537?i=1000638238693",  
-    "acmDL": "",  
-    "year": "2023",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "blogPost":"https://medium.com/@friederike.niedtner/deep-language-networks-stacking-llms-in-trainable-layers-e7f719bcabde",
-    "code":"https://github.com/microsoft/deep-language-networks"
-  },
-  {  
-    "image": "images/sogap.png",  
-    "alt": "",  
-    "title": "Rethinking Model Evaluation as Narrowing the Socio-Technical Gap",  
-    "authors": [   
-      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"},
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      }    
-    ],  
-    "venue": {  
-      "name": "AI&HCI @ ICML 2023",  
-      "url": "https://sites.google.com/view/aihci/home"  
-    },  
-    "paper": "https://arxiv.org/pdf/2306.03100v1.pdf",  
-    "video": "",  
-    "acmDL": "",  
-    "year": "2023",
-    "featured": false,
-    "type": "Paper",
-    "topic":"LAN",
-    "award": "Honorable Mention"    
-  },
-  {  
-    "image": "images/inform.png",  
-    "alt": "SEM model",  
-    "title": "Inform the Uninformed: Improving Online Informed Consent Reading with an AI-Powered Chatbot",  
-    "authors": [  
-      {  
-        "name": "Ziang Xiao",  
-        "url": "",  
-        "extraClass": "zx"  
-      },  
-      {  
-        "name": "Tiffany Wenting Li",  
-        "url": "https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en"  
-      },  
-      {  
-        "name": "Karrie Karahalios",  
-        "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"  
-      },  
-      {  
-        "name": "Hari Sundaram",  
-        "url": "http://sundaram.cs.illinois.edu/"  
-      }  
-    ],  
-    "venue": {  
-      "name": "CHI 2023",  
-      "url": ""  
-    },  
-    "paper": "pdf/[p]Xiao_2023_Inform_the_Uninformed_Improving_Online_Informed_Consent_Reading_with_an_AI-Powered_Chatbot.pdf",  
-    "video": "https://www.youtube.com/watch?v=zFZOhvzlkNw",  
-    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3544548.3581252",  
-    "year": 2023,
+    "title": "Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing",
+    "authors": [
+      "Han Jiang",
+      "Xiaoyuan Yi",
+      "Zhihua Wei",
+      "Ziang Xiao",
+      "Shu Wang",
+      "Xing Xie"
+    ],
+    "venue": {
+      "name": "ICML 2025",
+      "url": "https://icml.cc/"
+    },
+    "paper": "https://arxiv.org/abs/2406.14230",
+    "video": "",
+    "year": "2025",
     "featured": true,
     "type": "Paper",
-    "topic":"AI4SS"   
-  },  
-  {  
-    "image": "images/JenniferOverview.png",  
-    "alt": "Jennifer Architecture",  
-    "title": "Powering an AI Chatbot with Expert Sourcing to Support Credible Health Information Access",  
-    "authors": [  
-      {"name": "Ziang Xiao", "url": "", "extraClass": "zx"},  
-      {"name": "Q. Vera Liao", "url": "http://qveraliao.com/"},  
-      {"name": "Michelle Zhou", "url": "https://dblp.org/pid/90/5406.html"},  
-      {"name": "Tyrone Grandison", "url": "https://www.tyronegrandison.org/"},  
-      {"name": "Yunyao Li", "url": "https://yunyaoli.github.io/"}  
-    ],  
-    "venue": {"name": "IUI 2023", "url": ""},  
-    "paper": "pdf/[p]Xiao_2023_Powering_an_AI_Chatbot_with_Expert_Sourcing_to_Support_Credible_Health_Information_Access.pdf",  
-    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3581641.3584031",
-    "year": 2023,
-    "featured": true,
-    "type": "Paper",
-    "topic":"INFO"   
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
   },
   {
-    "image": "images/llm_coding.png",
-    "alt": "inter-rater reliability between GPT-3 and expert raters",
-    "title": "Supporting Qualitative Analysis with Large Language Models: Combining Codebook with GPT-3 for Deductive Coding",
+    "title": "Interruption Handling for Conversational Robots",
+    "authors": [
+      "Shiye Cao",
+      "Jiwon Moon",
+      "Amama Mahmood",
+      "Victor Nikhil Antony",
+      "Ziang Xiao",
+      "Anqi Liu",
+      "Chien-Ming Huang"
+    ],
+    "venue": {
+      "name": "RSS 2025",
+      "url": "https://roboticsconference.org/"
+    },
+    "paper": "https://arxiv.org/pdf/2501.01568",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "TALES: Text Adventure Learning Environment Suite",
+    "authors": [
+      "Christopher Zhang Cui",
+      "Xingdi Yuan",
+      "Ziang Xiao",
+      "Prithviraj Ammanabrolu",
+      "Marc-Alexandre Côté"
+    ],
+    "venue": {
+      "name": "ArXiv",
+      "url": "https://arxiv.org/abs/2504.14128"
+    },
+    "paper": "https://arxiv.org/abs/2504.14128",
+    "video": "",
+    "year": "2025",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "https://github.com/microsoft/tale-suite",
+    "software": ""
+  },
+  {
+    "title": "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections",
+    "authors": [
+      "Chaoran Chen",
+      "Zhiping Zhang",
+      "Bingcan Guo",
+      "Shang Ma",
+      "Ibrahim Khalilov",
+      "Simret A Gebreegziabhe",
+      "Yanfang Ye",
+      "Ziang Xiao",
+      "Yaxing Yao",
+      "Tianshi Li",
+      "Toby Jia-Jun Li"
+    ],
+    "venue": {
+      "name": "ArXiv",
+      "url": "https://arxiv.org/abs/2504.14128"
+    },
+    "paper": "https://arxiv.org/abs/2504.14128",
+    "video": "",
+    "year": "2025",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "Faux Polyglot: A Study on Information Disparity in Multilingual Large Language Models",
+    "authors": [
+      "Nikhil Sharma",
+      "Keton Murray",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "NAACL 2025",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2407.05502",
+    "video": "",
+    "year": "2025",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "Canvil: Designerly Adaptation for LLM-Powered User Experiences",
+    "authors": [
+      "Kevin Feng",
+      "Q. Vera Liao",
+      "Ziang Xiao",
+      "Jennifer Wortman Vaughan",
+      "Amy X. Zhang",
+      "David W. McDonald"
+    ],
+    "venue": {
+      "name": "CHI 2025",
+      "url": "https://chi2025.acm.org/"
+    },
+    "paper": "https://arxiv.org/abs/2401.09051",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "https://www.figma.com/community/widget/1277396720888327660/canvil"
+  },
+  {
+    "title": "From Text to Trust: Empowering AI-assisted Decision Making with Adaptive LLM-powered Analysis",
+    "authors": [
+      "Zhuoyan Li",
+      "Hangxiao Zhu",
+      "Zhuoran Lu",
+      "Ziang Xiao",
+      "Ming Yin"
+    ],
+    "venue": {
+      "name": "CHI 2025",
+      "url": "https://chi2025.acm.org/"
+    },
+    "paper": "https://dl.acm.org/doi/10.1145/3706598.3713133",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "Understanding the LLM-ification of CHI: Unpacking the Impact of LLMs at CHI through a Systematic Literature Review",
+    "authors": [
+      "Rock Yuren Pang",
+      "Hope Schroeder",
+      "Kynnedy Simone Smith",
+      "Solon Barocas",
+      "Ziang Xiao",
+      "Emily Tseng",
+      "Danielle Bragg"
+    ],
+    "venue": {
+      "name": "CHI 2025",
+      "url": "https://chi2025.acm.org/"
+    },
+    "paper": "https://dl.acm.org/doi/10.1145/3706598.3713726",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "Assistance or Disruption? Exploring and Evaluating the Design and Trade-offs of Proactive AI Programming Support",
+    "authors": [
+      "Kevin Pu",
+      "Daniel Lazaro",
+      "Ian Arawjo",
+      "Haijun Xia",
+      "Ziang Xiao",
+      "Tovi Grossman",
+      "Yan Chen"
+    ],
+    "venue": {
+      "name": "CHI 2025",
+      "url": "https://chi2025.acm.org/"
+    },
+    "paper": "",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "Trust or Stigmatization? Evidence From De-anonymizing Social Media in China",
+    "authors": [
+      "Mingzi Niu",
+      "Yiqian Wang",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "BREAD Asia Conference on Development Economics",
+      "url": ""
+    },
+    "paper": "",
+    "video": "",
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic": "INFO",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "Not Yet: Large Language Models Cannot Replace Human Respondents for Psychometric Research",
+    "authors": [
+      "Pengda Wang",
+      "Huiqi Zou",
+      "Zihan Yan",
+      "Feng Guo",
+      "Tianjun Sun",
+      "Ziang Xiao",
+      "Bo Zhang"
+    ],
+    "venue": {
+      "name": "Pre Print",
+      "url": ""
+    },
+    "paper": "https://osf.io/preprints/osf/rwy9b",
+    "video": "",
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "Improving Context-Aware Preference Modeling for Language Models",
+    "authors": [
+      "Silviu Pitis",
+      "Ziang Xiao",
+      "Nicolas Le Roux",
+      "Alessandro Sordoni"
+    ],
+    "venue": {
+      "name": "NeurIPS 2024",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2407.14916",
+    "video": "",
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "ECBD: Evidence-Centered Benchmark Design for NLP",
+    "authors": [
+      "Yu Lu Liu",
+      "Su Lin Blodgett",
+      "Jackie Chi Kit Cheung",
+      "Q. Vera Liao",
+      "Alexandra Olteanu",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "ACL 2024",
+      "url": "https://2024.aclweb.org/"
+    },
+    "paper": "https://aclanthology.org/2024.acl-long.861/",
+    "video": "",
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "award": "",
+    "software": ""
+  },
+  {
+    "title": "Can Language Models Serve as Text-Based World Simulators?",
+    "authors": [
+      "Ruoyao Wang",
+      "Graham Todd",
+      "Ziang Xiao",
+      "Xingdi Yuan",
+      "Marc-Alexandre Côté",
+      "Peter Clark",
+      "Peter Jansen"
+    ],
+    "venue": {
+      "name": "ACL 2024",
+      "url": "https://2024.aclweb.org/"
+    },
+    "paper": "pdf/[p]Wang_2024_Can_Language_Models_Serve_as_Text-Based_World_Simulators.pdf",
+    "video": "",
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "https://github.com/cognitiveailab/GPT-simulator",
+    "software": ""
+  },
+  {
+    "title": "Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking",
+    "authors": [
+      "Nikhil Sharma",
+      "Q. Vera Liao",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "CHI 2024",
+      "url": ""
+    },
+    "paper": "https://dl.acm.org/doi/10.1145/3613904.3642459",
+    "video": "https://www.youtube.com/watch?v=s2A0YVr4vP8",
+    "award": "Best Paper Award",
+    "year": "2024",
+    "featured": true,
+    "type": "Paper",
+    "topic": "INFO"
+  },
+  {
+    "title": "The Role of Human-Centered AI in User Modeling, Adaptation, and Personalization — Models, Frameworks, and Paradigms",
+    "authors": [
+      "Helma Torkamaan",
+      "Mohammad Tahaei",
+      "Stefan Buĳsman",
+      "Ziang Xiao",
+      "Daricia Wilkinson",
+      "Bart Knĳnenburg"
+    ],
+    "venue": {
+      "name": "A Human-Centered Perspective of Intelligent Personalized Environments and Systems",
+      "url": ""
+    },
+    "paper": "https://link.springer.com/chapter/10.1007/978-3-031-55109-3_2",
+    "video": "",
+    "award": "",
+    "year": "2024",
+    "featured": false,
+    "type": "Book Chapter",
+    "topic": "LAN"
+  },
+  {
+    "title": "Canonical Design for Language Agents using Natural Language Reward Models",
+    "authors": [
+      "Silviu Pitis",
+      "Ziang Xiao",
+      "Alessandro Sordoni"
+    ],
+    "venue": {
+      "name": "MP2 @ NeurIPS 2023",
+      "url": "https://aipsychphil.github.io/"
+    },
+    "paper": "pdf/[p]Pitis_2023_canonical_design_for_language_agent.pdf",
+    "video": "",
+    "year": "2023",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": ""
+  },
+  {
+    "title": "Evaluating Evaluation Metrics: A Framework for Analyzing NLG Evaluation Metrics using Measurement Theory",
     "authors": [
       {
         "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
+        "equalContribution": true
       },
       {
-        "name": "Xingdi Yuan",
-        "url": "https://xingdi-eric-yuan.github.io/"
+        "name": "Susu Zhang",
+        "equalContribution": true
       },
-      {
-        "name": "Q. Vera Liao",
-        "url": "http://qveraliao.com/"
-      },
-      {
-        "name": "Rania Abdelghani",
-        "url": ""
-      },
-      {
-        "name": "Pierre-Yves Oudeyer",
-        "url": ""
-      }
+      "Vivian Lai",
+      "Q. Vera Liao"
+    ],
+    "venue": {
+      "name": "EMNLP 2023",
+      "url": "https://2023.emnlp.org/"
+    },
+    "paper": "https://aclanthology.org/2023.emnlp-main.676/",
+    "video": "",
+    "year": "2023",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "code": "https://github.com/isle-dev/MetricEval",
+    "software": "https://pypi.org/project/metric-eval/"
+  },
+  {
+    "title": "ByteSized32: A Corpus and Challenge Task for Generating Task-Specific World Models Expressed as Text Games",
+    "authors": [
+      "Ruoyao Wang",
+      "Graham Todd",
+      "Xingdi Yuan",
+      "Ziang Xiao",
+      "Marc-Alexandre Côté",
+      "Peter Jansen"
+    ],
+    "venue": {
+      "name": "EMNLP 2023",
+      "url": "https://2023.emnlp.org/"
+    },
+    "paper": "https://aclanthology.org/2023.emnlp-main.830.pdf",
+    "video": "",
+    "year": "2023",
+    "featured": false,
+    "type": "Paper",
+    "code": "https://github.com/cognitiveailab/BYTESIZED32",
+    "topic": "LAN"
+  },
+  {
+    "title": "Deep Language Networks: Joint Prompt Training of Stacked LLMs using Variational Inference",
+    "authors": [
+      "Alessandro Sordoni",
+      "Xingdi Yuan",
+      "Marc-Alexandre Côté",
+      "Matheus Pereira",
+      "Adam Trischler",
+      "Ziang Xiao",
+      "Arian Hosseini",
+      "Friederike Niedtner",
+      "Nicolas Le Roux"
+    ],
+    "venue": {
+      "name": "NeurIPS 2023",
+      "url": "https://nips.cc/"
+    },
+    "paper": "https://arxiv.org/abs/2306.12509",
+    "video": "https://podcasts.apple.com/us/podcast/abstracts-december-11-2023/id1318021537?i=1000638238693",
+    "year": "2023",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "https://medium.com/@friederike.niedtner/deep-language-networks-stacking-llms-in-trainable-layers-e7f719bcabde",
+    "code": "https://github.com/microsoft/deep-language-networks"
+  },
+  {
+    "title": "Rethinking Model Evaluation as Narrowing the Socio-Technical Gap",
+    "authors": [
+      "Q. Vera Liao",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "AI&HCI @ ICML 2023",
+      "url": "https://sites.google.com/view/aihci/home"
+    },
+    "paper": "https://arxiv.org/pdf/2306.03100v1.pdf",
+    "video": "",
+    "year": "2023",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "award": "Honorable Mention"
+  },
+  {
+    "title": "Inform the Uninformed: Improving Online Informed Consent Reading with an AI-Powered Chatbot",
+    "authors": [
+      "Ziang Xiao",
+      "Tiffany Wenting Li",
+      "Karrie Karahalios",
+      "Hari Sundaram"
+    ],
+    "venue": {
+      "name": "CHI 2023",
+      "url": ""
+    },
+    "paper": "https://dl.acm.org/doi/abs/10.1145/3544548.3581252",
+    "video": "https://www.youtube.com/watch?v=zFZOhvzlkNw",
+    "year": 2023,
+    "featured": true,
+    "type": "Paper",
+    "topic": "AI4SS"
+  },
+  {
+    "title": "Powering an AI Chatbot with Expert Sourcing to Support Credible Health Information Access",
+    "authors": [
+      "Ziang Xiao",
+      "Q. Vera Liao",
+      "Michelle Zhou",
+      "Tyrone Grandison",
+      "Yunyao Li"
     ],
     "venue": {
       "name": "IUI 2023",
       "url": ""
     },
-    "paper": "pdf/[d]Xiao_2023_Supporting_Qualitative_Analysis_with_Large_Language_Models_Combining_Codebook_with_GPT-3_for_Deductive_Coding.pdf",
-    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3581754.3584136",
+    "paper": "https://dl.acm.org/doi/abs/10.1145/3581641.3584031",
+    "year": 2023,
+    "featured": true,
+    "type": "Paper",
+    "topic": "INFO"
+  },
+  {
+    "title": "Supporting Qualitative Analysis with Large Language Models: Combining Codebook with GPT-3 for Deductive Coding",
+    "authors": [
+      "Ziang Xiao",
+      "Xingdi Yuan",
+      "Q. Vera Liao",
+      "Rania Abdelghani",
+      "Pierre-Yves Oudeyer"
+    ],
+    "venue": {
+      "name": "IUI 2023",
+      "url": ""
+    },
+    "paper": "https://dl.acm.org/doi/abs/10.1145/3581754.3584136",
     "year": 2023,
     "featured": true,
     "type": "Poster",
-    "topic":"AI4SS"   
+    "topic": "AI4SS"
   },
   {
-    "image": "images/follow_up_gen.png",
-    "alt": "example of a conersational survey with follow-up questions",
     "title": "What Should I Ask: A Knowledge-driven Approach for Follow-up Questions Generation in Conversational Surveys",
     "authors": [
       {
-        "name": "Yubin Ge*",
-        "url": "https://scholar.google.com/citations?hl=en&user=Q0HQH3YAAAAJ&view_op=list_works&sortby=pubdate"
+        "name": "Yubin Ge",
+        "equalContribution": true
       },
       {
-        "name": "Ziang Xiao*",
-        "url": "",
-        "extraClass": "zx"
+        "name": "Ziang Xiao",
+        "equalContribution": true
       },
-      {
-        "name": "Jana Diesner",
-        "url": "https://jdiesnerlab.ischool.illinois.edu/index.html"
-      },
-      {
-        "name": "Heng Ji",
-        "url": "http://blender.cs.illinois.edu/hengji.html"
-      },
-      {
-        "name": "Karrie Karahalios",
-        "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"
-      },
-      {
-        "name": "Hari Sundaram",
-        "url": "http://sundaram.cs.illinois.edu/"
-      }
+      "Jana Diesner",
+      "Heng Ji",
+      "Karrie Karahalios",
+      "Hari Sundaram"
     ],
     "venue": {
       "name": "PACLIC 2023",
       "url": ""
     },
     "paper": "pdf/[p]Xiao_2023_What_should_I_Ask_A_Knowledge_driven_Approach_for_Follow_up_Questions_Generation_in_Conversational_Surveys.pdf",
-    "acmDL": "",
     "year": 2023,
     "featured": false,
     "type": "Paper",
-    "topic":"AI4SS"   
+    "topic": "AI4SS"
   },
-  {  
-  "image": "images/thesis.png",  
-  "alt": "",  
-  "title": "Seeing Us Through Machines: Designing and Building Conversational AI to Understand Humans",  
-  "authors": [
-    {  
-      "name": "Ziang Xiao",  
-      "url": "",  
-      "extraClass": "zx"  
-    }
-  ],  
-  "venue": {  
-    "name": "Ph.D. Dissertation",  
-    "url": ""  
-  },  
-  "paper": "pdf/[p]Xiao_2022_Seeing_Us_Through_Machines-Designing_and_Building_Conversational_AI_to_Understand Humans.pdf",  
-  "video": "",  
-  "acmDL": "",  
-  "year":"2022",
-  "featured": false,
-  "type": "Paper",
-  "topic":"AI4SS"  
-},  
   {
-    "image": "images/letmeaskyouthis.png",
-    "alt": "balance between valuable feedback and user experiences",
+    "title": "Seeing Us Through Machines: Designing and Building Conversational AI to Understand Humans",
+    "authors": [
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "Ph.D. Dissertation",
+      "url": ""
+    },
+    "paper": "pdf/[p]Xiao_2022_Seeing_Us_Through_Machines-Designing_and_Building_Conversational_AI_to_Understand Humans.pdf",
+    "video": "",
+    "year": "2022",
+    "featured": false,
+    "type": "Paper",
+    "topic": "AI4SS"
+  },
+  {
     "title": "Let Me Ask You This: How Can a Voice Assistant Elicit Explicit User Feedback?",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Sarah Mennicken", "url": ""},
-      {"name": "Bernd Huber", "url": ""},
-      {"name": "Adam Shonkoff", "url": ""},
-      {"name": "Jennifer Thom", "url": ""}
+      "Ziang Xiao",
+      "Sarah Mennicken",
+      "Bernd Huber",
+      "Adam Shonkoff",
+      "Jennifer Thom"
     ],
     "venue": {
       "name": "CSCW 2021",
       "url": "https://cscw.acm.org/2021/"
     },
-    "paper": "pdf/[p]Xiao_2021_Let_Me_Ask_You_This-How_Can_A_Voice_Assistnat_Elicit_Explicit_User_Feedback.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3479532",
+    "paper": "https://dl.acm.org/doi/10.1145/3479532",
     "year": 2021,
     "featured": true,
     "type": "Paper",
-    "topic":"AI4SS"   
+    "topic": "AI4SS"
   },
   {
-    "image": "images/contestability.png",
-    "alt": "participant's drawing during workshop",
     "title": "Contestability for Content Moderation",
     "authors": [
-      {
-        "name": "Kristen Vaccaro",
-        "url": "http://kvaccaro.com/"
-      },
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Kevin Hamilton", "url": ""},
-      {"name": "Karrie Karahalios", "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"}
+      "Kristen Vaccaro",
+      "Ziang Xiao",
+      "Kevin Hamilton",
+      "Karrie Karahalios"
     ],
     "venue": {
       "name": "CSCW 2021",
       "url": "https://cscw.acm.org/2021/"
     },
-    "paper": "pdf/[p]Vaccaro_2021_Contestability_For_Content_Moderation.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3476059",
+    "paper": "https://dl.acm.org/doi/10.1145/3476059",
     "year": 2021,
     "featured": true,
     "type": "Paper",
-    "topic":"INFO"   
+    "topic": "INFO"
   },
   {
-    "image": "images/workshop.png",
-    "alt": "",
     "title": "Application of Online Visual-Spatial Training to Increase Visual-Spatial Ability and Growth Mindset of Engineering Students",
     "authors": [
-      {"name": "Molly H Goldstein", "url": ""},
-      {"name": "John Mark Froiland", "url": ""},
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Brian S Woodard", "url": ""},
-      {"name": "Li Tao", "url": ""},
-      {"name": "Michael L Philpott", "url": ""}
+      "Molly H Goldstein",
+      "John Mark Froiland",
+      "Ziang Xiao",
+      "Brian S Woodard",
+      "Li Tao",
+      "Michael L Philpott"
     ],
     "venue": {
       "name": "International Journal of Engineering Education (IJEE)",
       "url": "https://www.asee.org/annual-conference/2021"
     },
     "paper": "",
-    "acmDL": "",
     "year": 2021,
     "featured": false,
     "type": "Poster",
-    "topic":"SV"   
+    "topic": "SV"
   },
   {
-    "image": "images/sketcher.png",
-    "alt": "feedback message for student's sketch",
     "title": "Evaluating an Intelligent Sketching Feedback Tool for Scalable Spatial Visualization Skill Training",
     "authors": [
-      {
-        "name": "Tiffany Wenting Li",
-        "url": "https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en"
-      },
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Molly H Goldstein", "url": ""},
-      {"name": "Michael L Philpott", "url": ""},
-      {"name": "Brian S Woodard", "url": ""}
+      "Tiffany Wenting Li",
+      "Ziang Xiao",
+      "Molly H Goldstein",
+      "Michael L Philpott",
+      "Brian S Woodard"
     ],
     "venue": {
       "name": "ASEE 2021",
       "url": "https://www.asee.org/annual-conference/2021"
     },
     "paper": "pdf/[d]Li_2023_Evaluating_an_Intelligent_Sketching_Feedback_Tool_for_Scalable_Spatical_Visulization_Skill_Training.pdf",
-    "acmDL": "",
     "year": 2021,
     "featured": false,
     "type": "Poster",
-    "topic":"SV"    
+    "topic": "SV"
   },
   {
-    "image": "images/tochi_tell.png",
-    "alt": "teaser image for tell me about yourself",
     "title": "Tell Me About Yourself: Using an AI-Powered Chatbot to Conduct Conversational Surveys with Open-ended Questions",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Michelle X Zhou", "url": ""},
-      {
-        "name": "Q. Vera Liao",
-        "url": "http://qveraliao.com/"
-      },
-      {"name": "Gloria Mark", "url": ""},
-      {"name": "Changyan Chi", "url": ""},
-      {"name": "Wenxi Chen", "url": ""},
-      {"name": "Huahai Yang", "url": ""}
+      "Ziang Xiao",
+      "Michelle X Zhou",
+      "Q. Vera Liao",
+      "Gloria Mark",
+      "Changyan Chi",
+      "Wenxi Chen",
+      "Huahai Yang"
     ],
     "venue": {
       "name": "ACM Transactions on Computer-Human Interaction (TOCHI)",
       "url": "https://dl.acm.org/journal/tochi"
     },
-    "paper": "pdf/[p]Xiao_2020_Tell_Me_About_Yourself_Using_an_AI-Powered_Chatbot_to_Conduct_Conversational_Surveys_with_Open-ended_Questions.pdf",
+    "paper": "https://dl.acm.org/doi/abs/10.1145/3381804",
     "video": "https://www.youtube.com/watch?v=YS13B6cxGYE",
-    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3381804",
     "year": 2020,
     "featured": true,
     "type": "Paper",
-    "topic":"AI4SS"    
+    "topic": "AI4SS"
   },
   {
-    "image": "images/chiplay20.png",
-    "alt": "",
     "title": "A Data-Driven, Player-Centric Approach to Evaluating Spatial Skill Training Games",
     "authors": [
-      {
-        "name": "Helen Wauck",
-        "url": "https://www.sift.net/staff/helen-wauck"
-      },
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Tiffany Wenting Li",
-        "url": "https://scholar.google.com/citations?user=OihjiqkAAAAJ&hl=en"
-      },
-      {
-        "name": "Brian P Bailey",
-        "url": "https://orchid.cs.illinois.edu/people/bailey/index.html"
-      }
+      "Helen Wauck",
+      "Ziang Xiao",
+      "Tiffany Wenting Li",
+      "Brian P Bailey"
     ],
     "venue": {
       "name": "CHI Play 2020",
       "url": "https://chiplay.acm.org/2020/"
     },
-    "paper": "pdf/[p]Wauck_A_Data-Driven_Player-Centric_Approach_to_Evaluating_Spatial_Skill_Training_Games.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3410404.3414255",
+    "paper": "https://dl.acm.org/doi/10.1145/3410404.3414255",
     "award": "Honorable Mention",
     "year": 2020,
     "featured": true,
     "type": "Paper",
-    "topic":"SV"    
+    "topic": "SV"
   },
   {
-    "image": "images/active_listening.png",
-    "alt": "system architecture",
     "title": "If I Hear You Correctly: Building and Evaluating Interview Chatbots with Active Listening Skills",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Michelle X Zhou", "url": ""},
-      {"name": "Wenxi Chen", "url": ""},
-      {"name": "Huahai Yang", "url": ""},
-      {"name": "Changyan Chi", "url": ""}
+      "Ziang Xiao",
+      "Michelle X Zhou",
+      "Wenxi Chen",
+      "Huahai Yang",
+      "Changyan Chi"
     ],
     "venue": {
       "name": "CHI 2020",
       "url": "https://chi2020.acm.org/"
     },
-    "paper": "pdf/[p]Xiao_2020_If_I_Hear_You_Correctly-Building_and_Evaluating_Interview_Chatbots_with_Active_Listening_Skills.pdf",
+    "paper": "https://dl.acm.org/doi/abs/10.1145/3313831.3376131#",
     "video": "https://www.youtube.com/watch?v=tGk3GC3BXts",
     "blogPost": "https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/if-i-hear-you-correctly-building-and-evaluating-interview-chatbots-with-active-listening-skills-91a51ab1d78b",
-    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3313831.3376131#",
     "year": 2020,
     "featured": false,
     "type": "Paper",
-    "topic":"AI4SS"    
+    "topic": "AI4SS"
   },
   {
-    "image": "images/comic.png",
-    "alt": "comic strip for persuasion",
     "title": "Should We Use an Abstract Comic Form to Persuade?: Experiments with Online Charitable Donation",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Po-Shiun Ho", "url": ""},
-      {"name": "Xinran Wang", "url": ""},
-      {"name": "Karrie Karahalios", "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"},
-      {"name": "Hari Sundaram", "url": "http://sundaram.cs.illinois.edu/"}
+      "Ziang Xiao",
+      "Po-Shiun Ho",
+      "Xinran Wang",
+      "Karrie Karahalios",
+      "Hari Sundaram"
     ],
     "venue": {
       "name": "CSCW 2019",
       "url": "https://cscw.acm.org/2019/"
     },
-    "paper": "pdf/[p]Xiao_2019_Should_We_Use_an_Abstract_Comic_Form_to_Persuade_Experiments_with_Online_Charitable_Donation.pdf",
+    "paper": "https://dl.acm.org/doi/10.1145/3359177",
     "blogPost": "https://crowddynamicslab.github.io/people/2020/02/01/Comic-Persuasion/",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3359177",
     "year": 2019,
     "featured": true,
     "type": "Paper",
-    "topic":"INFO"    
+    "topic": "INFO"
   },
   {
-    "image": "images/mindset.png",
-    "alt": "mindset teaser image",
     "title": "Understanding Interrelated Growth Mindset and Academic Participation & Performance",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Shiliang Zuo", "url": "https://sites.google.com/view/shiliangzuo/"},
-      {"name": "Jinhao Zhao", "url": ""},
-      {"name": "Wai-Tat Fu", "url": ""},
-      {"name": "Molly H Goldstein", "url": ""},
-      {"name": "Michael L Philpott", "url": ""},
-      {"name": "Julia Laystrom-Woodard", "url": ""},
-      {"name": "Marcia Pool", "url": ""},
-      {"name": "Angela Wolters", "url": ""},
-      {"name": "Brian S Woodard", "url": ""}
+      "Ziang Xiao",
+      "Shiliang Zuo",
+      "Jinhao Zhao",
+      "Wai-Tat Fu",
+      "Molly H Goldstein",
+      "Michael L Philpott",
+      "Julia Laystrom-Woodard",
+      "Marcia Pool",
+      "Angela Wolters",
+      "Brian S Woodard"
     ],
     "venue": {
       "name": "ASEE 2019",
@@ -1215,288 +951,154 @@
     "year": 2019,
     "featured": false,
     "type": "Paper",
-    "topic":"SV"   
+    "topic": "SV"
   },
   {
-    "image": "images/INDIGO.png",
-    "alt": "INDIGO Result",
     "title": "Who Should be My Teammates: Using a Conversational Agent to Understand Individuals and Help Teaming",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Michelle X Zhou", "url": ""},
-      {"name": "Wai-Tat Fu", "url": ""}
+      "Ziang Xiao",
+      "Michelle X Zhou",
+      "Wai-Tat Fu"
     ],
     "venue": {
       "name": "IUI 2019",
       "url": "https://iui.acm.org/2019/"
     },
-    "paper": "pdf/[p]Xiao_2019_Who_Should_Be_My_Teammates_Using_a_Conversational_Agent_to_Understand_Individuals_and_Help_Teaming.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3301275.3302264",
+    "paper": "https://dl.acm.org/doi/10.1145/3301275.3302264",
     "year": 2019,
     "featured": true,
     "type": "Paper",
-    "topic":"AI4SS"   
+    "topic": "AI4SS"
   },
   {
-    "image": "images/Virtually_personal.png",
-    "alt": "getting virtualll personal teaser image",
     "title": "Getting virtually personal: chatbots who actively listen to you and infer your personality",
     "authors": [
-      {"name": "Michelle X Zhou", "url": ""},
-      {"name": "Wenxi Chen", "url": ""},
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {"name": "Huahai Yang", "url": ""},
-      {"name": "Tracy Chi", "url": ""},
-      {"name": "Ransom Williams", "url": ""}
+      "Michelle X Zhou",
+      "Wenxi Chen",
+      "Ziang Xiao",
+      "Huahai Yang",
+      "Tracy Chi",
+      "Ransom Williams"
     ],
     "venue": {
       "name": "IUI 2019",
       "url": "https://iui.acm.org/2019/"
     },
     "demoPaper": "pdf/[d]Zhou_Getting_Virtually_Personal_Chatbots_Who_Actively_Listen_to_You_and_Infer_Your_Personality.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3308557.3308667",
     "year": 2019,
     "featured": false,
     "type": "Demo",
-    "topic":"AI4SS"   
+    "topic": "AI4SS",
+    "paper": "https://dl.acm.org/doi/10.1145/3308557.3308667"
   },
   {
-    "image": "images/labelornot.png",
-    "alt": "newfeed stance label",
     "title": "To Label or Not to Label: The Effect of Stance and Credibility Labels on Readers' Selection and Perception of News Articles",
     "authors": [
-      {
-        "name": "Mingkun Gao",
-        "url": "https://uiucgmk.github.io/",
-        "extraClass": ""
-      },
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Karrie Karahalios",
-        "url": "http://social.cs.uiuc.edu/people/karriekarahalios.html"
-      },
-      {
-        "name": "Wai-Tat Fu",
-        "url": ""
-      }
+      "Mingkun Gao",
+      "Ziang Xiao",
+      "Karrie Karahalios",
+      "Wai-Tat Fu"
     ],
     "venue": {
       "name": "CSCW 2018",
       "url": "https://cscw.acm.org/2018/"
     },
-    "paper": "pdf/[p]Xiao_2018_To_Label_or_Not_to_Label_The_Effect_of_Stance_and_Credibility_Labels_on_Readers_Selection_and_Perception_of_News_Articles.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3274324",
+    "paper": "https://dl.acm.org/doi/10.1145/3274324",
     "year": 2018,
     "featured": true,
     "type": "Paper",
-    "topic":"INFO"   
+    "topic": "INFO"
   },
   {
-    "image": "images/rotation.png",
-    "alt": "rotation gestures, rotation x,y,and z.",
     "title": "Supporting Spatial Skill Learning with Gesture-Based Embodied Design",
     "authors": [
-      {
-        "name": "Po-Tsung Chiu",
-        "url": ""
-      },
-      {
-        "name": "Helen Wauck",
-        "url": "https://www.sift.net/staff/helen-wauck"
-      },
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Yuqi Yao",
-        "url": "https://yuqiyao.com/"
-      },
-      {
-        "name": "Wai-Tat Fu",
-        "url": ""
-      }
+      "Po-Tsung Chiu",
+      "Helen Wauck",
+      "Ziang Xiao",
+      "Yuqi Yao",
+      "Wai-Tat Fu"
     ],
     "venue": {
       "name": "IUI 2018",
       "url": "https://iui.acm.org/2018/"
     },
     "shortPaper": "pdf/[p]Chiu_2018_Supporting_Spatial_Skill_Learning_with_Gesture-Based_Emodied_Design.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3172944.3172994",
     "year": 2018,
     "featured": false,
     "type": "Short Paper",
-    "topic":"SV"  
+    "topic": "SV",
+    "paper": "https://dl.acm.org/doi/10.1145/3172944.3172994"
   },
   {
-    "image": "images/cubicle.png",
-    "alt": "Screenshots from the Cubicle",
     "title": "Cubicle: An Adaptive Educational Gaming Platform for Training Spatial Visualization Skills",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Helen Wauck",
-        "url": "https://www.sift.net/staff/helen-wauck"
-      },
-      {
-        "name": "Zeya Peng",
-        "url": ""
-      },
-      {
-        "name": "Hanfei Ren",
-        "url": "http://hanfei.ren/about"
-      },
-      {
-        "name": "Lei Zhang",
-        "url": "http://raynezhang.me/"
-      },
-      {
-        "name": "Shiliang Zuo",
-        "url": "https://sites.google.com/view/shiliangzuo/"
-      },
-      {
-        "name": "Yuqi Yao",
-        "url": "https://yuqiyao.com/"
-      },
-      {
-        "name": "Wai-Tat Fu",
-        "url": ""
-      }
+      "Ziang Xiao",
+      "Helen Wauck",
+      "Zeya Peng",
+      "Hanfei Ren",
+      "Lei Zhang",
+      "Shiliang Zuo",
+      "Yuqi Yao",
+      "Wai-Tat Fu"
     ],
     "venue": {
       "name": "IUI 2018",
       "url": "https://iui.acm.org/2018/"
     },
-    "paper": "pdf/[p]Xiao_2018_Cubicle_An_Adaptive_Educational_Gaming_Platform_for_Training_Spatial_Visualization_Skills.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3172944.3172954",
+    "paper": "https://dl.acm.org/doi/10.1145/3172944.3172954",
     "year": 2018,
     "featured": true,
     "type": "Paper",
-    "topic":"SV"   
+    "topic": "SV"
   },
   {
-    "image": "images/intelligenteducationalplatform.png",
-    "alt": "Spatial vis teaser",
     "title": "An Intelligent Educational Platform for Training Spatial Visualization Skills",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Yuqi Yao",
-        "url": "https://yuqiyao.com/"
-      },
-      {
-        "name": "Wai-Tat Fu",
-        "url": ""
-      }
+      "Ziang Xiao",
+      "Yuqi Yao",
+      "Wai-Tat Fu"
     ],
     "venue": {
       "name": "IUI 2018",
       "url": "https://iui.acm.org/2018/"
     },
     "poster": "pdf/[p]Xiao_2018_An_Intelligent_Educational_Platform_for_Training_Spatial_Visualization_Skills.pdf",
-    "acmDL": "https://dl.acm.org/doi/10.1145/3180308.3180370",
     "featured": false,
     "year": 2018,
     "type": "Poster",
-    "topic":"SV"  
+    "topic": "SV",
+    "paper": "https://dl.acm.org/doi/10.1145/3180308.3180370"
   },
   {
-    "image": "images/homeworldbound.png",
-    "alt": "Game Features in Homeworld Bound",
     "title": "Untangling the Relationship Between Spatial Skills, Game Features, and Gender in a Video Game",
     "authors": [
-      {
-        "name": "Helen Wauck",
-        "url": "https://www.sift.net/staff/helen-wauck"
-      },
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Po-Tsung Chiu",
-        "url": ""
-      },
-      {
-        "name": "Wai-Tat Fu",
-        "url": ""
-      }
+      "Helen Wauck",
+      "Ziang Xiao",
+      "Po-Tsung Chiu",
+      "Wai-Tat Fu"
     ],
     "venue": {
       "name": "IUI 2017",
       "url": "https://iui.acm.org/2017/"
     },
-    "paper": "pdf/[p]Wauck_2017_Untangling_the_Relationship_Between_Spatial_Skills_Game_Features_and_Gender_in_a_Video_Game.pdf",
-    "acmDL": "https://dl.acm.org/doi/abs/10.1145/3025171.3025225",
+    "paper": "https://dl.acm.org/doi/abs/10.1145/3025171.3025225",
     "year": 2017,
     "featured": false,
     "type": "Paper",
-    "topic":"SV"  
+    "topic": "SV"
   },
   {
-    "image": "images/spatial_vis.png",
-    "alt": "spatial vis interface",
     "title": "A Scalable Online Platform for Evaluating and Training Visuospatial Skills of Engineering Students",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      },
-      {
-        "name": "Yuqi Yao",
-        "url": "https://yuqiyao.com/"
-      },
-      {
-        "name": "Chi-hsien Yen",
-        "url": "https://chihsienyen.github.io/"
-      },
-      {
-        "name": "Sanorita Dey",
-        "url": "https://www.csee.umbc.edu/~sanorita/"
-      },
-      {
-        "name": "Helen Wauck",
-        "url": "https://www.sift.net/staff/helen-wauck"
-      },
-      {
-        "name": "Lames M Leake",
-        "url": ""
-      },
-      {
-        "name": "Brian S. Woodard",
-        "url": ""
-      },
-      {
-        "name": "Angela Wolters",
-        "url": ""
-      },
-      {
-        "name": "Wai-Tat Fu",
-        "url": ""
-      }
+      "Ziang Xiao",
+      "Yuqi Yao",
+      "Chi-hsien Yen",
+      "Sanorita Dey",
+      "Helen Wauck",
+      "Lames M Leake",
+      "Brian S. Woodard",
+      "Angela Wolters",
+      "Wai-Tat Fu"
     ],
     "venue": {
       "name": "ASEE 2017",
@@ -1506,18 +1108,12 @@
     "year": 2017,
     "featured": true,
     "type": "Paper",
-    "topic":"SV"  
+    "topic": "SV"
   },
   {
-    "image": "images/stock.png",
-    "alt": "stock market teaser",
     "title": "Does Grammatically Gendered Language Have an Impact on Investors' behaviors? Companies with Grammatically Masculine Names Show More Stock Momentum Than Those with Grammatically Feminine Names",
     "authors": [
-      {
-        "name": "Ziang Xiao",
-        "url": "",
-        "extraClass": "zx"
-      }
+      "Ziang Xiao"
     ],
     "venue": {
       "name": "Bachelor Thesis",
@@ -1527,6 +1123,6 @@
     "type": "",
     "year": 2016,
     "featured": false,
-    "topic":"INFO"  
-  }  
-]  
+    "topic": "INFO"
+  }
+]
