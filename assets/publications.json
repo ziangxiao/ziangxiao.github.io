@@ -1,12 +1,12 @@
 [
   {
-    "title": "Personality Structured Interview for Large Language Model Simulation in Personality Research",
+    "title": "Generative Personality Simulation via Theory-Informed Structured Interview",
     "authors": [
       "Pengda Wang",
       "Huiqi Zou",
       "Han Jiang",
       "Hanjie Chen",
-      "Tianjun Sun",
+      {"name": "Tianjun Sun", "equalContribution": true},
       "Xiaoyuan Yi",
       {
         "name": "Ziang Xiao",
@@ -77,7 +77,7 @@
     "year": "2025",
     "featured": false,
     "type": "Paper",
-    "topic": "LAN",
+    "topic": "AI4SS",
     "blogPost": "",
     "code": "",
     "software": "",
