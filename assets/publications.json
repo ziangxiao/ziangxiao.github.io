@@ -1,12 +1,129 @@
 [
   {
+    "title": "Position: Science of AI Evaluation Requires Item-level Benchmark Data",
+    "authors": [
+      "Han Jiang",
+      "Susu Zhang",
+      "Xiaoyuan Yi",
+      "Xing Xie",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2604.03244",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Feedback by Design: Understanding and Overcoming User Feedback Barriers in Conversational Agents",
+    "authors": [
+      "Nikhil Sharma",
+      "Zheng Zhang",
+      "Daniel Lee",
+      "Namita Krishnan",
+      "Guang-Jie Ren",
+      "Ziang Xiao",
+      "Yunyao Li"
+    ],
+    "venue": {
+      "name": "CHI 2026",
+      "url": ""
+    },
+    "paper": "",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Results-Actionability Gap: Understanding How Practitioners Evaluate LLM Products in the Wild",
+    "authors": [
+      "Willem van der Maden",
+      "Malak Sadek",
+      "Ziang Xiao",
+      "Aske Mottelson",
+      "Q Vera Liao",
+      "Jichen Zhu"
+    ],
+    "venue": {
+      "name": "CHI 2026",
+      "url": ""
+    },
+    "paper": "",
+    "video": "",
+    "year": "2026",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Dark Patterns Meet Gui Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight",
+    "authors": [
+            {
+        "name": "Jingyu Tang",
+        "equalContribution": true
+      },
+      {
+        "name": "Chaoran Chen",
+        "equalContribution": true
+      },
+      "Jiawen Li",
+      "Zhiping Zhang",
+      "Bingcan Guo",
+      "Ibrahim Khalilov",
+      "Simret Araya Gebreegziabher",
+      "Bingsheng Yao",
+      "Dakuo Wang",
+      "Yanfang Ye",
+      "Tianshi Li",
+      "Ziang Xiao",
+      "Yaxing Yao",
+      "Toby Jia-Jun Li"
+    ],
+    "venue": {
+      "name": "CHI 2026",
+      "url": ""
+    },
+    "paper": "",
+    "video": "",
+    "year": "2026",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
     "title": "Generative Personality Simulation via Theory-Informed Structured Interview",
     "authors": [
       "Pengda Wang",
       "Huiqi Zou",
       "Han Jiang",
       "Hanjie Chen",
-      {"name": "Tianjun Sun", "equalContribution": true},
+      {
+        "name": "Tianjun Sun",
+        "equalContribution": true
+      },
       "Xiaoyuan Yi",
       {
         "name": "Ziang Xiao",
@@ -24,6 +141,7 @@
     "paper": "https://arxiv.org/abs/2502.12109",
     "video": "",
     "year": "2026",
+    "award": "Oral",
     "featured": true,
     "type": "Paper",
     "topic": "AI4SS",
@@ -32,23 +150,77 @@
     "software": ""
   },
   {
-    "title": "Trauma Narratives and Healing of Offspring Caregivers of Breast Cancer Patients: a Mixed Qualitative Methods Study",
+    "title": "The Obvious Invisible Threat: Vulnerabilities of LLM-Powered GUI Agents in Web-Interaction Tasks",
     "authors": [
-      "Yifan Zhao",
-      "Xueli Qiu",
+      "Chaoran Chen",
+      "Zhiping Zhang",
+      "Bingcan Guo",
+      "Shang Ma",
+      "Ibrahim Khalilov",
+      "Simret A Gebreegziabhe",
+      "Yanfang Ye",
       "Ziang Xiao",
-      "Michelle R Kaufman"
+      "Yaxing Yao",
+      "Tianshi Li",
+      "Toby Jia-Jun Li"
     ],
     "venue": {
-      "name": "BMC psychology",
+      "name": "ACM Transactions on AI Security and Privacy (TAISAP)",
+      "url": "https://arxiv.org/abs/2504.14128"
+    },
+    "paper": "https://arxiv.org/abs/2504.14128",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+    {
+    "title": "Disclose with Care: Designing Privacy Controls in Interview Chatbots",
+    "authors": [
+      "Ziwen Li",
+      "Ziang Xiao",
+      "Tianshi Li"
+    ],
+    "venue": {
+      "name": "arXiv",
       "url": ""
     },
-    "paper": "https://link.springer.com/article/10.1186/s40359-025-03854-y",
+    "paper": "",
     "video": "",
-    "year": "2025",
-    "featured": false,
+    "year": "2026",
+    "featured": true,
     "type": "Paper",
     "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation",
+    "authors": [
+      "Veda Duddu",
+      "Jash Rajesh Parekh",
+      "Andy Mao",
+      "Hanyi Min",
+      "Ziang Xiao",
+      "Vedant Das Swain",
+      "Koustuv Saha"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2604.03244",
+    "video": "",
+    "year": "2026",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
     "blogPost": "",
     "code": "",
     "software": "",
@@ -73,6 +245,29 @@
       "url": ""
     },
     "paper": "https://arxiv.org/abs/2509.10127",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Trauma Narratives and Healing of Offspring Caregivers of Breast Cancer Patients: a Mixed Qualitative Methods Study",
+    "authors": [
+      "Yifan Zhao",
+      "Xueli Qiu",
+      "Ziang Xiao",
+      "Michelle R Kaufman"
+    ],
+    "venue": {
+      "name": "BMC psychology",
+      "url": ""
+    },
+    "paper": "https://link.springer.com/article/10.1186/s40359-025-03854-y",
     "video": "",
     "year": "2025",
     "featured": false,
@@ -251,35 +446,6 @@
     "topic": "LAN",
     "blogPost": "",
     "code": "https://github.com/microsoft/tale-suite",
-    "software": ""
-  },
-  {
-    "title": "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections",
-    "authors": [
-      "Chaoran Chen",
-      "Zhiping Zhang",
-      "Bingcan Guo",
-      "Shang Ma",
-      "Ibrahim Khalilov",
-      "Simret A Gebreegziabhe",
-      "Yanfang Ye",
-      "Ziang Xiao",
-      "Yaxing Yao",
-      "Tianshi Li",
-      "Toby Jia-Jun Li"
-    ],
-    "venue": {
-      "name": "ArXiv",
-      "url": "https://arxiv.org/abs/2504.14128"
-    },
-    "paper": "https://arxiv.org/abs/2504.14128",
-    "video": "",
-    "year": "2025",
-    "featured": true,
-    "type": "Paper",
-    "topic": "LAN",
-    "blogPost": "",
-    "code": "",
     "software": ""
   },
   {
@@ -488,9 +654,9 @@
     "featured": true,
     "type": "Paper",
     "topic": "LAN",
+    "award": "Oral",
     "blogPost": "",
     "code": "",
-    "award": "",
     "software": ""
   },
   {
