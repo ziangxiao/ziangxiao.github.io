@@ -1,5 +1,27 @@
 [
   {
+    "title": "What Makes a Good Response? An Empirical Analysis of Quality in Qualitative Interviews",
+    "authors": [
+      "Jonathan Ivey",
+      "Anjalie Field",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/pdf/2604.05163.pdf",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
     "title": "Position: Science of AI Evaluation Requires Item-level Benchmark Data",
     "authors": [
       "Han Jiang",
@@ -77,7 +99,7 @@
   {
     "title": "Dark Patterns Meet Gui Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight",
     "authors": [
-            {
+      {
         "name": "Jingyu Tang",
         "equalContribution": true
       },
@@ -178,7 +200,7 @@
     "code": "",
     "software": ""
   },
-    {
+  {
     "title": "Disclose with Care: Designing Privacy Controls in Interview Chatbots",
     "authors": [
       "Ziwen Li",
