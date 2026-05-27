@@ -1,5 +1,134 @@
 [
   {
+    "title": "How to Interpret Agent Behavior",
+    "authors": [
+      "Jie Gao",
+      "Kaiser Sun",
+      "Jen-tse Huang",
+      "Katherine Van Koevering",
+      "Sijie Ji",
+      "Heyuan Huang",
+      "Weiyan Shi",
+      "Zhuoran Lu",
+      "Ziang Xiao",
+      "Daniel Khashabi",
+      "Mark Dredze"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2605.13625",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Synthetic Users, Real Differences: an Evaluation Framework for User Simulation in Multi-Turn Conversations",
+    "authors": [
+      "Yu Lu Liu",
+      "Hyokun Yun",
+      "Tanya Roosta",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2605.02624",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization",
+    "authors": [
+      "Han Jiang",
+      "Dongyao Zhu",
+      "Xiaoyuan Yi",
+      "Ziang Xiao",
+      "Zhihua Wei",
+      "Xing Xie"
+    ],
+    "venue": {
+      "name": "ICML 2026",
+      "url": "https://arxiv.org/abs/2507.16679"
+    },
+    "paper": "https://arxiv.org/abs/2507.16679",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": ""
+  },
+  {
+    "title": "AI Evaluation Should Require Standardized Item-Level Data Releases",
+    "authors": [
+      "Han Jiang",
+      "Susu Zhang",
+      "Dongyao Zhu",
+      "Yuzhuo Bai",
+      "Sang T. Truong",
+      "Xiaoyuan Yi",
+      "Sanmi Koyejo",
+      "Xing Xie",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2604.03244",
+    "video": "",
+    "year": "2026",
+    "featured": true,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Hi Alex or Dear Dr. Morgan?: Exploring How AI-Suggested Politeness Strategies Influence Email Writing and Social Perception Among Native and Non-Native Speakers",
+    "authors": [
+      "Zibo Selena Zhang",
+      "Yuna Choi",
+      "Ziang Xiao",
+      "Q. Vera Liao",
+      "Jian Zhao"
+    ],
+    "venue": {
+      "name": "CSCW 2026",
+      "url": ""
+    },
+    "paper": "",
+    "video": "",
+    "year": "2026",
+    "featured": false,
+    "type": "Paper",
+    "topic": "INFO",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
     "title": "What Makes a Good Response? An Empirical Analysis of Quality in Qualitative Interviews",
     "authors": [
       "Jonathan Ivey",
@@ -16,30 +145,6 @@
     "featured": true,
     "type": "Paper",
     "topic": "AI4SS",
-    "blogPost": "",
-    "code": "",
-    "software": "",
-    "media": []
-  },
-  {
-    "title": "Position: Science of AI Evaluation Requires Item-level Benchmark Data",
-    "authors": [
-      "Han Jiang",
-      "Susu Zhang",
-      "Xiaoyuan Yi",
-      "Xing Xie",
-      "Ziang Xiao"
-    ],
-    "venue": {
-      "name": "arXiv",
-      "url": ""
-    },
-    "paper": "https://arxiv.org/abs/2604.03244",
-    "video": "",
-    "year": "2026",
-    "featured": true,
-    "type": "Paper",
-    "topic": "LAN",
     "blogPost": "",
     "code": "",
     "software": "",
@@ -78,7 +183,7 @@
       "Malak Sadek",
       "Ziang Xiao",
       "Aske Mottelson",
-      "Q Vera Liao",
+      "Q. Vera Liao",
       "Jichen Zhu"
     ],
     "venue": {
@@ -97,7 +202,7 @@
     "media": []
   },
   {
-    "title": "Dark Patterns Meet Gui Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight",
+    "title": "Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight",
     "authors": [
       {
         "name": "Jingyu Tang",
@@ -111,7 +216,7 @@
       "Zhiping Zhang",
       "Bingcan Guo",
       "Ibrahim Khalilov",
-      "Simret Araya Gebreegziabher",
+      "Simret A Gebreegziabher",
       "Bingsheng Yao",
       "Dakuo Wang",
       "Yanfang Ye",
@@ -179,7 +284,7 @@
       "Bingcan Guo",
       "Shang Ma",
       "Ibrahim Khalilov",
-      "Simret A Gebreegziabhe",
+      "Simret A Gebreegziabher",
       "Yanfang Ye",
       "Ziang Xiao",
       "Yaxing Yao",
@@ -199,6 +304,76 @@
     "blogPost": "",
     "code": "",
     "software": ""
+  },
+    {
+    "title": "Comparing Human Oversight Strategies for Computer-Use Agents",
+    "authors": [
+      "Chaoran Chen",
+      "Zhiping Zhang",
+      "Zeya Chen",
+      "Eryue Xu",
+      "Yinuo Yang",
+      "Ibrahim Khalilov",
+      "Simret A Gebreegziabher",
+      "Yanfang Ye",
+      "Ziang Xiao",
+      "Yaxing Yao",
+      "Tianshi Li",
+      "Toby Jia-Jun Li"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2604.04918",
+    "video": "",
+    "year": "2026",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Keeping an Eye on AI: A Framework for Effective Human Oversight of AI Systems",
+    "authors": [
+      "Susanne Gaube",
+      "Markus Langer",
+      "Tim Miller",
+      "Kevin Baum",
+      "Raimund Dachselt",
+      "Anna Maria Feit",
+      "Ujwal Gadiraju",
+      "Harmanpreet Kaur",
+      "Mark T Keane",
+      "Richard Landers",
+      "Johann Laux",
+      "Q. Vera Liao",
+      "Brian Lim",
+      "Linda Onnasch",
+      "Tim Schrills",
+      "Liz Sonenberg",
+      "Chenhao Tan",
+      "Nava Tintarev",
+      "Ziang Xiao",
+      "Zhang Hanwei"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2605.16278",
+    "video": "",
+    "year": "2026",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
   },
   {
     "title": "Disclose with Care: Designing Privacy Controls in Interview Chatbots",
@@ -277,6 +452,32 @@
     "software": "",
     "media": []
   },
+    {
+    "title": "Does AI Coaching Prepare us for Workplace Negotiations?",
+    "authors": [
+      "Veda Duddu",
+      "Jash Rajesh Parekh",
+      "Andy Mao",
+      "Hanyi Min",
+      "Ziang Xiao",
+      "Vedant Das Swain",
+      "Koustuv Saha"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2509.22545",
+    "video": "",
+    "year": "2025",
+    "featured": false,
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
   {
     "title": "Trauma Narratives and Healing of Offspring Caregivers of Breast Cancer Patients: a Mixed Qualitative Methods Study",
     "authors": [
@@ -317,30 +518,6 @@
     "video": "",
     "year": "2025",
     "featured": false,
-    "type": "Paper",
-    "topic": "LAN",
-    "blogPost": "",
-    "code": "",
-    "software": ""
-  },
-  {
-    "title": "PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization",
-    "authors": [
-      "Han Jiang",
-      "Dongyao Zhu",
-      "Zhihua Wei",
-      "Xiaoyuan Yi",
-      "Ziang Xiao",
-      "Xing Xie"
-    ],
-    "venue": {
-      "name": "arXiv",
-      "url": "https://arxiv.org/abs/2507.16679"
-    },
-    "paper": "https://arxiv.org/abs/2507.16679",
-    "video": "",
-    "year": "2025",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
