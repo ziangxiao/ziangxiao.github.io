@@ -66,7 +66,7 @@
     "url": "https://www.utc.edu/directory/dkt968-psychology-feng-guo/dkt968"
   },
   "Jie Gao": {
-    "extraClass": "isle"
+    "extraClass": "isla"
   },
   "Frederick L. Oswald": {
     "url": "https://profiles.rice.edu/faculty/fred-oswald"
@@ -82,7 +82,7 @@
     "url": "https://hci.ucsd.edu/haijunxia"
   },
   "Han Jiang": {
-    "extraClass": "isle"
+    "extraClass": "isla"
   },
   "Hanfei Ren": {
     "url": "http://hanfei.ren/about"
@@ -110,7 +110,7 @@
   },
   "Huahai Yang": {},
   "Huiqi Zou": {
-    "extraClass": "isle",
+    "extraClass": "isla",
     "url": "https://annazou1103.github.io/"
   },
   "Ian Arawjo": {
@@ -195,11 +195,12 @@
     "url": "https://nicolas.le-roux.name/"
   },
   "Nikhil Sharma": {
-    "extraClass": "isle",
+    "extraClass": "isla",
     "url": "https://www.nikhilsksharma.com/about"
   },
   "Pengda Wang": {
-    "url": "https://wpengda.github.io/"
+    "url": "https://wpengda.github.io/",
+    "extraClass": "isla"
   },
   "Peter Clark": {
     "url": "https://allenai.org/team/peterc"
@@ -294,7 +295,7 @@
     "url": "https://sites.google.com/view/yiqianwang/home"
   },
   "Yu Lu Liu": {
-    "extraClass": "isle",
+    "extraClass": "isla",
     "url": "https://yululiu.github.io/"
   },
   "Yubin Ge": {
@@ -324,7 +325,7 @@
   "Zihan Yan": {},
   "Jonathan Ivey": {
     "url": "https://jonathanivey.github.io/",
-    "extraClass": "isle"
+    "extraClass": "isla"
   },
   "Andy Mao": {},
   "Aske Mottelson": {
@@ -473,5 +474,15 @@
   },
   "Yinuo Yang": {},
   "Zeya Chen": {},
-  "Zhang Hanwei": {}
+  "Zhang Hanwei": {},
+  "Arnav Goel": {},
+  "Bingyang Wang": {},
+  "Haotian Li": {},
+  "Huamin Qu": {},
+  "Jinwen Luo": {},
+  "Sunbeom Kwon": {},
+  "Yijiang Li": {
+    "extraClass": "isla"
+  },
+  "Zixin Chen": {}
 }

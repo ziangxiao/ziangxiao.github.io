@@ -1,5 +1,103 @@
 [
   {
+    "title": "Can We Trust Item Response Theory for AI Evaluation?",
+    "authors": [
+      "Han Jiang",
+      "Sunbeom Kwon",
+      "Jinwen Luo",
+      "Ziang Xiao",
+      "Susu Zhang"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2607.15190",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Contextualized Evaluation of Vision Language Models through Dynamic, Multi-turn Interactions",
+    "authors": [
+      {
+        "name": "Yijiang Li",
+        "equalContribution": true
+      },
+      {
+        "name": "Huiqi Zou",
+        "equalContribution": true
+      },
+      "Bingyang Wang",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2607.14499",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "On Defining Erasure Harms for NLP",
+    "authors": [
+      "Yu Lu Liu",
+      "Arnav Goel",
+      "Jackie Chi Kit Cheung",
+      "Alexandra Olteanu",
+      "Ziang Xiao",
+      "Su Lin Blodgett"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2606.15815",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Informal Learning Emerges in Everyday Human-LLM Interaction",
+    "authors": [
+      "Zixin Chen",
+      "Haotian Li",
+      "Ziang Xiao",
+      "Huamin Qu",
+      "Xing Xie"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2607.17643",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "INFO",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
     "title": "How to Interpret Agent Behavior",
     "authors": [
       "Jie Gao",
@@ -21,7 +119,6 @@
     "paper": "https://arxiv.org/abs/2605.13625",
     "video": "",
     "year": "2026",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -44,7 +141,6 @@
     "paper": "https://arxiv.org/abs/2605.02624",
     "video": "",
     "year": "2026",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -69,7 +165,6 @@
     "paper": "https://arxiv.org/abs/2507.16679",
     "video": "",
     "year": "2026",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -96,7 +191,6 @@
     "paper": "https://arxiv.org/abs/2604.03244",
     "video": "",
     "year": "2026",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -120,7 +214,6 @@
     "paper": "",
     "video": "",
     "year": "2026",
-    "featured": false,
     "type": "Paper",
     "topic": "INFO",
     "blogPost": "",
@@ -142,7 +235,6 @@
     "paper": "https://arxiv.org/pdf/2604.05163.pdf",
     "video": "",
     "year": "2026",
-    "featured": true,
     "type": "Paper",
     "topic": "AI4SS",
     "blogPost": "",
@@ -168,7 +260,6 @@
     "paper": "",
     "video": "",
     "year": "2026",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -193,7 +284,6 @@
     "paper": "",
     "video": "",
     "year": "2026",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -232,7 +322,6 @@
     "paper": "",
     "video": "",
     "year": "2026",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -269,7 +358,6 @@
     "video": "",
     "year": "2026",
     "award": "Oral",
-    "featured": true,
     "type": "Paper",
     "topic": "AI4SS",
     "blogPost": "",
@@ -298,14 +386,13 @@
     "paper": "https://arxiv.org/abs/2504.14128",
     "video": "",
     "year": "2026",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
     "code": "",
     "software": ""
   },
-    {
+  {
     "title": "Comparing Human Oversight Strategies for Computer-Use Agents",
     "authors": [
       "Chaoran Chen",
@@ -328,7 +415,6 @@
     "paper": "https://arxiv.org/abs/2604.04918",
     "video": "",
     "year": "2026",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -367,7 +453,6 @@
     "paper": "https://arxiv.org/abs/2605.16278",
     "video": "",
     "year": "2026",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -389,7 +474,6 @@
     "paper": "",
     "video": "",
     "year": "2026",
-    "featured": true,
     "type": "Paper",
     "topic": "AI4SS",
     "blogPost": "",
@@ -415,7 +499,6 @@
     "paper": "https://arxiv.org/abs/2604.03244",
     "video": "",
     "year": "2026",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -444,7 +527,6 @@
     "paper": "https://arxiv.org/abs/2509.10127",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "AI4SS",
     "blogPost": "",
@@ -452,7 +534,7 @@
     "software": "",
     "media": []
   },
-    {
+  {
     "title": "Does AI Coaching Prepare us for Workplace Negotiations?",
     "authors": [
       "Veda Duddu",
@@ -470,7 +552,6 @@
     "paper": "https://arxiv.org/abs/2509.22545",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -493,7 +574,6 @@
     "paper": "https://link.springer.com/article/10.1186/s40359-025-03854-y",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "AI4SS",
     "blogPost": "",
@@ -517,7 +597,6 @@
     "paper": "https://arxiv.org/abs/2507.22847",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -540,7 +619,6 @@
     "paper": "https://arxiv.org/abs/2412.00207",
     "video": "",
     "year": "2025",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -568,7 +646,6 @@
     "paper": "https://arxiv.org/abs/2507.15715",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -592,7 +669,6 @@
     "paper": "https://arxiv.org/abs/2406.14230",
     "video": "",
     "year": "2025",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -617,7 +693,6 @@
     "paper": "https://arxiv.org/pdf/2501.01568",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -640,7 +715,6 @@
     "paper": "https://arxiv.org/abs/2504.14128",
     "video": "",
     "year": "2025",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -661,7 +735,6 @@
     "paper": "https://arxiv.org/abs/2407.05502",
     "video": "",
     "year": "2025",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -685,7 +758,6 @@
     "paper": "https://arxiv.org/abs/2401.09051",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -708,7 +780,6 @@
     "paper": "https://dl.acm.org/doi/10.1145/3706598.3713133",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -733,7 +804,6 @@
     "paper": "https://dl.acm.org/doi/10.1145/3706598.3713726",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -758,7 +828,6 @@
     "paper": "",
     "video": "",
     "year": "2025",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -779,7 +848,6 @@
     "paper": "",
     "video": "",
     "year": "2024",
-    "featured": true,
     "type": "Paper",
     "topic": "INFO",
     "blogPost": "",
@@ -804,7 +872,6 @@
     "paper": "https://osf.io/preprints/osf/rwy9b",
     "video": "",
     "year": "2024",
-    "featured": true,
     "type": "Paper",
     "topic": "AI4SS",
     "blogPost": "",
@@ -826,7 +893,6 @@
     "paper": "https://arxiv.org/abs/2407.14916",
     "video": "",
     "year": "2024",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -850,7 +916,6 @@
     "paper": "https://aclanthology.org/2024.acl-long.861/",
     "video": "",
     "year": "2024",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "award": "Oral",
@@ -876,7 +941,6 @@
     "paper": "pdf/[p]Wang_2024_Can_Language_Models_Serve_as_Text-Based_World_Simulators.pdf",
     "video": "",
     "year": "2024",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -898,7 +962,6 @@
     "video": "https://www.youtube.com/watch?v=s2A0YVr4vP8",
     "award": "Best Paper Award",
     "year": "2024",
-    "featured": true,
     "type": "Paper",
     "topic": "INFO"
   },
@@ -920,7 +983,6 @@
     "video": "",
     "award": "",
     "year": "2024",
-    "featured": false,
     "type": "Book Chapter",
     "topic": "LAN"
   },
@@ -938,7 +1000,6 @@
     "paper": "pdf/[p]Pitis_2023_canonical_design_for_language_agent.pdf",
     "video": "",
     "year": "2023",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -965,7 +1026,6 @@
     "paper": "https://aclanthology.org/2023.emnlp-main.676/",
     "video": "",
     "year": "2023",
-    "featured": true,
     "type": "Paper",
     "topic": "LAN",
     "code": "https://github.com/isle-dev/MetricEval",
@@ -988,7 +1048,6 @@
     "paper": "https://aclanthology.org/2023.emnlp-main.830.pdf",
     "video": "",
     "year": "2023",
-    "featured": false,
     "type": "Paper",
     "code": "https://github.com/cognitiveailab/BYTESIZED32",
     "topic": "LAN"
@@ -1013,7 +1072,6 @@
     "paper": "https://arxiv.org/abs/2306.12509",
     "video": "https://podcasts.apple.com/us/podcast/abstracts-december-11-2023/id1318021537?i=1000638238693",
     "year": "2023",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "https://medium.com/@friederike.niedtner/deep-language-networks-stacking-llms-in-trainable-layers-e7f719bcabde",
@@ -1032,7 +1090,6 @@
     "paper": "https://arxiv.org/pdf/2306.03100v1.pdf",
     "video": "",
     "year": "2023",
-    "featured": false,
     "type": "Paper",
     "topic": "LAN",
     "award": "Honorable Mention"
@@ -1052,7 +1109,6 @@
     "paper": "https://dl.acm.org/doi/abs/10.1145/3544548.3581252",
     "video": "https://www.youtube.com/watch?v=zFZOhvzlkNw",
     "year": 2023,
-    "featured": true,
     "type": "Paper",
     "topic": "AI4SS"
   },
@@ -1071,7 +1127,6 @@
     },
     "paper": "https://dl.acm.org/doi/abs/10.1145/3581641.3584031",
     "year": 2023,
-    "featured": true,
     "type": "Paper",
     "topic": "INFO"
   },
@@ -1090,7 +1145,6 @@
     },
     "paper": "https://dl.acm.org/doi/abs/10.1145/3581754.3584136",
     "year": 2023,
-    "featured": true,
     "type": "Poster",
     "topic": "AI4SS"
   },
@@ -1116,7 +1170,6 @@
     },
     "paper": "pdf/[p]Xiao_2023_What_should_I_Ask_A_Knowledge_driven_Approach_for_Follow_up_Questions_Generation_in_Conversational_Surveys.pdf",
     "year": 2023,
-    "featured": false,
     "type": "Paper",
     "topic": "AI4SS"
   },
@@ -1132,7 +1185,6 @@
     "paper": "pdf/[p]Xiao_2022_Seeing_Us_Through_Machines-Designing_and_Building_Conversational_AI_to_Understand Humans.pdf",
     "video": "",
     "year": "2022",
-    "featured": false,
     "type": "Paper",
     "topic": "AI4SS"
   },
@@ -1151,7 +1203,6 @@
     },
     "paper": "https://dl.acm.org/doi/10.1145/3479532",
     "year": 2021,
-    "featured": true,
     "type": "Paper",
     "topic": "AI4SS"
   },
@@ -1169,7 +1220,6 @@
     },
     "paper": "https://dl.acm.org/doi/10.1145/3476059",
     "year": 2021,
-    "featured": true,
     "type": "Paper",
     "topic": "INFO"
   },
@@ -1189,7 +1239,6 @@
     },
     "paper": "",
     "year": 2021,
-    "featured": false,
     "type": "Poster",
     "topic": "SV"
   },
@@ -1208,7 +1257,6 @@
     },
     "paper": "pdf/[d]Li_2023_Evaluating_an_Intelligent_Sketching_Feedback_Tool_for_Scalable_Spatical_Visulization_Skill_Training.pdf",
     "year": 2021,
-    "featured": false,
     "type": "Poster",
     "topic": "SV"
   },
@@ -1230,7 +1278,6 @@
     "paper": "https://dl.acm.org/doi/abs/10.1145/3381804",
     "video": "https://www.youtube.com/watch?v=YS13B6cxGYE",
     "year": 2020,
-    "featured": true,
     "type": "Paper",
     "topic": "AI4SS"
   },
@@ -1249,7 +1296,6 @@
     "paper": "https://dl.acm.org/doi/10.1145/3410404.3414255",
     "award": "Honorable Mention",
     "year": 2020,
-    "featured": true,
     "type": "Paper",
     "topic": "SV"
   },
@@ -1270,7 +1316,6 @@
     "video": "https://www.youtube.com/watch?v=tGk3GC3BXts",
     "blogPost": "https://medium.com/juji-stories-a-journey-of-creating-ai-chatbots/if-i-hear-you-correctly-building-and-evaluating-interview-chatbots-with-active-listening-skills-91a51ab1d78b",
     "year": 2020,
-    "featured": false,
     "type": "Paper",
     "topic": "AI4SS"
   },
@@ -1290,7 +1335,6 @@
     "paper": "https://dl.acm.org/doi/10.1145/3359177",
     "blogPost": "https://crowddynamicslab.github.io/people/2020/02/01/Comic-Persuasion/",
     "year": 2019,
-    "featured": true,
     "type": "Paper",
     "topic": "INFO"
   },
@@ -1314,7 +1358,6 @@
     },
     "paper": "pdf/[p]Xiao_2019_Understanding_Interrelated_Growth_Mind-set_and_Academic Participation_&_Performance.pdf",
     "year": 2019,
-    "featured": false,
     "type": "Paper",
     "topic": "SV"
   },
@@ -1331,7 +1374,6 @@
     },
     "paper": "https://dl.acm.org/doi/10.1145/3301275.3302264",
     "year": 2019,
-    "featured": true,
     "type": "Paper",
     "topic": "AI4SS"
   },
@@ -1351,7 +1393,6 @@
     },
     "demoPaper": "pdf/[d]Zhou_Getting_Virtually_Personal_Chatbots_Who_Actively_Listen_to_You_and_Infer_Your_Personality.pdf",
     "year": 2019,
-    "featured": false,
     "type": "Demo",
     "topic": "AI4SS",
     "paper": "https://dl.acm.org/doi/10.1145/3308557.3308667"
@@ -1370,7 +1411,6 @@
     },
     "paper": "https://dl.acm.org/doi/10.1145/3274324",
     "year": 2018,
-    "featured": true,
     "type": "Paper",
     "topic": "INFO"
   },
@@ -1389,7 +1429,6 @@
     },
     "shortPaper": "pdf/[p]Chiu_2018_Supporting_Spatial_Skill_Learning_with_Gesture-Based_Emodied_Design.pdf",
     "year": 2018,
-    "featured": false,
     "type": "Short Paper",
     "topic": "SV",
     "paper": "https://dl.acm.org/doi/10.1145/3172944.3172994"
@@ -1412,7 +1451,6 @@
     },
     "paper": "https://dl.acm.org/doi/10.1145/3172944.3172954",
     "year": 2018,
-    "featured": true,
     "type": "Paper",
     "topic": "SV"
   },
@@ -1428,7 +1466,6 @@
       "url": "https://iui.acm.org/2018/"
     },
     "poster": "pdf/[p]Xiao_2018_An_Intelligent_Educational_Platform_for_Training_Spatial_Visualization_Skills.pdf",
-    "featured": false,
     "year": 2018,
     "type": "Poster",
     "topic": "SV",
@@ -1448,7 +1485,6 @@
     },
     "paper": "https://dl.acm.org/doi/abs/10.1145/3025171.3025225",
     "year": 2017,
-    "featured": false,
     "type": "Paper",
     "topic": "SV"
   },
@@ -1471,7 +1507,6 @@
     },
     "paper": "pdf/[p]Xiao_2017_A_Scalable_Online_Platform_for_Evaluating_and_Training_Visuospatial_Skills_of_Engineering_Students.pdf",
     "year": 2017,
-    "featured": true,
     "type": "Paper",
     "topic": "SV"
   },
@@ -1487,7 +1522,6 @@
     "paper": "",
     "type": "",
     "year": 2016,
-    "featured": false,
     "topic": "INFO"
   }
 ]
