@@ -1,4 +1,100 @@
-[
+[  {
+    "title": "What Makes a Good Response? An Empirical Analysis of Quality in Qualitative Interviews",
+    "authors": [
+      "Jonathan Ivey",
+      "Anjalie Field",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "EMNLP 2026",
+      "url": "https://2026.emnlp.org/"
+    },
+    "paper": "https://arxiv.org/pdf/2604.05163.pdf",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Using Grounded Theory for Agent Behavior Analysis at Scale",
+    "authors": [
+      "Zhuoran Lu",
+      "Yangyang Yu",
+      "Zhuoyan Li",
+      "Yibo Meng",
+      "Nan Jiang",
+      "Chengxi Zang",
+      "Jie Gao",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "EMNLP 2026 Findings",
+      "url": "https://2026.emnlp.org/"
+    },
+    "paper": "https://arxiv.org/abs/2608.30391",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Adaptive Selection of Effective AI Assistance in AI-assisted Decision Making Using Multi-Armed Bandits",
+    "authors": [
+      "Zhuoyan Li",
+      "Ze Ma",
+      "Shishuang He",
+      "Zhuoran Lu",
+      "Ziang Xiao",
+      "Ming Yin"
+    ],
+    "venue": {
+      "name": "HCOMP 2026",
+      "url": "https://dl.acm.org/doi/proceedings/10.1145/3834580"
+    },
+    "paper": "https://dl.acm.org/doi/10.1145/3834580.3838738",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "From Small Talk to Rapport: Exploring Robot Self-Disclosure in Collaborative Tasks",
+    "authors": [
+      "Kaitlynn Pineda",
+      "Anvii Mishra",
+      "Brian Chien",
+      "Angela Guo",
+      "Toluwani Williams",
+      "Ziang Xiao",
+      "Chien-Ming Huang"
+    ],
+    "venue": {
+      "name": "RO-MAN 2026",
+      "url": "https://ro-man2026.org/"
+    },
+    "paper": "https://arxiv.org/abs/2608.28154",
+    "video": "",
+    "year": "2026",
+    "award": "Best Student Paper Award",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
   {
     "title": "Can We Trust Item Response Theory for AI Evaluation?",
     "authors": [
@@ -216,27 +312,6 @@
     "year": "2026",
     "type": "Paper",
     "topic": "INFO",
-    "blogPost": "",
-    "code": "",
-    "software": "",
-    "media": []
-  },
-  {
-    "title": "What Makes a Good Response? An Empirical Analysis of Quality in Qualitative Interviews",
-    "authors": [
-      "Jonathan Ivey",
-      "Anjalie Field",
-      "Ziang Xiao"
-    ],
-    "venue": {
-      "name": "arXiv",
-      "url": ""
-    },
-    "paper": "https://arxiv.org/pdf/2604.05163.pdf",
-    "video": "",
-    "year": "2026",
-    "type": "Paper",
-    "topic": "AI4SS",
     "blogPost": "",
     "code": "",
     "software": "",
