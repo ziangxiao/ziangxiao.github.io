@@ -1,4 +1,208 @@
 [  {
+    "title": "AI Evaluation Should Require Standardized Item-Level Data Releases",
+    "authors": [
+      "Han Jiang",
+      "Susu Zhang",
+      "Dongyao Zhu",
+      "Yuzhuo Bai",
+      "Sang T. Truong",
+      "Xiaoyuan Yi",
+      "Sanmi Koyejo",
+      "Xing Xie",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "NeurIPS Position 2026",
+      "url": "https://neurips.cc/"
+    },
+    "paper": "https://arxiv.org/abs/2604.03244",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+    "authors": [
+      "Nikhil Sharma",
+      "Kelly Marchisio",
+      "Kenton Murray",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "NeurIPS 2026",
+      "url": "https://neurips.cc/"
+    },
+    "paper": "",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Can We Trust Item Response Theory for AI Evaluation?",
+    "authors": [
+      "Han Jiang",
+      "Sunbeom Kwon",
+      "Jinwen Luo",
+      "Ziang Xiao",
+      "Susu Zhang"
+    ],
+    "venue": {
+      "name": "NeurIPS 2026",
+      "url": "https://neurips.cc/"
+    },
+    "paper": "https://arxiv.org/abs/2607.15190",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Contextualized Evaluation of Vision Language Models through Dynamic Interviews",
+    "authors": [
+      {
+        "name": "Yijiang Li",
+        "equalContribution": true
+      },
+      {
+        "name": "Huiqi Zou",
+        "equalContribution": true
+      },
+      "Bingyang Wang",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "NeurIPS 2026",
+      "url": "https://neurips.cc/"
+    },
+    "paper": "https://arxiv.org/abs/2607.14499",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Population-Aligned Persona Generation for LLM-based Social Simulation",
+    "authors": [
+      "Zhengyu Hu",
+      "Jianxun Lian",
+      "Zheyuan Xiao",
+      "Max Xiong",
+      "Tianfu Wang",
+      "Teng Xiao",
+      "Yuxuan Lei",
+      "Fengqing Jiang",
+      "Kaize Ding",
+      "Ziang Xiao",
+      "Nicholas Jing Yuan",
+      "Xing Xie",
+      "Radha Poovendran"
+    ],
+    "venue": {
+      "name": "NeurIPS 2026",
+      "url": "https://neurips.cc/"
+    },
+    "paper": "https://arxiv.org/abs/2509.10127",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "TALES: Text Adventure Learning Environment Suite",
+    "authors": [
+      "Christopher Zhang Cui",
+      "Xingdi Yuan",
+      "Ziang Xiao",
+      "Prithviraj Ammanabrolu",
+      "Marc-Alexandre Côté"
+    ],
+    "venue": {
+      "name": "NeurIPS 2026",
+      "url": "https://neurips.cc/"
+    },
+    "paper": "https://arxiv.org/abs/2504.14128",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "https://github.com/microsoft/tale-suite",
+    "software": ""
+  },
+  {
+    "title": "How to Interpret Agent Behavior",
+    "authors": [
+      "Jie Gao",
+      "Kaiser Sun",
+      "Jen-tse Huang",
+      "Katherine Van Koevering",
+      "Sijie Ji",
+      "Heyuan Huang",
+      "Weiyan Shi",
+      "Zhuoran Lu",
+      "Ziang Xiao",
+      "Daniel Khashabi",
+      "Mark Dredze"
+    ],
+    "venue": {
+      "name": "NeurIPS 2026",
+      "url": "https://neurips.cc/"
+    },
+    "paper": "https://arxiv.org/abs/2605.13625",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Gricea: An Open Science Platform for Conversational AI Research",
+    "authors": [
+      "Nikhil Sharma",
+      "Yunlin Gong",
+      "Xinyang Cheng",
+      "Ziang Xiao"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2609.22039",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "https://gricea.com/",
+    "media": []
+  },
+  {
     "title": "What Makes a Good Response? An Empirical Analysis of Quality in Qualitative Interviews",
     "authors": [
       "Jonathan Ivey",
@@ -12,6 +216,7 @@
     "paper": "https://arxiv.org/pdf/2604.05163.pdf",
     "video": "",
     "year": "2026",
+    "award": "Oral",
     "type": "Paper",
     "topic": "AI4SS",
     "blogPost": "",
@@ -62,6 +267,7 @@
     "paper": "https://dl.acm.org/doi/10.1145/3834580.3838738",
     "video": "",
     "year": "2026",
+    "award": "Best Paper Honorable Mention",
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -88,57 +294,6 @@
     "video": "",
     "year": "2026",
     "award": "Best Student Paper Award",
-    "type": "Paper",
-    "topic": "LAN",
-    "blogPost": "",
-    "code": "",
-    "software": "",
-    "media": []
-  },
-  {
-    "title": "Can We Trust Item Response Theory for AI Evaluation?",
-    "authors": [
-      "Han Jiang",
-      "Sunbeom Kwon",
-      "Jinwen Luo",
-      "Ziang Xiao",
-      "Susu Zhang"
-    ],
-    "venue": {
-      "name": "arXiv",
-      "url": ""
-    },
-    "paper": "https://arxiv.org/abs/2607.15190",
-    "video": "",
-    "year": "2026",
-    "type": "Paper",
-    "topic": "LAN",
-    "blogPost": "",
-    "code": "",
-    "software": "",
-    "media": []
-  },
-  {
-    "title": "Contextualized Evaluation of Vision Language Models through Dynamic, Multi-turn Interactions",
-    "authors": [
-      {
-        "name": "Yijiang Li",
-        "equalContribution": true
-      },
-      {
-        "name": "Huiqi Zou",
-        "equalContribution": true
-      },
-      "Bingyang Wang",
-      "Ziang Xiao"
-    ],
-    "venue": {
-      "name": "arXiv",
-      "url": ""
-    },
-    "paper": "https://arxiv.org/abs/2607.14499",
-    "video": "",
-    "year": "2026",
     "type": "Paper",
     "topic": "LAN",
     "blogPost": "",
@@ -194,35 +349,6 @@
     "media": []
   },
   {
-    "title": "How to Interpret Agent Behavior",
-    "authors": [
-      "Jie Gao",
-      "Kaiser Sun",
-      "Jen-tse Huang",
-      "Katherine Van Koevering",
-      "Sijie Ji",
-      "Heyuan Huang",
-      "Weiyan Shi",
-      "Zhuoran Lu",
-      "Ziang Xiao",
-      "Daniel Khashabi",
-      "Mark Dredze"
-    ],
-    "venue": {
-      "name": "arXiv",
-      "url": ""
-    },
-    "paper": "https://arxiv.org/abs/2605.13625",
-    "video": "",
-    "year": "2026",
-    "type": "Paper",
-    "topic": "LAN",
-    "blogPost": "",
-    "code": "",
-    "software": "",
-    "media": []
-  },
-  {
     "title": "Synthetic Users, Real Differences: an Evaluation Framework for User Simulation in Multi-Turn Conversations",
     "authors": [
       "Yu Lu Liu",
@@ -266,33 +392,6 @@
     "blogPost": "",
     "code": "",
     "software": ""
-  },
-  {
-    "title": "AI Evaluation Should Require Standardized Item-Level Data Releases",
-    "authors": [
-      "Han Jiang",
-      "Susu Zhang",
-      "Dongyao Zhu",
-      "Yuzhuo Bai",
-      "Sang T. Truong",
-      "Xiaoyuan Yi",
-      "Sanmi Koyejo",
-      "Xing Xie",
-      "Ziang Xiao"
-    ],
-    "venue": {
-      "name": "arXiv",
-      "url": ""
-    },
-    "paper": "https://arxiv.org/abs/2604.03244",
-    "video": "",
-    "year": "2026",
-    "type": "Paper",
-    "topic": "LAN",
-    "blogPost": "",
-    "code": "",
-    "software": "",
-    "media": []
   },
   {
     "title": "Hi Alex or Dear Dr. Morgan?: Exploring How AI-Suggested Politeness Strategies Influence Email Writing and Social Perception Among Native and Non-Native Speakers",
@@ -582,34 +681,6 @@
     "media": []
   },
   {
-    "title": "Population-Aligned Persona Generation for LLM-based Social Simulation",
-    "authors": [
-      "Zhengyu Hu",
-      "Jianxun Lian",
-      "Zheyuan Xiao",
-      "Max Xiong",
-      "Yuxuan Lei",
-      "Tianfu Wang",
-      "Kaize Ding",
-      "Ziang Xiao",
-      "Nicholas Jing Yuan",
-      "Xing Xie"
-    ],
-    "venue": {
-      "name": "arXiv",
-      "url": ""
-    },
-    "paper": "https://arxiv.org/abs/2509.10127",
-    "video": "",
-    "year": "2025",
-    "type": "Paper",
-    "topic": "AI4SS",
-    "blogPost": "",
-    "code": "",
-    "software": "",
-    "media": []
-  },
-  {
     "title": "Does AI Coaching Prepare us for Workplace Negotiations?",
     "authors": [
       "Veda Duddu",
@@ -772,28 +843,6 @@
     "topic": "LAN",
     "blogPost": "",
     "code": "",
-    "software": ""
-  },
-  {
-    "title": "TALES: Text Adventure Learning Environment Suite",
-    "authors": [
-      "Christopher Zhang Cui",
-      "Xingdi Yuan",
-      "Ziang Xiao",
-      "Prithviraj Ammanabrolu",
-      "Marc-Alexandre Côté"
-    ],
-    "venue": {
-      "name": "ArXiv",
-      "url": "https://arxiv.org/abs/2504.14128"
-    },
-    "paper": "https://arxiv.org/abs/2504.14128",
-    "video": "",
-    "year": "2025",
-    "type": "Paper",
-    "topic": "LAN",
-    "blogPost": "",
-    "code": "https://github.com/microsoft/tale-suite",
     "software": ""
   },
   {
