@@ -181,6 +181,55 @@
     "media": []
   },
   {
+    "title": "InterviewPlayground: A Validated Simulation Environment for Evaluating AI Interviewers",
+    "authors": [
+      "Jonathan Ivey",
+      "Aimee Liang",
+      "Arthur Y.S. Wang",
+      "Madeline Mandell",
+      "Ziang Xiao",
+      "Anjalie Field"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2610.12023",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "AI4SS",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
+    "title": "Guided Reflection for Personal Sleep Insight in Everyday Sleep Tracking",
+    "authors": [
+      "Bokyung Kim",
+      "Amama Mahmood",
+      "Honghao Zhao",
+      "Molly E. Atwood",
+      "Luis F. Buenaver",
+      "Ziang Xiao",
+      "Chien-Ming Huang"
+    ],
+    "venue": {
+      "name": "arXiv",
+      "url": ""
+    },
+    "paper": "https://arxiv.org/abs/2610.10822",
+    "video": "",
+    "year": "2026",
+    "type": "Paper",
+    "topic": "LAN",
+    "blogPost": "",
+    "code": "",
+    "software": "",
+    "media": []
+  },
+  {
     "title": "Gricea: An Open Science Platform for Conversational AI Research",
     "authors": [
       "Nikhil Sharma",
